@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Buttons
-parent: UI Components
+parent: Unigrid Janus Wallet
 nav_order: 2
 ---
 

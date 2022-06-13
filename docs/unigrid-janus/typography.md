@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Typography
-parent: UI Components
+parent: Unigrid Janus Wallet
 nav_order: 1
 ---
 

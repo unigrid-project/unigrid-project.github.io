@@ -1,7 +1,8 @@
 ---
 layout: default
 title: How To Backup Your Wallet
-nav_order: 2
+parent: Unigrid Janus Wallet
+nav_order: 1
 ---
 
 ## How to backup your wallet
