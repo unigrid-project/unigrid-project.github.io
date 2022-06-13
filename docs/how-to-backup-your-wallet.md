@@ -1,25 +1,7 @@
 ---
 layout: default
 title: How To Backup Your Wallet
-nav_order: 1
+nav_order: 2
 ---
-
-# Customization
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
-## Color schemes
-
-{: .d-inline-block }
-
-New
-{: .label .label-green }
 
 ## How to backup your wallet
