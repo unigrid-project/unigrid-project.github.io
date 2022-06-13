@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Testies
+title: Configuration
 nav_order: 2
 ---
 
