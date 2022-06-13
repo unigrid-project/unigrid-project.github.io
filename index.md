@@ -4,28 +4,22 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Project name
-description: Project description
+title: Unigrid Documentation
+description: Docs for Unigrid
 buttons:
-    - content: Button
-      url: '#'
+    - content: Homepage
+      url: 'https://www.unigrid.org/'
       external_url: false
     - icon: github
-      content: Button with icon
-      url: '#'
+      content: GitHub
+      url: 'https://github.com/unigrid-project'
       external_url: true
 
-# Author box
-author:
-    title: About Author
-    title_url: '#'
-    external_url: true
-    description: Author description
 
 # Grid navigation
 grid_navigation:
-    - title: Grid navigation
-      excerpt: Section description
+    - title: Gridnode
+      excerpt: How to set up a gridnode in the Unigrid wallet
       cta: Read more
       url: '#'
 ---
