@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Customization
-nav_order: 6
+title: How To Backup Your Wallet
+nav_order: 1
 ---
 
 # Customization
