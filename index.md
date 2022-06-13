@@ -21,5 +21,5 @@ grid_navigation:
     - title: Gridnode
       excerpt: How to set up a gridnode in the Unigrid wallet
       cta: Read more
-      url: '#'
+      url: 'default.md'
 ---

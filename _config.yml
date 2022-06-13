@@ -1,7 +1,8 @@
 # Theme settings
 doks:
     baseurl:
-    color_theme: # Available themes: blue (default), green, purple, red and yellow
+    remote_theme: just-the-docs/just-the-docs
+    color_theme: yellow # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:
             text: Unigrid Documentation
