@@ -10,3 +10,5 @@ permalink: /docs/unigrid-janus
 
 Documentation on how to use your Unigrid Janus wallet.
 {: .fs-6 .fw-300 }
+
+![](../../assets/images/ugd-janus.png)
