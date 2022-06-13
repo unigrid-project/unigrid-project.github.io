@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/unigrid-janus
 ---
 
-# UI Components
+# Unigrid Janus Wallet
 
 Documentation on how to use your Unigrid Janus wallet.
 {: .fs-6 .fw-300 }
