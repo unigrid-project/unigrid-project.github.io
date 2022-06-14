@@ -27,6 +27,18 @@ If your wallet has been stuck on the startup screen for a long period and does n
 
 If your old wallet was still running you will need to close that before starting the new Unigrid Janus wallet. If you have the Unigrid Janus wallet running you need to make sure all processes are stopped first.
 
+#### Windows
+
+{: .no_toc }
+
+```yaml
+---
+layout: default
+title: Customization
+nav_order: 3
+---
+
+```
 On Windows press `CTRL + ALT + DEL` and select task manager. In most cases Unigrid will appear at the top of the list there.
 
 ![](../../assets/images/task-manager.png)
@@ -38,4 +50,19 @@ If you had closed the wallet using a right click you may only see the unigridd.
 Stopping these services can be performed by right clicking them then selecting `End task`.
 
 ![](../../assets/images/end-task.png)
+
+#### OSX
+
+{: .no_toc }
+
+```yaml
+---
+layout: default
+title: Customization
+nav_order: 4
+---
+
+```
+
+On OSX...
 
