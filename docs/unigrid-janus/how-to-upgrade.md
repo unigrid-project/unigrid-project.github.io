@@ -55,5 +55,14 @@ The first step is to make sure you have closed the old version of the Qt wallet.
 
 ![](../../assets/images/ugd-osx-drag.png)
 
+The Unigrid app will now be accessible from your Applications.
 
+![](../../assets/images/ugd-osx-app.png)
 
+You can now open the Unigrid wallet and let the wallet start its initialization phase. 
+
+![](../../assets/images/ugd-startup.png)
+
+### Troubleshooting
+
+- [If you run into an error please see the troubleshooting doc]({{ site.baseurl }}{% link docs/unigrid-janus/troubleshooting.md %})
