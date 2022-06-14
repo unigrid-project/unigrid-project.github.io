@@ -65,6 +65,8 @@ From here you can open the `UNIGRID` folder to access the blockchain data folder
 
 **Before removing anything in this folder be sure to have stopped your wallet.**
 
+![](../../assets/images/wallet-dat.png)
+
 _You should also backup your wallet.dat into another location here._
 
 Next select all of these folders and delete them. 
