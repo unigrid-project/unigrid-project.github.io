@@ -41,6 +41,10 @@ You can now open the Unigrid wallet and let the wallet start its initialization 
 
 ![](../../assets/images/ugd-startup.png)
 
+### Troubleshooting
+
+- [If you run into error please see the troubleshooting]({{ site.baseurl }}{% link docs/unigrid-janus/troubleshooting.md %})
+
 ## OSX
 
 OSX specific instructions.
