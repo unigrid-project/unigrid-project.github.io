@@ -43,9 +43,17 @@ Stopping these services can be performed by right clicking them then selecting `
 
 ![](../../assets/images/end-task.png)
 
+##### Restrt wallet
+
+You can now try to restart the Unigrid wallet to check if this has resolved your issues.
+
 #### OSX
 
 {: .no_toc }
 
 On OSX...
+
+##### Restrt wallet
+
+You can now try to restart the Unigrid wallet to check if this has resolved your issues.
 
