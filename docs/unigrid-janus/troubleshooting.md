@@ -47,7 +47,17 @@ Stopping these services can be performed by right clicking them then selecting `
 
 You can now try to restart the Unigrid wallet to check if this has resolved your issues.
 
-##### Force download
+##### Force download blockchain
+
+If restarting the wallet did not resolve your issues you can force the wallet to re+download the blockchain data. This will take roughly 7-10 minutes depending on network speed to complete.
+
+In Windows you can click on the magnifier tool and use the search tool to open the AppData folder. Once clicked enter `%appdata%` and press `ENTER`
+
+![](../../assets/images/appdata.png)
+
+In some cases you may need to use the `run` tool on Windows. Instead of searching for `%appdata%` search for `run` then press `ENTER`. This will open the run App where you can then enter `%appdata%` and click `OK`.
+
+![](../../assets/images/run.png)
 
 #### OSX
 
@@ -59,5 +69,5 @@ On OSX...
 
 You can now try to restart the Unigrid wallet to check if this has resolved your issues.
 
-##### Force download
+##### Force download blockchain
 
