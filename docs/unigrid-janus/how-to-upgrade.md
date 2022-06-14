@@ -43,7 +43,7 @@ You can now open the Unigrid wallet and let the wallet start its initialization 
 
 ### Troubleshooting
 
-- [If you run into error please see the troubleshooting]({{ site.baseurl }}{% link docs/unigrid-janus/troubleshooting.md %})
+- [If you run into an error please see the troubleshooting doc]({{ site.baseurl }}{% link docs/unigrid-janus/troubleshooting.md %})
 
 ## OSX
 
