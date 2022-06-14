@@ -43,9 +43,11 @@ Stopping these services can be performed by right clicking them then selecting `
 
 ![](../../assets/images/end-task.png)
 
-##### Restrt wallet
+##### Restart wallet
 
 You can now try to restart the Unigrid wallet to check if this has resolved your issues.
+
+##### Force download
 
 #### OSX
 
@@ -53,7 +55,9 @@ You can now try to restart the Unigrid wallet to check if this has resolved your
 
 On OSX...
 
-##### Restrt wallet
+##### Restart wallet
 
 You can now try to restart the Unigrid wallet to check if this has resolved your issues.
+
+##### Force download
 
