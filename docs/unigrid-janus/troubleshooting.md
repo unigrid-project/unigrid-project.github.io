@@ -79,7 +79,7 @@ After removing these folders and restarting your wallet it will attempt a clean 
 
 ![](../../assets/images/blockchain-download.png)
 
-_It's possible when the wallet restarts it will create a new one and backup the old one. If this does happen, just close the wallet after a successful start and replace the wallet.dat in the UNIGRID folder with the correct one and restart._
+_If after fully starting you do not see the correct addresses or balance if you have one. It's possible when the wallet restarts it will create a new wallet.dat and backup the old one. If this does happen, just close the wallet after a successful start and replace the wallet.dat in the UNIGRID folder with the correct one and restart._
 
 #### OSX
 
