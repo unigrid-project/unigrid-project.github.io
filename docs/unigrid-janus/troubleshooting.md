@@ -59,6 +59,22 @@ In some cases you may need to use the `run` tool on Windows. Instead of searchin
 
 ![](../../assets/images/run.png)
 
+From here you can open the `UNIGRID` folder to access the blockchain data folder. *Note this is also where your wallet.dat is stored.
+
+![](../../assets/images/ugd-folder.png)
+
+*Before removing anything in this folder be sure to have stopped your wallet.
+
+Next select all of these folders and delete them. 
+
+blocks, chainstate, zerocoin, database, and sporks
+
+![](../../assets/images/ugd-folder-contents.png)
+
+After removing these folders and restarting your wallet it will attempt a clean download of the blockchain data.
+
+![](../../assets/images/blockchain-download.png)
+
 #### OSX
 
 {: .no_toc }
