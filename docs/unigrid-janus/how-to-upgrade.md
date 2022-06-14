@@ -48,3 +48,12 @@ You can now open the Unigrid wallet and let the wallet start its initialization 
 ## OSX
 
 OSX specific instructions.
+
+The first step is to make sure you have closed the old version of the Qt wallet. After this you can run the DMG package. Simply double click on the DMG file and drag Unigrid into your Applications.
+
+![](../../assets/images/ugd-dmg.png)
+
+![](../../assets/images/ugd-osx-drag.png)
+
+
+
