@@ -23,7 +23,23 @@ For the most part the installation and setup will be automated and not require a
 
 ## Widows
 
-Windows specific instructions.
+Windows specific instructions. 
+
+The first step is to make sure you have closed the old version of the Qt wallet. After this you can run the MSI installer package. Simply double click on the installer and approve the install. 
+
+![](../../assets/images/msi-installer.png)
+
+![](../../assets/images/windows-install.png)
+
+This will install the new wallet in your Programs folder on your main hard drive.
+
+![](../../assets/images/search-ugd.png)
+
+![](../../assets/images/ugd-location.png)
+
+You can now open the Unigrid wallet and let the wallet start its initialization phase. 
+
+![](../../assets/images/ugd-startup.png)
 
 ## OSX
 
