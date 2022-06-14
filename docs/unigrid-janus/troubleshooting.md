@@ -31,14 +31,6 @@ If your old wallet was still running you will need to close that before starting
 
 {: .no_toc }
 
-```yaml
----
-layout: default
-title: Customization
-nav_order: 3
----
-
-```
 On Windows press `CTRL + ALT + DEL` and select task manager. In most cases Unigrid will appear at the top of the list there.
 
 ![](../../assets/images/task-manager.png)
@@ -54,15 +46,6 @@ Stopping these services can be performed by right clicking them then selecting `
 #### OSX
 
 {: .no_toc }
-
-```yaml
----
-layout: default
-title: Customization
-nav_order: 4
----
-
-```
 
 On OSX...
 
