@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Troubleshoting
+title: Troubleshooting
 parent: Unigrid Janus Wallet
 nav_order: 6
 ---
