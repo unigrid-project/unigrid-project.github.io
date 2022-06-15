@@ -1,0 +1,24 @@
+{
+  "articles": [
+    {
+      "link": "https://docs.unigrid.org/",
+      "title": "Unigrid documentation homepage"
+    },
+    {
+      "link": "https://docs.unigrid.org/docs/unigrid-janus/how-to-upgrade/",
+      "title": "How to upgrade your wallet"
+    },
+     {
+      "link": "https://docs.unigrid.org/docs/unigrid-janus/how-to-backup-your-wallet/",
+      "title": "How to backup your wallet"
+    },
+    {
+      "link": "https://docs.unigrid.org/docs/unigrid-janus/troubleshooting/",
+      "title": "Troubleshooting Common Problems"
+    },
+    {
+      "link": "https://docs.unigrid.org/docs/unigrid-janus/faq/",
+      "title": "FAQs"
+    }
+  ]
+}
