@@ -121,5 +121,8 @@ Next you can compare this block height with what the current block on the explor
 
 [Explorer](https://explorer.unigrid.org/){: .btn .btn-blue }
 
+If you find that your block count is lower and your wallet is **NOT** progressing please follow these steps.
+
+[Windows](#force-download-blockchain){: .btn .btn-blue } [OSX](https://explorer.unigrid.org/){: .btn .btn-blue }
 
 
