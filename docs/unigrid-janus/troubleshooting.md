@@ -49,7 +49,7 @@ You can now try to restart the Unigrid wallet to check if this has resolved your
 
 ##### Force download blockchain
 
-If restarting the wallet did not resolve your issues you can force the wallet to re+download the blockchain data. This will take roughly 7-10 minutes depending on network speed to complete.
+If restarting the wallet did not resolve your issues you can force the wallet to re-download the blockchain data. This will take roughly 7-10 minutes depending on network speed to complete.
 
 In Windows you can click on the magnifier tool and use the search tool to open the AppData folder. Once clicked enter `%appdata%` and press `ENTER`
 
@@ -89,7 +89,25 @@ On OSX...
 
 ##### Restart wallet
 
+
+
 You can now try to restart the Unigrid wallet to check if this has resolved your issues.
 
 ##### Force download blockchain
+
+If restarting the wallet did not resolve your issues you can force the wallet to re-download the blockchain data. This will take roughly 7-10 minutes depending on network speed to complete.
+
+In OSX the blockchain data folder is stored in your computers `Application Support` directory. This can be found in this location `<mac HD>/Users/<username>/Library/Application Support/UNIGRID` replacing `<mac HD>` with the name of your hard drive and `<username>` with your username.
+
+Next select all of these folders and delete them inside `UNIGRID`. 
+
+blocks, chainstate, zerocoin, database, and sporks
+
+![](../../assets/images/mac-folders.png)
+
+After removing these folders and restarting your wallet it will attempt a clean download of the blockchain data.
+
+![](../../assets/images/blockchain-download.png)
+
+_If after fully starting you do not see the correct addresses or balance if you have one. It's possible when the wallet restarts it will create a new wallet.dat and backup the old one. If this does happen, just close the wallet after a successful start and replace the wallet.dat in the UNIGRID folder with the correct one and restart._
 
