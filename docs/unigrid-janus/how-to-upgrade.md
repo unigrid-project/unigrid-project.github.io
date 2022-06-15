@@ -63,6 +63,16 @@ You can now open the Unigrid wallet and let the wallet start its initialization 
 
 ![](../../assets/images/ugd-startup.png)
 
+If you see a warning message that Apple cannot scan for malicious software please follow these steps.
+
+Open your `Applications` folder and cmd click on the `Unigrid` app and select open.
+
+![](../../assets/images/mac-open-app.png)
+
+The next window should show you this message where you can now select open.
+
+![](../../assets/images/mac-open-malicious.png)
+
 ### Troubleshooting
 
 - [If you run into an error please see the troubleshooting doc]({{ site.baseurl }}{% link docs/unigrid-janus/troubleshooting.md %})
