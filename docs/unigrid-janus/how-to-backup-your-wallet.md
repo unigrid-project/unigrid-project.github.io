@@ -12,9 +12,10 @@ With your wallet open you can easily backup keys and the wallet itself. The firs
 ![](../../assets/images/settings-export.png)
 
 From here you can either export your keys, backup you wallet, or both. 
-_Keep in mind when exporting your keys that these are your private keys you should never share with anyone else and store in a safe location._
 
-If your wallet is encrypted you will be prompted to provide the passphrase you encrypted the wallet with.
+_Keep in mind when exporting your keys that these are your private keys. You should never share them with anyone else and store them in a safe location._
+
+If your wallet is encrypted, you will be prompted to provide the passphrase you encrypted the wallet with.
 
 ![](../../assets/images/ugd-passphrase.png)
 
