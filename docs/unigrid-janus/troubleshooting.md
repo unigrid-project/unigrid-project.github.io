@@ -117,5 +117,5 @@ In the new Unigrid Janus wallet you can check what block your wallet is on by mo
 
 ![](../../assets/images/block-count.png)
 
-Next you can compare this block height with what the current block on the explorer is here. [Explorer]([http://example.com/](https://explorer.unigrid.org/)){: .btn .btn-blue }
+Next you can compare this block height with what the current block on the explorer is here. [Explorer](https://explorer.unigrid.org/){: .btn .btn-blue }
 
