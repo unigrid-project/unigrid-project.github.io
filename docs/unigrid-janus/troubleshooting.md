@@ -111,3 +111,11 @@ After removing these folders and restarting your wallet it will attempt a clean 
 
 _If after fully starting you do not see the correct addresses or balance if you have one. It's possible when the wallet restarts it will create a new wallet.dat and backup the old one. If this does happen, just close the wallet after a successful start and replace the wallet.dat in the UNIGRID folder with the correct one and restart._
 
+## Wallet started but blocks are stuck
+
+In the new Unigrid Janus wallet you can check what block your wallet is on by mousing over the blocks icon in the lower left.
+
+![](../../assets/images/block-count.png)
+
+Next you can compare this block height with what the current block on the explorer is here. [Explorer]([http://example.com/](https://explorer.unigrid.org/)){: .btn .btn-blue }
+
