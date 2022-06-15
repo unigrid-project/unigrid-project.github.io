@@ -89,7 +89,19 @@ On OSX...
 
 ##### Restart wallet
 
+The Unigrid wallet runs two processes, `Unigrid` and `unigridd`. To be sure both of these are closed you can use your computers `Activity Monitor`.
 
+To access this go into `Applications/Utilities` and there you will find the `Activity Monitor`.
+
+![](../../assets/images/osx-activity.png)
+
+You should then see both `Unigrid` and `unigridd` processes.
+
+![](../../assets/images/osx-process.png)
+
+After this has openend you will need to double click and `quit` both `Unigrid` and `unigridd`.
+
+![](../../assets/images/quit-unigridd.png)
 
 You can now try to restart the Unigrid wallet to check if this has resolved your issues.
 
