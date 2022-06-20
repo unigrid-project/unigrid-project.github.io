@@ -137,4 +137,13 @@ If you find that your block count is lower and your wallet is **NOT** progressin
 
 [Windows](#force-download-blockchain){: .btn .btn-blue } [OSX](#force-download-blockchain-1){: .btn .btn-blue }
 
+## Windows entry point not found
+
+If you receive an entry point not found error on older Windows 7 or 10 machines.  
+
+![](../../assets/images/entry-point.png)
+
+[FIX](https://appuals.com/how-to-fix-the-procedure-entry-point-ucrtbase-terminate-is-missing-or-could-not-be-located/)
+
+
 
