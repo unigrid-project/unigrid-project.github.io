@@ -26,10 +26,18 @@ Next we will send exactly 3000 tokens to this address. From the main `Wallet` sc
 
 ![](../../assets/images/gn-send-tokens.png)
 
-After the transaction has processed you will see it appear on your `Wallet` screen. Click on the clipboard to copy the transaction ID and save it for later. The transactrion we created can be viewd here [Explorer](https://explorer.unigrid.org/tx/d4d91ea946eb3a1f5b8e6ae1049b44ad8ed6c5644004ab662681e6e08e714080){: .btn .btn-blue }
+After the transaction has processed you will see it appear on your `Wallet` screen. Click on the clipboard to copy the transaction ID and save it for later. The transaction we created can be viewed here [Explorer](https://explorer.unigrid.org/tx/d4d91ea946eb3a1f5b8e6ae1049b44ad8ed6c5644004ab662681e6e08e714080){: .btn .btn-blue }
 
 ![](../../assets/images/gn-get-txid.png)
 
 ## Server setup
 
-To follow along this guide you will need either a server running Ubuntu **tested on Ubuntu 22**, you have access to or a VPS (Virtual Private Server).
+To follow along this guide you will need either a server running Ubuntu 16+ or you have access to or a VPS (Virtual Private Server). There are many choices when it comes to renting VPS servers. Here are a few we recommend and have been using for years.
+
+ [Contabo](https://contabo.com/){: .btn .btn-blue } [OVH](https://www.ovhcloud.com/){: .btn .btn-blue }
+ 
+We recommend a minimum of 2GB per gridnode you will run. Later on the gridnodes will benefit from running on their own machines as they will utilize all of the servers resources and be rewarded accordingly.
+
+
+ 
+ 
