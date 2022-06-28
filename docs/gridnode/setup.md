@@ -47,10 +47,10 @@ For windows you can use `Poweshell` or in Windows 11 `terminal`. We also recomme
 
 ![](../../assets/images/gn-bitvise.png)
 
-### OSX
+### OSX and Linux
 
-In OSX you can use your terminal to connect to the server with a simple `SSH` command.
+In OSX and Linux you can use your terminal to connect to the server with a simple `SSH` command. Below is an example of what you would enter into your terminal to connect to the VPS. Change `root` to whatever user your VPS assigned as a login and `127.0.0.1` to the servers IP address. Once connected you will be prompted for a password.
 
-### Linux
-
-In Linux you can use your terminal to connect to the server with a simple `SSH` command.
+```bash
+ssh root@127.0.0.1
+```
