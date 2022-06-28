@@ -43,9 +43,11 @@ We recommend a minimum of 2GB per gridnode you will run. Later on the gridnodes 
 
 ### Windows
 
-For windows you can use `Poweshell` or in Windows 11 `terminal`. We also recommend `bitvise` SSH client which can be downloaded [here](https://www.bitvise.com/ssh-client). The `bitvise` client also comes with a file explorer that can be handy if you want to transfer files to the server. 
+For windows you can use `Poweshell` or in Windows 11 `terminal`. We also recommend `bitvise SSH client` which can be downloaded [here](https://www.bitvise.com/ssh-client). The `bitvise` client also comes with a file explorer that can be handy if you want to transfer files to the server. 
 
 ![](../../assets/images/gn-bitvise.png)
+
+Please follow this [guide](https://www.bitvise.com/getting-started-connect-first-time) on how to connect to your VPS with `bitvise SSH client`.
 
 ### OSX and Linux
 
