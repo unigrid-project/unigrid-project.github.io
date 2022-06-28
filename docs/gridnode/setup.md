@@ -57,7 +57,7 @@ In OSX and Linux you can use your terminal to connect to the server with a simpl
 ssh root@127.0.0.1
 ```
 
-## Run our script
+## gridnode script
 
 We have created an automated script for installing and setting up your gridnode. This script will download the latest wallet on your server and collect the transaction ID we copied earlier in order to generate a gridnode.
 
@@ -67,7 +67,9 @@ Copy the below code and paste this into your terminal. In `bitvise SSH client` y
 sudo bash -ic "$(wget -4qO- -o- raw.githubusercontent.com/unigrid-project/gridnode-setup/master/unigridd.sh)" ; source ~/.bashrc
 ```
 
-After the script has started you will see it asking for a txid. This was the transaction ID we copied earlier from the sending of 3000 tokens. In our case `d4d91ea946eb3a1f5b8e6ae1049b44ad8ed6c5644004ab662681e6e08e714080`. Paste your transaction ID into the terminal and press `ENTER`.
+After the script has started you will see it asking for a txid. This was the transaction ID we copied earlier from the sending of 3000 tokens. In our case `d4d91ea946eb3a1f5b8e6ae1049b44ad8ed6c5644004ab662681e6e08e714080`. 
+
+Paste your transaction ID into the terminal and press `ENTER`.
 
 ![](../../assets/images/gn-script.png)
 
