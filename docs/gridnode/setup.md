@@ -39,6 +39,18 @@ To follow along this guide you will need either a server running Ubuntu 16+ or y
  
 We recommend a minimum of 2GB per gridnode you will run. Later on the gridnodes will benefit from running on their own machines as they will utilize all of the servers resources and be rewarded accordingly.
 
+## Connect to server
 
- 
- 
+### Windows
+
+For windows you can use `Poweshell` or in Windows 11 `terminal`. We also recommend `bitvise` SSH client which can be downloaded [here](https://www.bitvise.com/ssh-client). The `bitvise` client also comes with a file explorer that can be handy if you want to transfer files to the server. 
+
+![](../../assets/images/gn-bitvise.png)
+
+### OSX
+
+In OSX you can use your terminal to connect to the server with a simple `SSH` command.
+
+### Linux
+
+In Linux you can use your terminal to connect to the server with a simple `SSH` command.
