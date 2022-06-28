@@ -74,3 +74,15 @@ Paste your transaction ID into the terminal and press `ENTER`.
 ![](../../assets/images/gn-script.png)
 
 The script will then check the explorer for that transaction ID and it's output ID. At the prompt press `ENTER` and use the default settings. 
+
+## Local Wallet
+
+In your local wallet now you will need to add the output the script gave you to a configuration file.
+
+To open the configuration file simply go into your wallet/settings/general and click the `open` button for `Gridnode / Masternode file`.
+
+![](../../assets/images/gn-open-conf.png)
+
+Paste the output from your script on the next line. After you have saved this file and closed it please restart your wallet.
+
+![](../../assets/images/gn-conf-file.png)
