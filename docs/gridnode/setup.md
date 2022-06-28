@@ -26,7 +26,7 @@ Next we will send exactly 3000 tokens to this address. From the main `Wallet` sc
 
 ![](../../assets/images/gn-send-tokens.png)
 
-After the transaction has processed you will see it appear on your `Wallet` screen. Click on the clipboard to copy the transaction ID and save it for later. The transactrion we created can be viewd here <link>
+After the transaction has processed you will see it appear on your `Wallet` screen. Click on the clipboard to copy the transaction ID and save it for later. The transactrion we created can be viewd here [Explorer](https://explorer.unigrid.org/tx/d4d91ea946eb3a1f5b8e6ae1049b44ad8ed6c5644004ab662681e6e08e714080){: .btn .btn-blue }
 
 ![](../../assets/images/gn-get-txid.png)
 
