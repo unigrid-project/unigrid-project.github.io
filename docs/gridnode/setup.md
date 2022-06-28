@@ -70,3 +70,5 @@ sudo bash -ic "$(wget -4qO- -o- raw.githubusercontent.com/unigrid-project/gridno
 After the script has started you will see it asking for a txid. This was the transaction ID we copied earlier from the sending of 3000 tokens. In our case `d4d91ea946eb3a1f5b8e6ae1049b44ad8ed6c5644004ab662681e6e08e714080`. Paste your transaction ID into the terminal and press `ENTER`.
 
 ![](../../assets/images/gn-script.png)
+
+The script will then check the explorer for that transaction ID and it's output ID. At the prompt press `ENTER` and use the default settings. 
