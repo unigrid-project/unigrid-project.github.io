@@ -75,7 +75,7 @@ Paste your transaction ID into the terminal and press `ENTER`.
 
 The script will then check the explorer for that transaction ID and it's output ID. At the prompt press `ENTER` and use the default settings. 
 
-## Local Wallet
+## Configuration file
 
 In your local wallet now you will need to add the output the script gave you to a configuration file.
 
@@ -86,3 +86,13 @@ To open the configuration file simply go into your wallet/settings/general and c
 Paste the output from your script on the next line. After you have saved this file and closed it please restart your wallet.
 
 ![](../../assets/images/gn-conf-file.png)
+
+## Starting the node
+
+Once you have restarted your wallet the configuration file will be loaded in and allow you to start the node.
+
+To do so simply go to the `Nodes` screen and press the `start` button. This will attempt to start any missing nodes in the list that are disabled.
+
+![](../../assets/images/gn-start.png)
+
+**note:** If you notice nodes you had enabled prior appearing as disabled, please press start again. There is a bug sometimes where they take a few tries to start. This will be resolved in a later release of the daemon.
