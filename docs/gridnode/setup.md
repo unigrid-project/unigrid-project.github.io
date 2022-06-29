@@ -18,7 +18,9 @@ parent: Gridnode
 
 ## Sending tokens
 
-The first step is getting tokens into an exact input amount. A gridnode requires that one input has exactly 3000 tokens. To accomplish this we first need to copy the address. Click on the clipboard next to your address that contains yours tokens.
+The first step is sending tokens to your address. A gridnode requires that one [input](https://cointelegraph.com/news/what-are-inputs-and-outputs) in your address has exactly 3000 tokens.
+
+To accomplish this we first need to copy the address. Click on the clipboard next to your address that contains yours tokens.
 
 ![](../../assets/images/gn-address-copy.png)
 
