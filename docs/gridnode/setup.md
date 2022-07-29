@@ -77,6 +77,8 @@ Paste your transaction ID into the terminal and press `ENTER`.
 
 The script will then check the explorer for that transaction ID and it's output ID. At the prompt press `ENTER` and use the default settings. 
 
+Please allow for some time, the daemon will download a bootstrap file to sync the blockchain. This can take 5-10 minutes to fully initialize the daemon.
+
 ## Configuration file
 
 In your local wallet now you will need to add the output the script gave you to a configuration file.
