@@ -4,6 +4,10 @@
           "title": "Unigrid documentation homepage"
         },
         {
+          "link": "https://docs.unigrid.org/docs/gridnode/setup/"
+          "title": "How to run a Gridnode"
+        },
+        {
           "link": "https://docs.unigrid.org/docs/unigrid-janus/how-to-upgrade/",
           "title": "How to upgrade your wallet"
         },
