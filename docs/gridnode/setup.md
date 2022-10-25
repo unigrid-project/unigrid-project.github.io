@@ -55,17 +55,15 @@ We recommend a minimum of 2GB per gridnode you will run. Later on the gridnodes 
 
 ### Windows
 
-For windows you can use `Poweshell` or in Windows 11 `terminal`. We also recommend `bitvise SSH client` which can be downloaded [here](https://www.bitvise.com/ssh-client). The `bitvise` client also comes with a file explorer that can be handy if you want to transfer files to the server. 
+For windows you can use `powershell` or in Windows 11 `terminal`. We also recommend `bitvise SSH client` which can be downloaded [here](https://www.bitvise.com/ssh-client). The `bitvise` client also comes with a file explorer that can be handy if you want to transfer files to the server. 
 
-For example: below is the command you would enter in `powershell` if trying to connect to a server with the ip address of `55.123.22.1` After connecting to the server you will be prompted to enter your password.
+For example: below is the command you would enter in `powershell` or `terminal`. Change `root` to whatever user your VPS assigned as a login and `127.0.0.1` to the servers IP address. After connecting to the server you will be prompted to enter your password.
 
 ```
-ssh ubuntu@55.123.22.1
+ssh root@55.123.22.1
 ```
 
-![](../../assets/images/gn-bitvise.png)
-
-Please follow this [guide](https://www.bitvise.com/getting-started-connect-first-time) on how to connect to your VPS with `bitvise SSH client`.
+If using Bitvise, please follow this [guide](https://www.bitvise.com/getting-started-connect-first-time) on how to connect to your VPS with `bitvise SSH client`.
 
 ### OSX and Linux
 
@@ -77,9 +75,11 @@ ssh root@127.0.0.1
 
 ## gridnode script
 
-We have created an automated script for installing and setting up your gridnode. This script will download the latest wallet on your server and collect the transaction ID we copied earlier in order to generate a gridnode.
+We have created an automated script for installing and setting up your gridnode. This script will download the latest wallet on your server and collect the transaction ID we copied earlier in order to generate a gridnode. Click the icon shown below to copy the script to your clipboard.
 
-Copy the below code and paste this into your terminal. In `bitvise SSH client` you can use right click to paste into the terminal.
+![](../../assets/images/gn-copy-script.png)
+
+You can also copy the below code and paste this into your terminal. In `bitvise SSH client` you can use right click to paste into the terminal.
 
 ```
 bash -ic "$(wget -4qO- -o- raw.githubusercontent.com/unigrid-project/unigrid-installer/main/node_installer.sh)" ; source ~/.bashrc
@@ -99,10 +99,8 @@ You should now see the script pulling the latest docker image for `Unigrid`.
 
 After setup and a full sync of the blockchain (5-10 minutes), you should now see something like the below with a string at the end starting with `ugd_docker`. This is the string we will need to copy back in our conf file to enable the gridnode.
 
-![](../../assets/images/gn-script-end.png)
-
+![](../../assets/images/gn-script-end.png)image.png
 The outputs from the script are also placed in a txt file on your server. To open that type `nano ~/gridnodes.txt`. If nano is not installed you can also try `vim ~/gridnodes.txt`.
-
 ## Configuration file
 
 Back in the `Unigrid Janus` wallet go to the nodes/setup screen again and click on the `Open Config` button. This will open a text file where you paste the output from the script. 
@@ -124,3 +122,82 @@ To do so simply go to the `Nodes` screen and press the `start` button. This will
 ## Install another node
 
 If you would like to install another node on the same server and have the extra resources. Simply repeat the steps above and run the installer script again. Happy noding!
+
+## Built in script commands
+
+The installer also comes with some handy utility commands to access your nodes and get more info. Below is a short list of some of these commands.
+
+```
+unigrid list
+````
+
+Shows a list of all running containers that are installed.
+
+```
+unigrid status
+```
+
+Shows whether the containers are running and for how long.
+
+```
+unigrid debug
+```
+
+Returns information about the gridnode start start for all containers.
+
+```
+unigrid restart-all
+```
+
+Restart all containers.
+
+```
+unigrid start-all
+```
+
+Start all containers.
+
+```
+unigrid get-blocks
+```
+
+Returns the block height of each node container.
+
+
+```
+unigrid remove-all
+```
+
+Removes all containers you have installed. **Warning this cannot be undone. Only use for full reintalls of all contianers.**
+
+```
+unigrid help
+```
+
+List of available commands for `unigrid`.
+
+## Single node communication
+
+If you would like to communicate with a single node, use the container name followed by the command. For example: the first container installed will be `ugd_docker_1`.
+
+```
+ugd_docker_1 getinfo
+```
+
+To restart a single container.
+
+```
+docker restart ugd_docker_1
+```
+
+To enter the container itself.
+
+```
+docker exec -it ugd_docker_1 /bin/bash
+```
+
+Get the block count of a single container.
+
+```
+ugd_docker_1 getblockcount
+```
