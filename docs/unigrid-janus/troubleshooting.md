@@ -47,6 +47,56 @@ Stopping these services can be performed by right clicking them then selecting `
 
 You can now try to restart the Unigrid wallet to check if this has resolved your issues.
 
+##### Unpacking Hedgehog
+
+For some Windows users, there might be an issue with unpacking Hedgehog, which is required to run Janus. There are a few reasons this can happen:
+
+Please be sure you have stopped Janus first before proceeding. [Stop Janus](#windows)
+
+1. Antivirus
+Antivirus software may block Hedgehog from unpacking, mistakenly identifying it as malware (which it obviously is not). To resolve this issue, try the following steps:
+
+Temporarily disable your antivirus software while starting Janus.
+Check if Hedgehog has been quarantined by your antivirus software, and restore it if necessary.
+2. Firewall
+In some cases, the firewall may block Unigrid. To fix this issue, please check your firewall settings and add Hedgehog as an exception.
+
+3. User Permissions
+When Janus starts, it might not have the proper permissions to access your user directory in AppData to unpack Hedgehog. If this is the case, follow the steps below to navigate to the UNIGRID directory and attempt to manually unpack Hedgehog. We're working on resolving this issue in future Janus releases.
+
+In Windows, you can access the AppData folder using the search tool or the Run command. Follow the steps below to open the AppData folder:
+
+
+Using the Search Tool
+Click on the magnifying glass icon in the taskbar to open the search tool.
+Type %appdata% in the search box and press Enter.
+
+![](../../assets/images/appdata.png)
+
+Using the Run Command
+Alternatively, you can use the Run command to open the AppData folder:
+
+Click on the magnifying glass icon in the taskbar to open the search tool.
+Type run in the search box and press Enter. This will open the Run dialog box.
+Enter %appdata% in the Run dialog box and click OK.
+
+![](../../assets/images/run.png)
+
+Once the `AppData` folder is open, navigate to the `UNIGRID` folder to access the blockchain data folder. Please note that this is also where your `wallet.dat` file is stored.
+
+![](../../assets/images/ugd-folder.png)
+
+Open the `dependencies` directory, then navigate into the `lib` directory. Scroll down until you see `hedgehog`, then right-click on it and select `Run as administrator`.
+
+![](../../assets/images/hedgehog-open.png)
+
+A terminal window should open and close. After this process is completed, please try to open Janus again.
+
+If you are still experiencing issues, please create a new issue here. 
+
+[Report Issue](https://github.com/unigrid-project/janus-java/issues){: .btn .btn-blue }
+
+
 ##### Force download blockchain
 
 If restarting the wallet did not resolve your issues you can force the wallet to re-download the blockchain data. This will take roughly 7-10 minutes depending on network speed to complete.
@@ -69,7 +119,7 @@ _You should also backup your wallet.dat into another location at this time. This
 
 ![](../../assets/images/wallet-dat.png)
 
-Next select all of these folders and delete them. 
+Next select all of these folders and delete them.
 
 blocks, chainstate, zerocoin, database, and sporks
 
