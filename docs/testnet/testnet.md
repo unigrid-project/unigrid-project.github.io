@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Unigrid Testnet
+title: Testnet
 nav_order: 3
 has_children: true
 permalink: docs/testnet
