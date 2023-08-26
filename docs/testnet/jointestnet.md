@@ -34,13 +34,20 @@ parent: Testnet
 
 - Go to the [Unigrid Testnet Explorer](https://explorer-testnet.unigrid.org/).
 - Click "Connect Wallet" in the top right corner.
-  ![](../../assets/images/connect_wallet.png)
+  
+![](../../assets/images/connect_wallet.png)
+
 - Select the gear icon on the left.
- ![](../../assets/images/gear_icon.png)
+
+![](../../assets/images/gear_icon.png)
+
 - Click "Add UNIGRID-TESTNET". 
   - *Note: This step is temporary for the testnet phase. The Unigrid chain will be integrated into Keplr upon official release.*
+
 ![](../../assets/images/click_add.png)
+
 - The connection interface should resemble:
+
 ![](../../assets/images/connection.png)
 ### 3. Obtain Your Unigrid Testnet Address
 
@@ -56,6 +63,7 @@ parent: Testnet
 
 - With your testnet tokens, return to the [Unigrid Testnet Explorer](https://explorer-testnet.unigrid.org/).
 - Delegate tokens to one of the available validators for staking.
+
 ![](../../assets/images/dashboard.png)
 ---
 
