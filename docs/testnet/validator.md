@@ -109,6 +109,18 @@ cosmos-daemon keys add <key-name> --recover
 # Query the keystore for your public address
 cosmos-daemon keys show <key-name> -a
 ```
+# Hedgehog Configuration
+Run this command to create the hedgehog.toml file used by the daemon to connect to the Unigrid network.
+```bash
+echo -e "# This is a TOML config file.\n# For more information, see https://github.com/toml-lang/toml\n\n###############################################################################\n###                           Hedgehog Configuration                            ###\n###############################################################################\n\n[hedgehog]\n\n# Set the URL hedgehog should use\n# this is for cases like testnet when we dont want it to communicate with mainnnet\nhedgehog_url = \"https://82.208.23.218:39886\"" > /home/$USER/.${CHAIN_ID}/config/hedgehog.toml
+
+```
+Hedgehog is the core engine that powers the Unigrid network. It's not just a tool; it's the backbone that provides essential services to the network. When users run gridnodes, they are essentially running instances of Hedgehog, contributing to the network's stability, performance, and functionality.
+
+The provided configuration is specifically tailored for setting up a testnet node. By pointing to an external Hedgehog URL, users can quickly connect their node to the testnet environment. This external endpoint facilitates a more streamlined setup, allowing nodes to communicate and fetch necessary data or perform certain operations without the need for a full local setup.
+
+However, when transitioning to a mainnet environment, it's crucial to have a more robust and secure setup. For mainnet, it's recommended to download and set up Hedgehog directly on the server where the node runs. This ensures a direct, secure connection to the Unigrid network, maximizing reliability and performance.
+
 
 ### Obtain testnet tokens
 After obtaining your address, head over to the [Unigrid Discord](https://discord.gg/JDAYCJ9tEb). Request access to the `#testnet-faucet` channel. Inside, you can interact with the bot using the following command.
