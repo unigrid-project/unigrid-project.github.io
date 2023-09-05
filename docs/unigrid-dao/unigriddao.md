@@ -8,7 +8,7 @@ permalink: /docs/unigrid-dao
 
 # Unigrid DAO Proposal
 
-![](../../assets/images/ugd-dao.png)
+![](../../assets/images/ugd_dao.png)
 
 ## Introduction
 
