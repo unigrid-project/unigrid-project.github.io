@@ -30,7 +30,7 @@ The Unigrid Project, a decentralized system built on the Cosmos SDK framework, r
 ## Governance Votes
 
 - **YES**: You approve the adoption of the Unigrid DAO Constitution as the foundational governance document for the DAO.
-- **NO**: You disapprove of the constitution in its current form. Please provide feedback for improvements or adjustments in the relevant topic in the [Cosmos forum](https://forum.cosmos.network/).
+- **NO**: You disapprove of the constitution in its current form. Please provide feedback for improvements or adjustments in the relevant topic in the [Discord governance channel](https://discord.gg/wTkQKHP8yP).
 - **NO (VETO)**: You strongly oppose the entire constitution and its underlying principles.
 - **ABSTAIN**: You are impartial to the outcome of the proposal.
 
