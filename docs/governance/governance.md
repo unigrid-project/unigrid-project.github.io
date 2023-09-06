@@ -1,62 +1,57 @@
 ---
 layout: default
-title: Unigrid DAO Constitution
+title: Governance
 nav_order: 5
 has_children: true
 permalink: /docs/governance
 ---
 
-# Unigrid DAO Proposal
+# Unigrid DAO Governance
 
 ![](../../assets/images/ugd_dao.png)
 
 ## Introduction
 
-The Unigrid Decentralized Autonomous Organization (DAO) represents a pivotal step in the evolution of the Unigrid project. This proposal outlines the establishment of the DAO, its governance structure, and its primary objectives. By voting "yes" on this proposal, the community acknowledges the importance of a decentralized governance model and empowers the DAO with specific authorities, most notably the authority to conduct a token sale on the launchpad NFPad.
+The Unigrid Decentralized Autonomous Organization (DAO) is envisioned as the cornerstone of the Unigrid project's governance. However, its establishment is contingent upon the passing of [Proposal #1][Draft v1.0] Unigrid DAO Constitution. This section provides an overview of the proposed governance structure, its principles, and the process for submitting and voting on proposals, should the DAO be ratified.
 
-## Why the DAO?
+## Why Governance?
 
-The DAO is designed to:
+Effective governance is essential to:
 
-1. **Decentralize Decision Making:** Ensure that decisions about the project's future are made collectively, reflecting the diverse perspectives of the community.
+1. **Decentralize Decision Making:** Ensure that decisions are made collectively, reflecting the diverse perspectives of the community.
 2. **Enhance Transparency:** Establish clear rules and procedures, ensuring that all actions and decisions are transparent and accountable.
-3. **Facilitate Growth:** By empowering the DAO to raise funds, we can accelerate the development and expansion of the Unigrid ecosystem.
+3. **Facilitate Growth:** Empower the community to drive the development and expansion of the Unigrid ecosystem.
 
-## Token Sale on NFPad
+## Submitting Proposals
 
-One of the primary authorities granted to the DAO is the ability to conduct a token sale on the launchpad NFPad. This sale is crucial for several reasons:
+Any member of the Unigrid community can submit a proposal for consideration. Proposals can range from technical changes to the protocol, funding requests, partnerships, or any other topic relevant to the project's growth and direction.
 
-- **Raising Capital for Development:** The proceeds from this sale will be allocated to UGD Software AB, which will use these funds primarily for software development. This ensures that the Unigrid project continues to innovate and remains at the forefront of decentralized internet solutions.
-- **Expanding the Ecosystem:** The funds will also be used to expand the suite of decentralized applications within the Unigrid ecosystem, further enhancing its utility and value proposition.
+## Importance of Governance for the Unigrid Project
 
-## Importance of the DAO for the Unigrid Project
+Effective governance is not just a procedural necessity; it's a statement about the project's values:
 
-The establishment of the DAO is not just a governance decision; it's a statement about the future direction of the Unigrid project:
+- **Community Empowerment:** Governance ensures that the community remains central to the project, with a significant say in its direction and growth.
+- **Flexibility & Adaptability:** The governance structure allows for adaptability, ensuring that the project can quickly respond to changing circumstances or new opportunities.
+- **Long-Term Vision:** With a clear governance model, the Unigrid project is set up for long-term success.
 
-- **Community Empowerment:** The DAO ensures that the community remains at the heart of the project, with a significant say in its direction and growth.
-- **Flexibility & Adaptability:** The DAO's governance structure allows for adaptability, ensuring that the project can quickly respond to changing circumstances or new opportunities.
-- **Long-Term Vision:** With a clear governance model and the ability to raise funds for development, the DAO ensures that the Unigrid project is set up for long-term success.
+## Accessing Governance Documents
 
-## Accessing the DAO
+All governance-related documents, including past proposals, are available for the community to view. Transparency is key, and we encourage all members to familiarize themselves with these documents.
 
-The DAO is available as a PDF for those who wish to view it in a traditional format or desire an offline copy. You can directly access and download the PDF version from our GitHub repository.
+[Access Governance Documents on GitHub](<github_link_to_the_documents>)
 
-[Download the Unigrid DAO PDF from GitHub](<github_link_to_the_PDF>)
+## Document History and Integrity
 
-## DAO Document History and Integrity
+To ensure transparency and trust:
 
-Transparency and trust are foundational to our project. To ensure that every change made to the DAO is transparent and verifiable:
+- **Commit Hashes:** Every document revision is committed to our GitHub repository. Each commit has a unique hash, ensuring the integrity and immutability of the document's history.
+- **Transparent Tracking:** Community members can track changes, view previous versions, and verify the authenticity of documents by checking the commit hashes on GitHub.
+- **Accessible History:** View the entire commit history, along with their respective hashes, at our [GitHub repository](https://github.com/unigrid-project/unigrid-project.github.io).
 
-- **Commit Hashes:** Every revision of the DAO is committed to our GitHub repository. Each commit has a unique hash, ensuring the integrity and immutability of the document's history.
-- **Transparent Tracking:** Community members can easily track changes, view previous versions, and verify the authenticity of the DAO by checking the commit hashes on GitHub.
-- **Accessible History:** For those interested in a detailed exploration, you can view the entire commit history, along with their respective hashes, at our [GitHub repository](https://github.com/unigrid-project/unigrid-project.github.io).
-
-By leveraging the power of GitHub's version control, we ensure that the DAO remains a living document, evolving with the needs of the community while maintaining a clear and verifiable history.
+By leveraging GitHub's version control, we ensure that our governance documents evolve with the community's needs while maintaining a clear and verifiable history.
 
 ## Conclusion
 
-The Unigrid DAO proposal is a comprehensive blueprint for the project's future governance and growth. By voting "yes" on this proposal, the community is not just endorsing a set of rules; they are expressing confidence in a decentralized, transparent, and community-driven future for Unigrid. We urge all members of the community to carefully review this proposal, understand its implications, and participate in the voting process.
+Unigrid's governance model is designed to be transparent, inclusive, and adaptive. We encourage all community members to participate actively in the governance process, from submitting proposals to voting on key decisions. Together, we can shape the future of Unigrid.
 
 {: .fs-6 .fw-300 }
-
-
