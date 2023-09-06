@@ -18,56 +18,60 @@ parent: Gridnode
 
 ## Sending tokens
 
-The first step is sending tokens to your address. A gridnode requires that one [input](https://cointelegraph.com/news/what-are-inputs-and-outputs) in your address has exactly 3000 tokens.
+The first step is to send tokens to your address. For a gridnode to operate, ensure that one [input](https://cointelegraph.com/news/what-are-inputs-and-outputs) in your address holds precisely 2,000 tokens (note: older gridnodes with 3,000 tokens will still function).
 
-To accomplish this we first need to copy an address that has a 0 balance. Click on the clipboard next to your address that you would like to send tokens to.
+To begin, copy your main address (the one tokens were minted to as currently you are only allowed to send tokens to that same address). Click on the clipboard icon adjacent to the address you intend to send tokens to.
 
 ![](../../assets/images/gn-address-copy.png)
 
-Next we will send exactly 3000 tokens to this address. From the main `Wallet` screen click on send. Then enter the address you just copied and exactly 3000 tokens. Press send and enter your passphrase if you encrypted your wallet.
+Next, send exactly 2,000 tokens to this address. From the main `Wallet` screen, select `Send`. Input the address you've just copied and specify 3,000 tokens. Click `Send` and provide your passphrase if your wallet is encrypted.
 
 ![](../../assets/images/gn-send-tokens.png)
 
 ## Get transaction hash
 
-After the transaction has processed you will see it appear on your `Wallet` screen. We need to wait a few minutes for the transation to register on the network for the next steps. Enter the `Nodes` screen and press the `Setup` button.
+Once the transaction processes, it will display on your `Wallet` screen. Allow a few minutes for the transaction to register on the network. Navigate to the `Nodes` screen and press the `Setup` button.
 
 ![](../../assets/images/gh-setup-view.png)
 
-On the  `Setup` screen you should see your transaction if it has been confirmed by the network. The green check lets you know this transaction has not been used in another node, while the red ban icon lets you know one is in use already.
+On the `Setup` screen, if your transaction has been confirmed by the network, you'll see it. A green check indicates the transaction hasn't been used for another node, while a red ban icon signifies it's already in use.
 
 ![](../../assets/images/gh-output.png)
 
-On this same screen we will also need to generate a key for the gridnode. Click on the `Generate Key` button to create one. This will also add it to your clipboard to you can paste it somewhere for easier access. Otherwise just click on the clipboard when you need it.
+On this screen, you'll also need to generate a key for the gridnode. Click the `Generate Key` button. This action copies the key to your clipboard for easy access. Alternatively, click on the clipboard icon when needed.
 
 ![](../../assets/images/gh-generate-key.png)
 
+
 ## Server setup
 
-To follow along this guide you will need either a server running Ubuntu 16+ or you have access to or a VPS (Virtual Private Server). There are many choices when it comes to renting VPS servers. Here are a few we recommend and have been using for years.
+To follow this guide, you'll need a server running Ubuntu 18+, a Debian-based distro, or access to a VPS (Virtual Private Server). Several VPS servers are available for rent. We recommend a few that we've used for years:
 
- [Contabo](https://contabo.com/){: .btn .btn-blue }
- [OVH](https://www.ovhcloud.com/){: .btn .btn-blue }
- 
-We recommend a minimum of 2GB per gridnode you will run. Later on the gridnodes will benefit from running on their own machines as they will utilize all of the servers resources and be rewarded accordingly.
+[Contabo](https://contabo.com/){: .btn .btn-blue }
+[OVH](https://www.ovhcloud.com/){: .btn .btn-blue }
+
+We suggest a minimum of 3GB per gridnode you plan to run ***(resource requirements may change in future updates)***. In the future, gridnodes will benefit from dedicated servers, maximizing server resources and earning corresponding rewards.
+
+
+## Connect to server
 
 ## Connect to server
 
 ### Windows
 
-For windows you can use `powershell` or in Windows 11 `terminal`. We also recommend `bitvise SSH client` which can be downloaded [here](https://www.bitvise.com/ssh-client). The `bitvise` client also comes with a file explorer that can be handy if you want to transfer files to the server. 
+For Windows, use `powershell` or the Windows 11 `terminal`. We also recommend the `bitvise SSH client`, available for download [here](https://www.bitvise.com/ssh-client). `Bitvise` includes a file explorer, useful for transferring files to the server.
 
-For example: below is the command you would enter in `powershell` or `terminal`. Change `root` to whatever user your VPS assigned as a login and `127.0.0.1` to the servers IP address. After connecting to the server you will be prompted to enter your password.
+For connection, use the command below in `powershell` or `terminal`. Replace `root` with your VPS's assigned user and `127.0.0.1` with the server's IP address. After connecting, you'll be prompted for a password:
 
+```bash
+ssh root@127.0.0.1
 ```
-ssh root@55.123.22.1
-```
 
-If using Bitvise, please follow this [guide](https://www.bitvise.com/getting-started-connect-first-time) on how to connect to your VPS with `bitvise SSH client`.
+For Bitvise users, follow this [guide](https://www.bitvise.com/getting-started-connect-first-time) to connect to your VPS.
 
 ### OSX and Linux
 
-In OSX and Linux you can use your terminal to connect to the server with a simple `SSH` command. Below is an example of what you would enter into your terminal to connect to the VPS. Change `root` to whatever user your VPS assigned as a login and `127.0.0.1` to the servers IP address. Once connected you will be prompted for a password.
+On OSX and Linux, use the terminal to connect to the server. The example below demonstrates the connection process. Replace `root` with your VPS's assigned user and `127.0.0.1` with the server's IP address. After connecting, you'll be prompted for a password:
 
 ```bash
 ssh root@127.0.0.1
@@ -75,25 +79,21 @@ ssh root@127.0.0.1
 
 ## gridnode script
 
-We have created an automated script for installing and setting up your gridnode. This script will download the latest wallet on your server and collect the transaction ID we copied earlier in order to generate a gridnode. Click the icon shown below to copy the script to your clipboard.
+We've developed an automated script for gridnode installation and setup. This script fetches the latest wallet for your server and uses the previously copied transaction ID to initiate a gridnode. Click the icon below to copy the script:
 
 ![](../../assets/images/gn-copy-script.png)
 
-You can also copy the below code and paste this into your terminal. In `bitvise SSH client` you can use right click to paste into the terminal.
+Alternatively, copy (ctrl+v or cmd+v) the code below and paste it into your terminal. In the `bitvise SSH client`, right-click to paste:
 
-```
+```bash
 bash -ic "$(wget -4qO- -o- raw.githubusercontent.com/unigrid-project/unigrid-installer/main/node_installer.sh)" ; source ~/.bashrc
 ```
 
-After the script has installed docker and the required files you will see it asking for a txid and output index. This was the transaction ID we copied earlier from the setup screen.
-
-Paste your transaction ID into the terminal and press `ENTER`.
+After installation, the script will prompt for a txid and output index, which corresponds to the earlier copied transaction ID. Enter this ID and press `ENTER`.
 
 ![](../../assets/images/gn-paste-txid.png)
 
-After your txid and output ID are entered the script will prompt you for the key we generated earlier. Paste that in as well and press enter.
-
-You should now see the script pulling the latest docker image for `Unigrid`.
+Following this, the script will request the key generated earlier. Input this key and press `ENTER`. The script will then retrieve the latest docker image for `Unigrid`.
 
 ![](../../assets/images/gn-image-download.png)
 
@@ -103,74 +103,79 @@ After setup and a full sync of the blockchain (5-10 minutes), you should now see
 The outputs from the script are also placed in a txt file on your server. To open that type `nano ~/gridnodes.txt`. If nano is not installed you can also try `vim ~/gridnodes.txt`.
 ## Configuration file
 
-Back in the `Unigrid Janus` wallet go to the nodes/setup screen again and click on the `Open Config` button. This will open a text file where you paste the output from the script. 
+Return to the `Unigrid Janus` wallet, navigate to the nodes/setup screen, and click the `Open Config` button. This action opens a text file where you should paste the script's output.
 
 ![](../../assets/images/gn-open-config.png)
 
-Each node entry in here must be a single line otherwise the wallet will not properly parse the file. Any other text entered in here other than the output from the script may cause your wallet to not open properly. After you have saved this file and closed it please restart your wallet.
+Ensure each node entry is on a separate line for the wallet to parse the file correctly. Avoid adding text other than the script's output, as it might prevent the wallet from opening. ***After saving and closing this file, it's essential to restart your wallet, especially if you're setting up multiple gridnodes simultaneously. While this step will not be necessary in future releases, it's currently the only method to configure multiple gridnodes.***
 
 ![](../../assets/images/gn-config.png)
 
 ## Starting the node
 
-Once you have restarted your wallet the configuration file will be loaded in and allow you to start the node. Please make sure your wallet is in sync before attempting to start `MISSING` nodes. 
+After restarting your wallet, the configuration file will load, allowing you to initiate the node. Ensure your wallet is synchronized before starting any `MISSING` nodes. 
 
-To do so simply go to the `Nodes` screen and press the `start` button. This will attempt to start any missing nodes in the list that are disabled. If your wallet is encrypted you will be prompted to enter your password.
+To start, navigate to the `Nodes` screen and press the `Start` button. This action will attempt to activate any disabled nodes in the list. If your wallet is encrypted, you'll be prompted for your password. Occasionally, this step may need to be repeated several times before the network recognizes your newly generated gridnodes. This is a known bug, but it will be resolved once we transition to the Cosmos SDK chain.
 
 ![](../../assets/images/gn-start.png)
 
 ## Install another node
 
-If you would like to install another node on the same server and have the extra resources. Simply repeat the steps above and run the installer script again. Happy noding!
+If you wish to install an additional node on the same server and have the necessary resources, follow the steps above and execute the installer script again. Happy noding!
 
 ## Built in script commands
 
-The installer also comes with some handy utility commands to access your nodes and get more info. Below is a short list of some of these commands.
+The installer includes utility commands for accessing nodes and retrieving information. Here's a brief list:
 
-```
+```bash
 unigrid list
 ````
 
 Shows a list of all running containers that are installed.
 
-```
+```bash
 unigrid status
 ```
 
 Shows whether the containers are running and for how long.
 
-```
+```bash
 unigrid debug
 ```
 
 Returns information about the gridnode start start for all containers.
 
-```
+```bash
 unigrid restart-all
 ```
 
 Restart all containers.
 
-```
+```bash
 unigrid start-all
 ```
 
 Start all containers.
 
-```
+```bash
 unigrid get-blocks
 ```
 
 Returns the block height of each node container.
 
-
+```bash
+unigrid resync-node ugd_docker_1
 ```
+
+Resyncs a single gridnode using the bootstrap file. This does not remove any of your nodes settings and only installs a freshly synced chain. Use this is you are having trouble syncing a node. If you have more than one node you can change the name of <ugd_docker_1> to the gridnode you would like to resync.
+
+```bash
 unigrid remove-all
 ```
 
 Removes all containers you have installed. **Warning this cannot be undone. Only use for full reintalls of all contianers.**
 
-```
+```bash
 unigrid help
 ```
 
@@ -178,26 +183,26 @@ List of available commands for `unigrid`.
 
 ## Single node communication
 
-If you would like to communicate with a single node, use the container name followed by the command. For example: the first container installed will be `ugd_docker_1`.
+To communicate with an individual node, use its container name followed by the desired command. For instance, the first installed container will be named `ugd_docker_1`.
 
-```
+```bash
 ugd_docker_1 getinfo
 ```
 
 To restart a single container.
 
-```
+```bash
 docker restart ugd_docker_1
 ```
 
 To enter the container itself.
 
-```
+```bash
 docker exec -it ugd_docker_1 /bin/bash
 ```
 
 Get the block count of a single container.
 
-```
+```bash
 ugd_docker_1 getblockcount
 ```
