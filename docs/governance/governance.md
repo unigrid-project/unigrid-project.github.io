@@ -3,7 +3,7 @@ layout: default
 title: Unigrid DAO Constitution
 nav_order: 5
 has_children: true
-permalink: /docs/unigrid-dao
+permalink: /docs/governance
 ---
 
 # Unigrid DAO Proposal
