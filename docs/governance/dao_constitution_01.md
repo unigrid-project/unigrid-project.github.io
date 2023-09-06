@@ -25,7 +25,9 @@ This proposal introduces the Unigrid DAO Constitution, a comprehensive document 
 
 ## Context
 
-The Unigrid Project, a decentralized system built on the Cosmos SDK framework, requires a robust governance model to ensure its sustainable growth and evolution. The proposed constitution provides a foundational framework for the DAO's operations, ensuring transparency, fairness, and adaptability.
+The Unigrid Project, a pioneering decentralized cloud services network, is constructed on the robust foundation of the Cosmos SDK framework. To guarantee its continuous evolution and sustainable expansion, a resilient governance model is indispensable. The proposed constitution lays down the fundamental guidelines for the DAO's functions, emphasizing transparency, equity, and flexibility.
+
+While the consensus chain, built with the Cosmos SDK, will oversee governance voting, the heart of the Unigrid network is the Hedgehog network. Hedgehog is responsible for managing drive storage, computing power, VPN, and throughput, ensuring the network's seamless operation and efficiency.
 
 ## Governance Votes
 
