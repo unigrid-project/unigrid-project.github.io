@@ -25,7 +25,7 @@ parent: Testnet
 For details of upgrades on the current testnet, as well as syncing, you can check out the testnets repo. If you get stuck, then please ask on Discord.
 
 - **chain-id**: `unigrid-testnet-1`
-- **Current Github version tag**: [cosmos-daemond v0.0.5](https://github.com/unigrid-project/chain-testing/releases/download/v0.0.5/cosmos-daemond)
+- **Current Github release*: [cosmos-daemond](https://github.com/unigrid-project/chain-testing/releases/)
 
 ### Minimum Hardware Requirements
 
