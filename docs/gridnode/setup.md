@@ -24,7 +24,7 @@ To begin, copy your main address (the one tokens were minted to as currently you
 
 ![](../../assets/images/gn-address-copy.png)
 
-Next, send exactly 2,000 tokens to this address. From the main `Wallet` screen, select `Send`. Input the address you've just copied and specify 3,000 tokens. Click `Send` and provide your passphrase if your wallet is encrypted.
+Next, send exactly 2,000 tokens to this address. From the main `Wallet` screen, select `Send`. Input the address you've just copied and specify 2,000 tokens. Click `Send` and provide your passphrase if your wallet is encrypted.
 
 ![](../../assets/images/gn-send-tokens.png)
 
