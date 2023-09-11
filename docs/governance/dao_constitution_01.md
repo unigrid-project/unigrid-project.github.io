@@ -3,6 +3,7 @@ layout: default
 title: Unigrid DAO Consititution
 parent: Governance
 nav_order: 1
+published: false
 ---
 
 # [Proposal #1][Draft v1.0] Unigrid DAO Constitution
