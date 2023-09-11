@@ -3,6 +3,7 @@ layout: default
 title: Unigrid Token Sale & Allocation of Raised Funds
 parent: Governance
 nav_order: 2
+published: false
 ---
 
 # [Proposal #2][Draft v1.0] Unigrid Token Sale & Allocation of Raised Funds
