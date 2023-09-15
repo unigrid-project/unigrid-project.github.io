@@ -3,7 +3,7 @@ layout: default
 title: Unigrid DAO Consititution
 parent: Governance
 nav_order: 1
-published: false
+published: true
 ---
 
 # [Proposal #1][Draft v1.0] Unigrid DAO Constitution
@@ -43,4 +43,4 @@ The Unigrid DAO Constitution is a pivotal document that will guide the DAO's ope
 
 ## References
 
-- [Download the full Unigrid DAO Constitution (PDF)](./2023_09_PROP_1_DAO/Unigrid_DAO_v101.pdf)
+- [Download the full Unigrid DAO Constitution (PDF)](./2023_09_PROP_1_DAO/Unigrid_DAO_v103.pdf)
