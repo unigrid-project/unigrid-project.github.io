@@ -6,19 +6,19 @@ nav_order: 1
 published: true
 ---
 
-# [Proposal #1][Draft v1.0] Unigrid DAO Constitution
+# [Proposal #1][v1.0.3] Unigrid DAO Constitution
 
 ## Changelog
 
-- 05 September 2023: Initial draft of the Unigrid DAO Constitution.
+- 15 September 2023: Initial draft of the Unigrid DAO Constitution.
 
 ## Authors and Credit 
 
-Unigrid DAO Governance Committee: [link to their profiles or contact info]
+Unigrid DAO Governance Committee: [The Unigrid Foundation](https://unigrid.org)
 
 ## Status 
 
-DRAFT
+v1.0.3
 
 ## Proposal
 
