@@ -37,7 +37,7 @@ While the consensus chain, built with the Cosmos SDK, will oversee governance vo
 
 ## Voting Schedule
 
-The voting for this proposal will commence at **12:00 GMT on Saturday, September 26th, 2023** and will conclude at **12:00 GMT on Saturday, October 3rd, 2023**. All community members are encouraged to cast their votes within this timeframe.
+The voting for this proposal will commence at **12:00 GMT on Saturday, September 16th, 2023** and will conclude at **12:00 GMT on Saturday, September 23rd, 2023**. All community members are encouraged to cast their votes within this timeframe.
 
 ## Voting Hash Reference
 
