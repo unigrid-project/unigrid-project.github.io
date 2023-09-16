@@ -35,6 +35,10 @@ While the consensus chain, built with the Cosmos SDK, will oversee governance vo
 - **YES**: You approve the adoption of the Unigrid DAO Constitution as the foundational governance document for the DAO.
 - **NO**: You disapprove of the constitution in its current form. Please provide feedback for improvements or adjustments in the relevant topic in the [Discord governance channel](https://discord.gg/wTkQKHP8yP).
 
+## Voting Schedule
+
+The voting for this proposal will commence at **12:00 GMT on Saturday, September 26th, 2023** and will conclude at **12:00 GMT on Saturday, October 3rd, 2023**. All community members are encouraged to cast their votes within this timeframe.
+
 ## Conclusion
 
 The Unigrid DAO Constitution is a pivotal document that will guide the DAO's operations, governance, and growth. It's essential for members to review, provide feedback, and vote to ensure the DAO's future success.
