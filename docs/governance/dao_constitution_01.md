@@ -39,6 +39,14 @@ While the consensus chain, built with the Cosmos SDK, will oversee governance vo
 
 The voting for this proposal will commence at **12:00 GMT on Saturday, September 26th, 2023** and will conclude at **12:00 GMT on Saturday, October 3rd, 2023**. All community members are encouraged to cast their votes within this timeframe.
 
+## Voting Hash Reference
+
+For transparency and verification purposes, the on-chain hash reference for this voting proposal is:
+
+`ff80f645ab87a9009479542dc1332fc3ec3faef7b6a8f8cbab01b0b8be4df9da`
+
+Members can use this hash to verify the authenticity and integrity of the proposal on the blockchain.
+
 ## Conclusion
 
 The Unigrid DAO Constitution is a pivotal document that will guide the DAO's operations, governance, and growth. It's essential for members to review, provide feedback, and vote to ensure the DAO's future success.
