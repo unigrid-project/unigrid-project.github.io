@@ -37,7 +37,7 @@ Furthermore, a designated portion of the tokens from this sale will be set aside
 - 
 ## Voting Schedule
 
-The voting for this proposal will commence at **12:00 GMT on Saturday, September 23rd, 2023** and will conclude at **12:00 GMT on Saturday, September 30th, 2023**. All community members are encouraged to cast their votes within this timeframe.
+The voting for this proposal will commence at **12:00 GMT on Sunday, September 24th, 2023** and will conclude at **12:00 GMT on Sunday, October 1st, 2023**. All community members are encouraged to cast their votes within this timeframe.
 
 **Reminder**: We need a 50% quorum (half the running nodes) to vote in order for this to pass as declared by the DAO.
 
