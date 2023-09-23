@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Unigrid DAO",
+    "URL": "https://docs.unigrid.org/docs/governance/dao_constitution_01/",
+    "Hash": "ff80f645ab87a9009479542dc1332fc3ec3faef7b6a8f8cbab01b0b8be4df9da",
+    "FeeHash": "018fb7794b41bd75f5b4335d22d2188ee695024b82726066290c901db99d0157",
+    "BlockStart": 2606400,
+    "BlockEnd": 2609282,
+    "TotalPaymentCount": 2,
+    "RemainingPaymentCount": 2,
+    "PaymentAddress": "HHU64v1F1h1rsxzYUaXDrZ7FFJFbJp2a85",
+    "Ratio": 1,
+    "Yeas": 90,
+    "Nays": 0,
+    "Abstains": 0,
+    "TotalPayment": 100.00000000,
+    "DailyPayment": 50.00000000,
+    "IsEstablished": true,
+    "IsValid": true,
+    "IsValidReason": "",
+    "fValid": true
+  }
+]

@@ -24,6 +24,16 @@ v1.0.3
 
 This proposal introduces the Unigrid DAO Constitution, a comprehensive document outlining the governance, operational, and legal framework for the Unigrid DAO. The constitution addresses key areas such as on-chain governance, tokenomics, treasury management, institutional structure, and regulatory compliance.
 
+## Voting Results - September 23rd, 2023 12:00 GMT
+
+- **Yes**: 90
+- **No**: 0
+- **Gridnodes**: 129
+- **Quorum**: 65
+- **RESULT**: PASSED
+- [View results at block 2601072](./2023_09_PROP_1_DAO/dao_votes.json)
+- [Gridnodes at block 2601072](./2023_09_PROP_1_DAO/gridnodelist.json)
+
 ## Context
 
 The Unigrid Project, a pioneering decentralized cloud services network, is constructed on the robust foundation of the Cosmos SDK framework. To guarantee its continuous evolution and sustainable expansion, a resilient governance model is indispensable. The proposed constitution lays down the fundamental guidelines for the DAO's functions, emphasizing transparency, equity, and flexibility.
