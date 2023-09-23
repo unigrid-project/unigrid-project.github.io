@@ -3,14 +3,14 @@ layout: default
 title: Unigrid Token Sale & Allocation of Raised Funds
 parent: Governance
 nav_order: 2
-published: false
+published: true
 ---
 
 # [Proposal #2][Draft v1.0] Unigrid Token Sale & Allocation of Raised Funds
 
 ## Changelog
 
-- 06 September 2023: Initial draft of the proposal.
+- 23 September 2023: Initial draft of the proposal.
 
 ## Authors and Credit 
 
@@ -22,18 +22,28 @@ DRAFT
 
 ## Proposal
 
-A governance proposal to conduct a token sale on the NFPAD launchpad, allocate the raised funds to UGD Software AB for software development, and reserve a portion of the tokens for community needs IE listing fees.
+A governance proposal to conduct a token sale on the [NFPAD launchpad](https://nfpad.io/), allocate the raised funds to UGD Software AB for software development, and reserve a portion of the tokens for community needs IE listing fees.
 
-## Context
+### Context
 
-With the evolution of the Unigrid project, there's a need to raise funds for further software development. This proposal aims to leverage the NFPAD launchpad for a token sale. The funds raised will be primarily allocated to UGD Software AB, ensuring the project's objectives are met. Additionally, a portion of the tokens from the sale will be reserved to cater to community needs, ensuring a holistic growth approach.
+With the evolution of the Unigrid project, there's a pressing need to secure funds for the continuation and expansion of software development. This proposal suggests leveraging the [NFPAD](https://nfpad.io/) launchpad for a token sale. The majority of the funds raised will be directed to UGD Software AB, ensuring that the project's milestones and objectives are achieved in a timely manner. 
+
+Furthermore, a designated portion of the tokens from this sale will be set aside to address community needs. This includes covering any listing fees and other community-driven initiatives, ensuring a balanced and holistic growth approach for the entire ecosystem.
 
 ## Governance Votes
 
-- **YES**: You approve the proposal to conduct a token sale on NFPAD, allocate the raised funds to UGD Software AB, and reserve a portion of the tokens for community needs.
+- **YES**: You approve the proposal to conduct a token sale on [NFPAD](https://nfpad.io/), allocate the raised funds to UGD Software AB, and reserve a portion of the tokens for community needs.
 - **NO**: You disapprove of the proposal in its current form. The NO vote can be a request for improvements or adjustments. You agree that this proposal's motivation is valuable and that the team should create a follow-up proposal once the amendments are included.
-- **NO (VETO)**: You veto the entire motivation for the proposal and are strongly opposed to its implementation.
-- **ABSTAIN**: You are impartial to the outcome of the proposal.
+- 
+## Voting Schedule
+
+The voting for this proposal will commence at **12:00 GMT on Saturday, September 23rd, 2023** and will conclude at **12:00 GMT on Saturday, September 30th, 2023**. All community members are encouraged to cast their votes within this timeframe.
+
+**Reminder**: We need a 50% quorum (half the running nodes) to vote in order for this to pass as declared by the DAO.
+
+## Voting Schedule
+
+The voting for this proposal will commence at **14:00 GMT on Saturday, September 23rd, 2023** and will conclude at **14:00 GMT on Saturday, September 30th, 2023**. All community members are encouraged to cast their votes within this timeframe. Reminder that we need 50% quorum (half the running nodes) to vote in order for these to pass as declared by the DAO.
 
 ## Conclusion
 
@@ -42,4 +52,4 @@ The Unigrid Token Sale & Allocation of Raised Funds proposal aims to ensure the 
 ## References
 
 - [Unigrid Project GitHub](https://github.com/unigrid-project/)
-- [NFPAD Official Website](#) (Placeholder link, replace with actual link if available)
+- [NFPAD Official Website](https://nfpad.io/)
