@@ -18,7 +18,7 @@ Unigrid DAO Governance Committee: [The Unigrid Foundation](https://unigrid.org)
 
 ## Status 
 
-v1.0.3
+PASSED
 
 ## Proposal
 

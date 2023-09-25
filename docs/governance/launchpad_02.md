@@ -10,7 +10,7 @@ published: true
 
 ## Changelog
 
-- 23 September 2023: Initial draft of the proposal.
+- 25 September 2023: Updating start and end date
 
 ## Authors and Credit 
 
@@ -18,11 +18,11 @@ Unigrid Team: [Web](https://www.unigrid.org/), [GitHub](https://github.com/unigr
 
 ## Status 
 
-DRAFT
+VOTING
 
 ## Proposal
 
-A governance proposal to conduct a token sale on the [NFPAD launchpad](https://nfpad.io/), allocate the raised funds to UGD Software AB for software development, and reserve a portion of the tokens for community needs IE listing fees.
+A governance proposal to conduct a token sale on the [NFPAD](https://nfpad.io/) launchpad, allocate the raised funds to UGD Software AB for software development, and reserve a portion of the tokens for community needs IE listing fees.
 
 ### Context
 
@@ -37,17 +37,21 @@ Furthermore, a designated portion of the tokens from this sale will be set aside
 - 
 ## Voting Schedule
 
-The voting for this proposal will commence at **12:00 GMT on Sunday, September 24th, 2023** and will conclude at **12:00 GMT on Sunday, October 1st, 2023**. All community members are encouraged to cast their votes within this timeframe.
+The voting for this proposal will commence at **12:00 GMT on Monday, September 25th, 2023** and will conclude at **12:00 GMT on Monday, October 2nd, 2023**. All community members are encouraged to cast their votes within this timeframe.
 
 **Reminder**: We need a 50% quorum (half the running nodes) to vote in order for this to pass as declared by the DAO.
-
-## Voting Schedule
-
-The voting for this proposal will commence at **14:00 GMT on Saturday, September 23rd, 2023** and will conclude at **14:00 GMT on Saturday, September 30th, 2023**. All community members are encouraged to cast their votes within this timeframe. Reminder that we need 50% quorum (half the running nodes) to vote in order for these to pass as declared by the DAO.
 
 ## Conclusion
 
 The Unigrid Token Sale & Allocation of Raised Funds proposal aims to ensure the project's continued development and growth. By leveraging the NFPAD launchpad for a token sale and allocating funds to UGD Software AB, we can further the project's objectives. Additionally, reserving tokens for community needs ensures a balanced approach, considering both development and community engagement.
+
+## Voting Hash Reference
+
+For transparency and verification purposes, the on-chain hash reference for this voting proposal is:
+
+`87a7286dec93736925b69a8e65029c0f6a1c4e0fc1ec0ae5ecc4e971b326b3a0`
+
+Members can use this hash to verify the authenticity and integrity of the proposal on the blockchain.
 
 ## References
 
