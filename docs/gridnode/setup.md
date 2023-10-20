@@ -101,7 +101,7 @@ To follow this guide, you'll need a server running Ubuntu 18+, a Debian-based di
 [Contabo](https://contabo.com/){: .btn .btn-blue }
 [OVH](https://www.ovhcloud.com/){: .btn .btn-blue }
 
-We suggest a minimum of 4GB (these amounts can and will fluctuate) per gridnode you plan to run ***(resource requirements may change in future updates)***. In the future, gridnodes will benefit from dedicated servers, maximizing server resources and earning corresponding rewards.
+We suggest a minimum of 4.5GB (these amounts can and will fluctuate) per gridnode you plan to run ***(resource requirements may change in future updates)***. In the future, gridnodes will benefit from dedicated servers, maximizing server resources and earning corresponding rewards.
 
 
 ## Connect to server
