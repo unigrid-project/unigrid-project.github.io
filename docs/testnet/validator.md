@@ -5,6 +5,7 @@ parent: Testnet
 ---
 
 # Set up a Validator
+
 {: .no_toc }
 
 <details open markdown="block">
@@ -25,25 +26,27 @@ parent: Testnet
 For details of upgrades on the current testnet, as well as syncing, you can check out the testnets repo. If you get stuck, then please ask on Discord.
 
 - **chain-id**: `unigrid-testnet-1`
-- **Current Github release*: [cosmos-daemond](https://github.com/unigrid-project/chain-testing/releases/)
+- \*_Current Github release_: [paxd](https://github.com/unigrid-project/chain-testing/releases/)
 
 ### Minimum Hardware Requirements
 
-- **16GB RAM**
-- **200GB of disk space**
-- **2 Cores (modern CPU's)**
+- Quad Core or larger AMD or Intel (amd64) CPU
+  - ARM CPUs like the Apple M1 are not supported at this time.
+- 64GB RAM (can use swap)
+- 1TB NVMe Storage
+- 100MBPS bidirectional internet connection
 
 > **Note**: These specifications are the minimum recommended. Low spec validators WILL get stuck on difficult to process blocks. The testnets accumulate data as the blockchain continues, so you'll need to expand your storage over time.
 
-### cosmos-daemon Installation
+### Unigrid Cosmos SDK Pax Installation
 
-To get up and running with the `cosmos-daemon` binary, download it [here](https://github.com/unigrid-project/chain-testing/releases/download/v0.0.5/cosmos-daemond).
+To get up and running with the `paxd` binary, download it [here](https://github.com/unigrid-project/chain-testing/releases/download/v0.0.5/paxd).
 
 You can also use wget like below and pull the latest version.
 
 ```bash
-# Get the latest release download URL for cosmos-daemond from the GitHub API
-DOWNLOAD_URL=$(curl -s https://api.github.com/repos/unigrid-project/chain-testing/releases/latest | grep "browser_download_url.*cosmos-daemond" | cut -d '"' -f 4)
+# Get the latest release download URL for paxd from the GitHub API
+DOWNLOAD_URL=$(curl -s https://api.github.com/repos/unigrid-project/chain-testing/releases/latest | grep "browser_download_url.*paxd" | cut -d '"' -f 4)
 
 echo "Downloading: $DOWNLOAD_URL"
 # Use wget to download the binary
@@ -52,19 +55,24 @@ wget $DOWNLOAD_URL
 ```
 
 ### Make the Binary Executable:
+
 After downloading, you need to give the binary execute permissions:
+
 ```bash
-chmod +x cosmos-daemond
+chmod +x paxd
 
 ```
 
 ### Move the Binary to /usr/local/bin:
-To make the binary globally accessible, move it to /usr/local/bin. You'll need sudo permissions for this: 
+
+To make the binary globally accessible, move it to /usr/local/bin. You'll need sudo permissions for this:
 
 _You can always store this in any location you like update the location when creating the service._
+
 ```bash
-sudo mv cosmos-daemond /usr/local/bin/
+sudo mv paxd /usr/local/bin/
 ```
+
 ### Configuration of Shell Variables
 
 For this guide, we will be using shell variables. Set them explicitly in your shell .profile, as you did for the Go environment variables.
@@ -80,14 +88,12 @@ MONIKER_NAME="<moniker-name>"
 MONIKER_NAME="HAL 9000"
 ```
 
-
 ### Setting up the Node
 
 #### Initialize the chain
 
-
 ```bash
-cosmos-daemon init $MONIKER_NAME --chain-id $CHAIN_ID
+paxd init $MONIKER_NAME --chain-id $CHAIN_ID
 ```
 
 ### Download the genesis file
@@ -96,33 +102,36 @@ cosmos-daemon init $MONIKER_NAME --chain-id $CHAIN_ID
 curl https://raw.githubusercontent.com/unigrid-project/chain-testing/master/genesis.json > ~/.$CHAIN_ID/config/genesis.json
 ```
 
-
 #### Create a local key pair
 
 ```bash
 # Create new keypair
-cosmos-daemon keys add <key-name>
+paxd keys add <key-name>
 
 # Restore existing wallet with mnemonic seed phrase.
-cosmos-daemon keys add <key-name> --recover
+paxd keys add <key-name> --recover
 
 # Query the keystore for your public address
-cosmos-daemon keys show <key-name> -a
+paxd keys show <key-name> -a
 ```
+
 # Hedgehog Configuration
+
 Run this command to create the hedgehog.toml file used by the daemon to connect to the Unigrid network.
+
 ```bash
 echo -e "# This is a TOML config file.\n# For more information, see https://github.com/toml-lang/toml\n\n###############################################################################\n###                           Hedgehog Configuration                            ###\n###############################################################################\n\n[hedgehog]\n\n# Set the URL hedgehog should use\n# this is for cases like testnet when we dont want it to communicate with mainnnet\nhedgehog_url = \"https://82.208.23.218:39886\"" > /home/$USER/.${CHAIN_ID}/config/hedgehog.toml
 
 ```
+
 Hedgehog is the core engine that powers the Unigrid network. It's not just a tool; it's the backbone that provides essential services to the network. When users run gridnodes, they are essentially running instances of Hedgehog, contributing to the network's stability, performance, and functionality.
 
 The provided configuration is specifically tailored for setting up a testnet node. By pointing to an external Hedgehog URL, users can quickly connect their node to the testnet environment. This external endpoint facilitates a more streamlined setup, allowing nodes to communicate and fetch necessary data or perform certain operations without the need for a full local setup.
 
 However, when transitioning to a mainnet environment, it's crucial to have a more robust and secure setup. For mainnet, it's recommended to download and set up Hedgehog directly on the server where the node runs. This ensures a direct, secure connection to the Unigrid network, maximizing reliability and performance.
 
-
 ### Obtain testnet tokens
+
 After obtaining your address, head over to the [Unigrid Discord](https://discord.gg/JDAYCJ9tEb). Request access to the `#testnet-faucet` channel. Inside, you can interact with the bot using the following command.
 
 ```
@@ -132,10 +141,10 @@ After obtaining your address, head over to the [Unigrid Discord](https://discord
 # Setting up Cosmos Daemon as a Service
 
 1. **Create a Service File**:
-   Use your preferred text editor (e.g., `nano`) to create a service file for `cosmos-daemond`:
+   Use your preferred text editor (e.g., `nano`) to create a service file for `paxd`:
 
    ```bash
-   sudo nano /etc/systemd/system/cosmos-daemond.service
+   sudo nano /etc/systemd/system/paxd.service
    ```
 
    Add the following content to the file:
@@ -147,11 +156,11 @@ After obtaining your address, head over to the [Unigrid Discord](https://discord
 
    [Service]
    User=unigrid
-   ExecStart=/usr/local/bin/cosmos-daemond start --home=/home/unigrid/.unigrid-testnet-1 --p2p.seeds "e5e85ef8eaa493c566108823519bd2c89b3a7803@194.233.95.48:26656,666d2cc217a5aef8b6b7fc8608706df76640b42a@38.242.156.2:26656"
+   ExecStart=/usr/local/bin/paxd start --home=/home/<username>/.unigrid-testnet-1 --hedgehog=https://82.208.23.218:39886 --p2p.seeds "e5e85ef8eaa493c566108823519bd2c89b3a7803@194.233.95.48:26656,666d2cc217a5aef8b6b7fc8608706df76640b42a@38.242.156.2:26656"
    Restart=always
    RestartSec=3
-   StandardOutput=file:/home/<user>/.<CHAIN_ID>/cosmos-daemond.log
-   StandardError=file:/home/<user>/.<CHAIN_ID>/cosmos-daemond-error.log
+   StandardOutput=file:/home/<user>/.<CHAIN_ID>/paxd.log
+   StandardError=file:/home/<user>/.<CHAIN_ID>/paxd-error.log
 
    [Install]
    WantedBy=multi-user.target
@@ -169,62 +178,66 @@ After obtaining your address, head over to the [Unigrid Discord](https://discord
      ```
 
    - **Start the Service**:
-     Use the following command to start the `cosmos-daemond` service:
+     Use the following command to start the `paxd` service:
 
      ```bash
-     sudo systemctl start cosmos-daemond.service
+     sudo systemctl start paxd.service
      ```
 
    - **Stop the Service**:
      If you need to stop the service, use:
 
      ```bash
-     sudo systemctl stop cosmos-daemond.service
+     sudo systemctl stop paxd.service
      ```
 
    - **Check Service Status**:
      To check the status of the service:
 
      ```bash
-     sudo systemctl status cosmos-daemond.service
+     sudo systemctl status paxd.service
      ```
 
    - **Restart the Service**:
      If you need to restart the service:
 
      ```bash
-     sudo systemctl restart cosmos-daemond.service
+     sudo systemctl restart paxd.service
      ```
 
 Remember to monitor the logs and the service status regularly to ensure smooth operation.
 
 ## Start the node and sync
- 
+
 ```bash
- sudo systemctl start cosmos-daemond.service
+ sudo systemctl start paxd.service
 ```
+
 To monitor the syncing process you can tail the log file like this.
+
 ```bash
-tail -f /home/$USER/.CHAIN_ID/cosmos-daemond.log
+tail -f /home/$USER/.CHAIN_ID/paxd.log
 ```
 
 ### Upgrade to a validator
 
 #### Obtain Validator Keys:
+
 Run the following command to get the validator keys:
+
 ```bash
-cosmos-daemond tendermint show-validator --home=/home/$USER/.$CHAIN_ID
+paxd tendermint show-validator --home=/home/$USER/.$CHAIN_ID
 ```
 
 ```bash
-cosmos-daemon tx staking create-validator \
+paxd tx staking create-validator \
  --amount 100000000ugd \
  --commission-max-change-rate "0.1" \
  --commission-max-rate "0.20" \
  --commission-rate "0.1" \
  --min-self-delegation "1" \
---details "Validators don't just validate; they also drop epic bios!" \
- --pubkey=$(cosmos-daemond tendermint show-validator --home=/home/$USER/.$CHAIN_ID) \
+ --details "Validators don't just validate; they also drop epic bios!" \
+ --pubkey=$(paxd tendermint show-validator --home=/home/$USER/.$CHAIN_ID) \
  --moniker $MONIKER_NAME \
  --chain-id $CHAIN_ID \
  --gas-prices 0.025ugd \
@@ -243,12 +256,15 @@ Backup the following files located in `~/.$CHAIN_ID/config/`:
 # Check your Validator
 
 You can use this command to check if your validator is registered.
+
 ```bash
-cosmos-daemond query tendermint-validator-set | grep -A 4 "<YOUR_VALIDATOR_CONSENSUS_ADDRESS>"
+paxd query tendermint-validator-set | grep -A 4 "<YOUR_VALIDATOR_CONSENSUS_ADDRESS>"
 ```
+
 For example:
+
 ```bash
-cosmos-daemond query tendermint-validator-set | grep -A 4 "unigridvalcons1r6yxnhqh4xl2ckdfxlc2d4lt9nlphkjzzzq08w"
+paxd query tendermint-validator-set | grep -A 4 "unigridvalcons1r6yxnhqh4xl2ckdfxlc2d4lt9nlphkjzzzq08w"
 - address: unigridvalcons1r6yxnhqh4xl2ckdfxlc2d4lt9nlphkjzzzq08w
   proposer_priority: "242500"
   pub_key:
@@ -273,10 +289,10 @@ cosmos-daemond query tendermint-validator-set | grep -A 4 "unigridvalcons1r6yxnh
 1. **Edit Configuration**: Modify the `prometheus.yml` file to specify which nodes to scrape data from. For a Cosmos SDK node, you'd typically scrape data from the node's Prometheus endpoint, usually on port `26660`.
 
 2. **Restart Prometheus**: After making changes, restart the Prometheus service to apply them:
+
 ```bash
 sudo systemctl restart prometheus
 ```
-
 
 ## 2. Setting up Grafana for Visualization
 
@@ -306,7 +322,8 @@ sudo systemctl restart prometheus
 
 ### Commands for Monitoring:
 
-- **Check Grafana Status**: 
+- **Check Grafana Status**:
+
   ```bash
   sudo systemctl status grafana-server
   ```
@@ -315,7 +332,6 @@ sudo systemctl restart prometheus
 
 Remember, monitoring is crucial for validators. It helps ensure the validator is operational, secure, and performing optimally. Regularly check your monitoring tools and respond promptly to any alerts or issues.
 
-## Commands for Monitoring
+## Closing
 
-
-
+If you run into any issues or have suggestions, please reach out the info@unigrid.org.
