@@ -1,23 +1,34 @@
 ---
 layout: default
-title: Install Cosmos-daemon
-parent: CosmosDaemon
+title: Unigrid Pax CLI
+parent: Pax Cosmos SDK
 ---
 
 # CLI Commands
+{: .no_toc }
 
-The client users use to interact with the Unigrid network is currently distributed in the `cosmos-daemon` Command line interface (CLI) application.
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
-## Cosmos-daemon CLI
 
-Cosmos-daemon command line utility
+The client users use to interact with the Unigrid network is currently distributed in the `paxd` Command line interface (CLI) application.
+
+## Pax CLI
+
+Pax command line utility
 
 ```
-cosmos-daemon -h --help   help for command line utility
+paxd --help   // help for command line utility
 ```
 
 
-## Cosmos-daemon commands
+## Pax commands
 
 Below are links to top level commands. Click on the links to see the avilable command
 
@@ -30,13 +41,13 @@ Sign and send tokens to other accounts
 #### Usage
 
 ```bash
-cosmos-daemon tx bank send [from_key_or_address] [to_address] [amount] [flags]
+paxd tx bank send [from_key_or_address] [to_address] [amount] [flags]
 ```
 
 ### Example
 
 ```
-cosmos-daemon tx bank send bob unigrid12wlzqjelrt87r3u56ps4m8lk7wavx5m5jg9cax 10000000ugd --chain-id devnet -y
+paxd tx bank send bob unigrid12wlzqjelrt87r3u56ps4m8lk7wavx5m5jg9cax 10000000ugd --chain-id devnet -y
 
 {"height":"0","txhash":"116ED246AFF9F9B58036AECAA5EFE81AA7A788CC625CC2A4ADAFC68378834413","raw_log":"[]"}
 ```
@@ -44,7 +55,7 @@ cosmos-daemon tx bank send bob unigrid12wlzqjelrt87r3u56ps4m8lk7wavx5m5jg9cax 10
 ### More info
 
 ```
-cosmos-daemon tx send -h
+paxd tx send -h
 Send funds from one account to another. Note, the'--from' flag is
 ignored as it is implied from [from_key_or_address].
 
@@ -75,7 +86,7 @@ Flags:
 
 Global Flags:
       --chain-id string     The network chain ID
-      --home string         directory for config and data (default "/home/vitwit/.cosmos-daemon")
+      --home string         directory for config and data (default "/home/.pax")
       --log_format string   The logging format (json|plain) (default "plain")
       --log_level string    The logging level (trace|debug|info|warn|error|fatal|panic) (default "info")
       --trace               print out full stack trace on errors
@@ -88,12 +99,12 @@ Query for a transaction by hash in a committed block.
 ### Usage
 
 ```bash
-cosmos-daemon query tx <txhash> -o json
+paxd query tx <txhash> -o json
 ```
 ### Example
 
 ```
-cosmos-daemon query tx BCAB9AAC8C4F920218757A0C4461AF6C380A2144B4762B4DE1CE014BE2714DA5 -o json
+paxd query tx BCAB9AAC8C4F920218757A0C4461AF6C380A2144B4762B4DE1CE014BE2714DA5 -o json
 
 {"height":"36","txhash":"BCAB9AAC8C4F920218757A0C4461AF6C380A2144B4762B4DE1CE014BE2714DA5","codespace":"","code":0,"data":"0A060A0473656E64","raw_log":"[{\"events\":[{\"type\":\"message\",\"attributes\":[{\"key\":\"action\",\"value\":\"send\"},{\"key\":\"sender\",\"value\":\"akash16q6s0tauc3cks5us7f57wds8c8lqg4jqs0qtaf\"},{\"key\":\"module\",\"value\":\"bank\"}]},{\"type\":\"transfer\",\"attributes\":[{\"key\":\"recipient\",\"value\":\"akash1zsgzee6vvx942c4c69vl859w9azn77j8uhduug\"},{\"key\":\"sender\",\"value\":\"akash16q6s0tauc3cks5us7f57wds8c8lqg4jqs0qtaf\"},{\"key\":\"amount\",\"value\":\"100000stake\"}]}]}]","logs":[{"msg_index":0,"log":"","events":[{"type":"message","attributes":[{"key":"action","value":"send"},{"key":"sender","value":"akash16q6s0tauc3cks5us7f57wds8c8lqg4jqs0qtaf"},{"key":"module","value":"bank"}]},{"type":"transfer","attributes":[{"key":"recipient","value":"akash1zsgzee6vvx942c4c69vl859w9azn77j8uhduug"},{"key":"sender","value":"akash16q6s0tauc3cks5us7f57wds8c8lqg4jqs0qtaf"},{"key":"amount","value":"100000stake"}]}]}],"info":"","gas_wanted":"200000","gas_used":"57508","tx":{"@type":"/cosmos.tx.v1beta1.Tx","body":{"messages":[{"@type":"/cosmos.bank.v1beta1.MsgSend","from_address":"akash16q6s0tauc3cks5us7f57wds8c8lqg4jqs0qtaf","to_address":"akash1zsgzee6vvx942c4c69vl859w9azn77j8uhduug","amount":[{"denom":"stake","amount":"100000"}]}],"memo":"","timeout_height":"0","extension_options":[],"non_critical_extension_options":[]},"auth_info":{"signer_infos":[{"public_key":{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A+hCkyWd4cWG0KD+GgCxHEOUzll1cl5VvoGgDvVIwF3E"},"mode_info":{"single":{"mode":"SIGN_MODE_DIRECT"}},"sequence":"1"}],"fee":{"amount":[],"gas_limit":"200000","payer":"","granter":""}},"signatures":["q3XqohxwkgaT0nLusXLaZ5aRGrcxbTUGS2pYN+tSPtkk10Ij+2YXs3LhXUxhcSNnTMABq4bIhJ3L/QDoz8Xp+w=="]},"timestamp":"2021-02-10T10:08:40Z"}
 ```
@@ -101,10 +112,10 @@ cosmos-daemon query tx BCAB9AAC8C4F920218757A0C4461AF6C380A2144B4762B4DE1CE014BE
 ### More info
 
 ```
-cosmos-daemon query tx -h
+paxd query tx -h
 
 Usage:
-  cosmos-daemon query tx [hash] [flags]
+  paxd query tx [hash] [flags]
 
 Flags:
       --height int      Use a specific height to query state at (this can error if the node is pruning state)
@@ -114,7 +125,7 @@ Flags:
 
 Global Flags:
       --chain-id string     The network chain ID
-      --home string         directory for config and data (default "/home/vitwit/.cosmos-daemon")
+      --home string         directory for config and data (default "/home/<username>/.pax")
       --log_format string   The logging format (json|plain) (default "plain")
       --log_level string    The logging level (trace|debug|info|warn|error|fatal|panic) (default "info")
       --trace               print out full stack trace on errors
@@ -126,12 +137,12 @@ Delegate some tokens to validator i.e., bonding tokens.
 ### Usage
 
 ```bash
-cosmos-daemon tx staking delegate <validator-address> <amount-with-denom> --from <from-account> -y
+paxd tx staking delegate <validator-address> <amount-with-denom> --from <from-account> -y
 ```
 ### Example
 
 ```
-cosmos-daemon tx staking delegate unigridvaloper1qgjla78dk2yk2eh6dmjeejz6m374ykdtpgp92s 1000000ugd --chain-id devnet --from alice -y
+paxd tx staking delegate unigridvaloper1qgjla78dk2yk2eh6dmjeejz6m374ykdtpgp92s 1000000ugd --chain-id devnet --from alice -y
 
 {"height":"0","txhash":"F48C925F2F37766660D044DCAD0DC9A4CF51E454E184BC817EFD32ADA501ADD7","raw_log":"[]"}
 ```
@@ -139,11 +150,11 @@ cosmos-daemon tx staking delegate unigridvaloper1qgjla78dk2yk2eh6dmjeejz6m374ykd
 ### More info
 
 ```
-cosmos-daemon tx staking delegate -h
+paxd tx staking delegate -h
 Delegate an amount of liquid coins to a validator from your wallet.
 
 Usage:
-  cosmos-daemon tx staking delegate [validator-addr] [amount] [flags]
+  paxd tx staking delegate [validator-addr] [amount] [flags]
 
 Flags:
   -a, --account-number uint      The account number of the signing account (offline mode only)
@@ -182,13 +193,13 @@ Redelegate some tokens from one validator to another.
 ### Usage
 
 ```bash
-cosmos-daemon tx staking redelegate <src-validator-address> <dest-validator-address> <amount-with-denom> --from <from-account> -y -o json
+paxd tx staking redelegate <src-validator-address> <dest-validator-address> <amount-with-denom> --from <from-account> -y -o json
 ```
 
 ### Example
 
 ```
-cosmos-daemon tx staking redelegate unigridvaloper1qgjla78dk2yk2eh6dmjeejz6m374ykdtpgp92s unigridvaloper16q6s0tauc3cks5us7f57wds8c8lqg4jq6dwddr 1000000ugd --chain-id devnet --from alice -y -o json
+paxd tx staking redelegate unigridvaloper1qgjla78dk2yk2eh6dmjeejz6m374ykdtpgp92s unigridvaloper16q6s0tauc3cks5us7f57wds8c8lqg4jq6dwddr 1000000ugd --chain-id devnet --from alice -y -o json
 
 {"height":"0","txhash":"295A56A7B4DA7DE3266329981945307FF73ACFF1CCD319D1E1AE53DF16E0125E","raw_log":"[]"}
 ```
@@ -196,20 +207,20 @@ cosmos-daemon tx staking redelegate unigridvaloper1qgjla78dk2yk2eh6dmjeejz6m374y
 ### More info
 
 ```
-cosmos-daemond tx staking redelegate -h
+paxd tx staking redelegate -h
 Redelegate an amount of illiquid staking tokens from one validator to another.
 
 Example:
-$ cosmos-daemond tx staking redelegate unigridvaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj unigridvaloper1l2rsakp388kuv9k8qzq6lrm9taddae7fpx59wm 100ugd --from mykey
+$ paxd tx staking redelegate unigridvaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj unigridvaloper1l2rsakp388kuv9k8qzq6lrm9taddae7fpx59wm 100ugd --from mykey
 
 Usage:
-  cosmos-daemond tx staking redelegate [src-validator-addr] [dst-validator-addr] [amount] [flags]
+  paxd tx staking redelegate [src-validator-addr] [dst-validator-addr] [amount] [flags]
 
 Flags:
   -a, --account-number uint      The account number of the signing account (offline mode only)
       --aux                      Generate aux signer data instead of sending a tx
   -b, --broadcast-mode string    Transaction broadcasting mode (sync|async) (default "sync")
-      --chain-id string          The network chain ID (default "cosmosdaemon")
+      --chain-id string          The network chain ID (default "unigrid-mainnet")
       --dry-run                  ignore the --gas flag and perform a simulation of a transaction, but don't broadcast it (when enabled, the local Keybase is not accessible)
       --fee-granter string       Fee granter grants fees for the transaction
       --fee-payer string         Fee payer pays fees for the transaction instead of deducting from the signer
@@ -235,7 +246,7 @@ Flags:
 
 Global Flags:
       --hedgehog string     Pass the Hedgehog URL
-      --home string         directory for config and data (default "/home/marcus/.cosmos-daemon")
+      --home string         directory for config and data (default "/home/<username>/.pax")
       --log_format string   The logging format (json|plain) (default "plain")
       --log_level string    The logging level (trace|debug|info|warn|error|fatal|panic) (default "info")
       --trace               print out full stack trace on errors
@@ -247,13 +258,13 @@ Undelegate some tokens from validator i.e., unbonding tokens.
 ### Usage
 
 ```bash
-cosmos-daemon tx staking unbond <validator-address> <amount-with-denom> --from <from-account> -y -o json
+paxd tx staking unbond <validator-address> <amount-with-denom> --from <from-account> -y -o json
 ```
 
 ### Example
 
 ```
-cosmos-daemon tx staking unbond unigridvaloper1qgjla78dk2yk2eh6dmjeejz6m374ykdtpgp92s 1000000ugd --chain-id devnet --from alice -y -o json
+paxd tx staking unbond unigridvaloper1qgjla78dk2yk2eh6dmjeejz6m374ykdtpgp92s 1000000ugd --chain-id devnet --from alice -y -o json
 
 {"height":"0","txhash":"F48C925F2F37766660D044DCAD0DC9A4CF51E454E184BC817EFD32ADA501ADD7","raw_log":"[]"}
 ```
@@ -261,20 +272,20 @@ cosmos-daemon tx staking unbond unigridvaloper1qgjla78dk2yk2eh6dmjeejz6m374ykdtp
 ### More info
 
 ```
-cosmos-daemond tx staking unbond -h
+paxd tx staking unbond -h
 Unbond an amount of bonded shares from a validator.
 
 Example:
-$ cosmos-daemond tx staking unbond unigridvaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj 100ugd --from mykey
+$ paxd tx staking unbond unigridvaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj 100ugd --from mykey
 
 Usage:
-  cosmos-daemond tx staking unbond [validator-addr] [amount] [flags]
+  paxd tx staking unbond [validator-addr] [amount] [flags]
 
 Flags:
   -a, --account-number uint      The account number of the signing account (offline mode only)
       --aux                      Generate aux signer data instead of sending a tx
   -b, --broadcast-mode string    Transaction broadcasting mode (sync|async) (default "sync")
-      --chain-id string          The network chain ID (default "cosmosdaemon")
+      --chain-id string          The network chain ID (default "unigrid-mainnet")
       --dry-run                  ignore the --gas flag and perform a simulation of a transaction, but don't broadcast it (when enabled, the local Keybase is not accessible)
       --fee-granter string       Fee granter grants fees for the transaction
       --fee-payer string         Fee payer pays fees for the transaction instead of deducting from the signer
@@ -300,7 +311,7 @@ Flags:
 
 Global Flags:
       --hedgehog string     Pass the Hedgehog URL
-      --home string         directory for config and data (default "/home/marcus/.cosmos-daemon")
+      --home string         directory for config and data (default "/home/<username>/.pax")
       --log_format string   The logging format (json|plain) (default "plain")
       --log_level string    The logging level (trace|debug|info|warn|error|fatal|panic) (default "info")
       --trace               print out full stack trace on errors
@@ -313,38 +324,38 @@ Withdraw rewards from validator
 ### Usage
 
 ```bash
-cosmos-daemond tx distribution withdraw-rewards [validator-addr] [flags]
+paxd tx distribution withdraw-rewards [validator-addr] [flags]
 ```
 
 ### Example
 
 ```bash
-cosmos-daemond tx distribution withdraw-rewards unigridvaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj --from mykey
+paxd tx distribution withdraw-rewards unigridvaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj --from mykey
 ```
 
 ```bash
-cosmos-daemond tx distribution withdraw-rewards unigridvaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj --from mykey --commission
+paxd tx distribution withdraw-rewards unigridvaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj --from mykey --commission
 ```
 
 ### More info
 
 ```
-cosmos-daemond tx distribution withdraw-rewards -h
+paxd tx distribution withdraw-rewards -h
 Withdraw rewards from a given delegation address,
 and optionally withdraw validator commission if the delegation address given is a validator operator.
 
 Example:
-$ cosmos-daemond tx distribution withdraw-rewards unigridvaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj --from mykey
-$ cosmos-daemond tx distribution withdraw-rewards unigridvaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj --from mykey --commission
+$ paxd tx distribution withdraw-rewards unigridvaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj --from mykey
+$ paxd tx distribution withdraw-rewards unigridvaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj --from mykey --commission
 
 Usage:
-  cosmos-daemond tx distribution withdraw-rewards [validator-addr] [flags]
+  paxd tx distribution withdraw-rewards [validator-addr] [flags]
 
 Flags:
   -a, --account-number uint      The account number of the signing account (offline mode only)
       --aux                      Generate aux signer data instead of sending a tx
   -b, --broadcast-mode string    Transaction broadcasting mode (sync|async) (default "sync")
-      --chain-id string          The network chain ID (default "cosmosdaemon")
+      --chain-id string          The network chain ID (default "unigrid-mainnet")
       --commission               Withdraw the validator's commission in addition to the rewards
       --dry-run                  ignore the --gas flag and perform a simulation of a transaction, but don't broadcast it (when enabled, the local Keybase is not accessible)
       --fee-granter string       Fee granter grants fees for the transaction
@@ -371,7 +382,7 @@ Flags:
 
 Global Flags:
       --hedgehog string     Pass the Hedgehog URL
-      --home string         directory for config and data (default "/home/marcus/.cosmos-daemon")
+      --home string         directory for config and data (default "/home/<username>/.pax")
       --log_format string   The logging format (json|plain) (default "plain")
       --log_level string    The logging level (trace|debug|info|warn|error|fatal|panic) (default "info")
       --trace               print out full stack trace on errors
@@ -384,31 +395,31 @@ Query all rewards earned by a delegator, optionally restrict to rewards from a s
 ### Usage
 
 ```bash
-cosmos-daemond query distribution rewards [delegator-addr] [validator-addr] [flags]
+paxd query distribution rewards [delegator-addr] [validator-addr] [flags]
 ```
 
 ### Example
 
 ```bash
-cosmos-daemond query distribution rewards unigrid1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p
+paxd query distribution rewards unigrid1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p
 ```
 
 ```bash
-cosmos-daemond query distribution rewards unigrid1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p unigridvaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj
+paxd query distribution rewards unigrid1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p unigridvaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj
 ```
 
 ### More info
 
 ```
-cosmos-daemond query distribution rewards -h
+paxd query distribution rewards -h
 Query all rewards earned by a delegator, optionally restrict to rewards from a single validator.
 
 Example:
-$ cosmos-daemond query distribution rewards unigrid1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p
-$ cosmos-daemond query distribution rewards unigrid1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p unigridvaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj
+$ paxd query distribution rewards unigrid1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p
+$ paxd query distribution rewards unigrid1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p unigridvaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj
 
 Usage:
-  cosmos-daemond query distribution rewards [delegator-addr] [validator-addr] [flags]
+  paxd query distribution rewards [delegator-addr] [validator-addr] [flags]
 
 Flags:
       --grpc-addr string   the gRPC endpoint to use for this chain
@@ -419,9 +430,9 @@ Flags:
   -o, --output string      Output format (text|json) (default "text")
 
 Global Flags:
-      --chain-id string     The network chain ID (default "cosmosdaemon")
+      --chain-id string     The network chain ID (default "unigrid-mainnet")
       --hedgehog string     Pass the Hedgehog URL
-      --home string         directory for config and data (default "/home/marcus/.cosmos-daemon")
+      --home string         directory for config and data (default "/home/<username>/.pax")
       --log_format string   The logging format (json|plain) (default "plain")
       --log_level string    The logging level (trace|debug|info|warn|error|fatal|panic) (default "info")
       --trace               print out full stack trace on errors
@@ -434,31 +445,31 @@ Query the total balance of an account or of a specific denomination.
 ### Usage
 
 ```bash
-cosmos-daemond query bank balances [address] [flags]
+paxd query bank balances [address] [flags]
 ```
 
 ### Example
 
 ```bash
-cosmos-daemond query bank balances [address]
+paxd query bank balances [address]
 ```
 
 ```bash
-cosmos-daemond query bank balances [address] --denom=[denom]
+paxd query bank balances [address] --denom=[denom]
 ```
 
 ### More info
 
 ```
-cosmos-daemond query bank balances -h
+paxd query bank balances -h
 Query the total balance of an account or of a specific denomination.
 
 Example:
-  $ cosmos-daemond query bank balances [address]
-  $ cosmos-daemond query bank balances [address] --denom=[denom]
+  $ paxd query bank balances [address]
+  $ paxd query bank balances [address] --denom=[denom]
 
 Usage:
-  cosmos-daemond query bank balances [address] [flags]
+  paxd query bank balances [address] [flags]
 
 Flags:
       --count-total        count total number of records in all balances to query for
@@ -476,9 +487,9 @@ Flags:
       --reverse            results are sorted in descending order
 
 Global Flags:
-      --chain-id string     The network chain ID (default "cosmosdaemon")
+      --chain-id string     The network chain ID (default "unigrid-mainnet")
       --hedgehog string     Pass the Hedgehog URL
-      --home string         directory for config and data (default "/home/marcus/.cosmos-daemon")
+      --home string         directory for config and data (default "/home/<username>/.pax")
       --log_format string   The logging format (json|plain) (default "plain")
       --log_level string    The logging level (trace|debug|info|warn|error|fatal|panic) (default "info")
       --trace               print out full stack trace on errors
@@ -491,13 +502,13 @@ Provide seed phrase to recover existing key instead of creating.
 ### Usage
 
 ```bash
-cosmos-daemon keys add <key-name> --recover
+paxd keys add <key-name> --recover
 ```
 
 ### Example
 
 ```
-cosmos-daemon keys add alice --recover
+paxd keys add alice --recover
 > Enter your bip39 mnemonic
 close super rare vicious core supreme collect fatigue maid cupboard throw surge notable phrase brand actual high track stay visual afraid lot dizzy wedding
 
@@ -517,7 +528,7 @@ Export a private key from the local keybase in ASCII-armored encrypted format. E
 ### Usage
 
 ```
-cosmos-daemon keys export <key-name>
+paxd keys export <key-name>
 ```
 
 ### Example
@@ -543,7 +554,7 @@ Import a file with ASCII armored private key into the local keybase. Required ke
 ### Usage
 
 ```bash
-cosmos-daemon keys import <key-name> <keyfile>
+paxd keys import <key-name> <keyfile>
 ```
 
 ### Example
@@ -560,7 +571,7 @@ Generating a transaction can simply be done by appending the --generate-only fla
 ### Example
 
 ```bash
-cosmos-daemon tx send bob unigrid12wlzqjelrt87r3u56ps4m8lk7wavx5m5jg9cax 10000000uugd --chain-id devnet --generate-only
+paxd tx send bob unigrid12wlzqjelrt87r3u56ps4m8lk7wavx5m5jg9cax 10000000uugd --chain-id devnet --generate-only
 ```
 
 This will output the unsigned transaction as JSON in the console. We can also save the unsigned transaction to a file by appending > unsigned_tx.json to the above command.
@@ -570,7 +581,7 @@ This will output the unsigned transaction as JSON in the console. We can also sa
 Signing a transaction using the CLI requires the unsigned transaction to be saved in a file.
 
 ```bash
-cosmos-daemon tx sign unsigned_tx.json --chain-id devnet --from alice
+paxd tx sign unsigned_tx.json --chain-id devnet --from alice
 ```
 
 This command will decode the unsigned transaction and sign it with SIGN_MODE_DIRECT with alice's key, which we already set up in the keyring. The signed transaction will be output as JSON to the console, and we can save it to a file by appending ` > signed_tx.json`.
@@ -627,7 +638,7 @@ CpABCo0BChwvY29zbW9zLmJhbmsudjFiZXRhMS5Nc2dTZW5kEm0KLGFrYXNoMTZxNnMwdGF1YzNja3M1
 
 ```
 Usage:
-  cosmos-daemon tx encode [file] [flags]
+  paxd tx encode [file] [flags]
 
 Flags:
   -a, --account-number uint      The account number of the signing account (offline mode only)
@@ -701,7 +712,7 @@ Flags:
 
 Global Flags:
       --chain-id string     The network chain ID
-      --home string         directory for config and data (default "/home/vitwit/.cosmos-daemon")
+      --home string         directory for config and data (default "/home/.pax")
       --log_format string   The logging format (json|plain) (default "plain")
       --log_level string    The logging level (trace|debug|info|warn|error|fatal|panic) (default "info")
       --trace               print out full stack trace on errors
@@ -712,7 +723,7 @@ Global Flags:
 Broadcasting a transaction using the REST endpoint (served by gRPC-gateway) can be done by sending a POST request as follows, where the txBytes are the protobuf-encoded bytes of a signed transaction:
 
 ```
-curl -X POST -H "Content-Type: application/json" -d'{"tx_bytes":"{{txBytes}}","mode":"BROADCAST_MODE_SYNC"}' localhost:1317/cosmos-daemon/tx/v1beta1/txs
+curl -X POST -H "Content-Type: application/json" -d'{"tx_bytes":"{{txBytes}}","mode":"BROADCAST_MODE_SYNC"}' localhost:1317/cosmos/tx/v1beta1/txs
 ```
 
 Here, `tx_bytes` value will be encoded tx of signed transaction.
