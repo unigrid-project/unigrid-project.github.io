@@ -2,6 +2,7 @@
 layout: default
 title: How to get testnet tokens
 parent: Testnet
+nav_order: 2
 ---
 
 # How to get testnet tokens

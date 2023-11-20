@@ -2,6 +2,7 @@
 layout: default
 title: Set up a Validator
 parent: Testnet
+nav_order: 1
 ---
 
 # Set up a Validator
@@ -26,7 +27,7 @@ parent: Testnet
 For details of upgrades on the current testnet, as well as syncing, you can check out the testnets repo. If you get stuck, then please ask on Discord.
 
 - **chain-id**: `unigrid-testnet-1`
-- \*_Current Github release_: [paxd](https://github.com/unigrid-project/chain-testing/releases/)
+- \*_Current Github release_: [paxd](https://github.com/unigrid-project/cosmos-daemon/releases)
 
 ### Minimum Hardware Requirements
 
@@ -40,13 +41,29 @@ For details of upgrades on the current testnet, as well as syncing, you can chec
 
 ### Unigrid Cosmos SDK Pax Installation
 
-To get up and running with the `paxd` binary, download it [here](https://github.com/unigrid-project/chain-testing/releases/download/v0.0.5/paxd).
+The fastest way to get started is to use our automated install and setup script (this can also be run again to reset a node if there are changes).
+```bash
+wget -4qO- -o- https://raw.githubusercontent.com/unigrid-project/unigrid-cosmos-networks/master/unigrid-testnet-1/scripts/pax_reset.sh | bash
+```
+
+This script will:
+- Stop the existing `paxd` service (if it exists).
+- Clear existing data and log files.
+- Download and verify the `genesis.json` file.
+- Download and set up the `paxd` binary.
+- Set up and start the `paxd` service.
+
+**Note:** The script will tail the `paxd` log file at the end. You can exit the log view by pressing `Ctrl+C` and access it again anytime with the command `tail -f ~/.unigrid-testnet-1/paxd.log`.
+
+### Manually
+
+To get up and running with the `paxd` binary, download it [here](https://github.com/unigrid-project/cosmos-daemon/releases).
 
 You can also use wget like below and pull the latest version.
 
 ```bash
 # Get the latest release download URL for paxd from the GitHub API
-DOWNLOAD_URL=$(curl -s https://api.github.com/repos/unigrid-project/chain-testing/releases/latest | grep "browser_download_url.*paxd" | cut -d '"' -f 4)
+DOWNLOAD_URL=$(curl -s https://github.com/unigrid-project/cosmos-daemon/releases/latest | grep "browser_download_url.*paxd" | cut -d '"' -f 4)
 
 echo "Downloading: $DOWNLOAD_URL"
 # Use wget to download the binary
@@ -115,21 +132,6 @@ paxd keys add <key-name> --recover
 paxd keys show <key-name> -a
 ```
 
-# Hedgehog Configuration
-
-Run this command to create the hedgehog.toml file used by the daemon to connect to the Unigrid network.
-
-```bash
-echo -e "# This is a TOML config file.\n# For more information, see https://github.com/toml-lang/toml\n\n###############################################################################\n###                           Hedgehog Configuration                            ###\n###############################################################################\n\n[hedgehog]\n\n# Set the URL hedgehog should use\n# this is for cases like testnet when we dont want it to communicate with mainnnet\nhedgehog_url = \"https://82.208.23.218:39886\"" > /home/$USER/.${CHAIN_ID}/config/hedgehog.toml
-
-```
-
-Hedgehog is the core engine that powers the Unigrid network. It's not just a tool; it's the backbone that provides essential services to the network. When users run gridnodes, they are essentially running instances of Hedgehog, contributing to the network's stability, performance, and functionality.
-
-The provided configuration is specifically tailored for setting up a testnet node. By pointing to an external Hedgehog URL, users can quickly connect their node to the testnet environment. This external endpoint facilitates a more streamlined setup, allowing nodes to communicate and fetch necessary data or perform certain operations without the need for a full local setup.
-
-However, when transitioning to a mainnet environment, it's crucial to have a more robust and secure setup. For mainnet, it's recommended to download and set up Hedgehog directly on the server where the node runs. This ensures a direct, secure connection to the Unigrid network, maximizing reliability and performance.
-
 ### Obtain testnet tokens
 
 After obtaining your address, head over to the [Unigrid Discord](https://discord.gg/JDAYCJ9tEb). Request access to the `#testnet-faucet` channel. Inside, you can interact with the bot using the following command.
@@ -167,6 +169,7 @@ After obtaining your address, head over to the [Unigrid Discord](https://discord
    ```
 
    Replace `<user>` and `<CHAIN_ID>` with appropriate values.
+
 
 2. **Manage the Service**:
 

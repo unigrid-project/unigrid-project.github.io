@@ -12,11 +12,11 @@ The software to run Unigrid and the command-line client used to interact with th
 
 ## Linux install
 
-Download binary for your platform form github using this [link](https://github.com/unigrid-project/paxd/releases/latest)
+For now please follow the Validator instructions on how to install the daemon.
 
-## Build from source
+[Install](../testnet/validator.md){: .btn .btn-blue }
 
-### Install GO
 
->GO version 1.20+ required. 
+
+
 
