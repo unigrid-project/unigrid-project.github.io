@@ -42,11 +42,13 @@ For details of upgrades on the current testnet, as well as syncing, you can chec
 ### Unigrid Cosmos SDK Pax Installation
 
 The fastest way to get started is to use our automated install and setup script (this can also be run again to reset a node if there are changes).
+
 ```bash
 wget -4qO- -o- https://raw.githubusercontent.com/unigrid-project/unigrid-cosmos-networks/master/unigrid-testnet-1/scripts/pax_reset.sh | bash
 ```
 
 This script will:
+
 - Stop the existing `paxd` service (if it exists).
 - Clear existing data and log files.
 - Download and verify the `genesis.json` file.
@@ -158,7 +160,8 @@ After obtaining your address, head over to the [Unigrid Discord](https://discord
 
    [Service]
    User=unigrid
-   ExecStart=/usr/local/bin/paxd start --home=/home/<username>/.unigrid-testnet-1 --hedgehog=https://82.208.23.218:39886 --p2p.seeds "e5e85ef8eaa493c566108823519bd2c89b3a7803@194.233.95.48:26656,666d2cc217a5aef8b6b7fc8608706df76640b42a@38.242.156.2:26656"
+   ExecStart=/usr/local/bin/paxd start --home=/home/<username>/.unigrid-testnet-1 --hedgehog=https://82.208.23.218:39886 --p2p.seeds "8f278bf57932e1f808aefc7c82aaaf130470e2bd@194.233.95.48:26656,e339ab8163a2774fccbc78ff09ffbf0991adc310@38.242.156.2:26656"
+   Restart=always
    Restart=always
    RestartSec=3
    StandardOutput=file:/home/<user>/.<CHAIN_ID>/paxd.log
@@ -169,7 +172,6 @@ After obtaining your address, head over to the [Unigrid Discord](https://discord
    ```
 
    Replace `<user>` and `<CHAIN_ID>` with appropriate values.
-
 
 2. **Manage the Service**:
 
