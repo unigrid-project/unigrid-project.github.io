@@ -42,11 +42,14 @@ nav_order: 2
 
 - After connecting, access the dashboard to view your Unigrid testnet address.
 
-### 4. Acquire Testnet Tokens
+### 4. Acquire Testnet Tokens 🚰
 
 - Join the Unigrid [Discord channel](https://discord.gg/JDAYCJ9tEb).
 - Request access to the #testnet-faucet channel.
 - Use the bot in this channel to mint testnet tokens by typing: `/faucet <your-address>`
+
+
+> If you are a validator and in need of more funds, you can request them via this [form](https://forms.gle/Ubv2u6T1AWgWkTRS9).
 
 ### 5. Delegate Tokens for Staking
 

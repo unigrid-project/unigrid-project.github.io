@@ -41,6 +41,7 @@ For details of upgrades on the current testnet, as well as syncing, you can chec
 
 ### Unigrid Cosmos SDK Pax Installation
 
+# Auto Setup
 The fastest way to get started is to use our automated install and setup script (this can also be run again to reset a node if there are changes).
 
 ```bash
@@ -57,7 +58,7 @@ This script will:
 
 **Note:** The script will tail the `paxd` log file at the end. You can exit the log view by pressing `Ctrl+C` and access it again anytime with the command `tail -f ~/.unigrid-testnet-1/paxd.log`.
 
-### Manually
+# Manual Setup
 
 To get up and running with the `paxd` binary, download it [here](https://github.com/unigrid-project/cosmos-daemon/releases).
 
@@ -118,29 +119,25 @@ paxd init $MONIKER_NAME --chain-id $CHAIN_ID
 ### Download the genesis file
 
 ```bash
-curl https://raw.githubusercontent.com/unigrid-project/chain-testing/master/genesis.json > ~/.$CHAIN_ID/config/genesis.json
+curl https://github.com/unigrid-project/unigrid-cosmos-networks/blob/master/unigrid-testnet-1/genesis/genesis.json > ~/.$CHAIN_ID/config/genesis.json
 ```
 
 #### Create a local key pair
 
 ```bash
 # Create new keypair
-paxd keys add <key-name>
+paxd keys add <key-name> --home=/home/<user>/.unigrid-testnet-1
 
 # Restore existing wallet with mnemonic seed phrase.
-paxd keys add <key-name> --recover
+paxd keys add <key-name> --recover --home=/home/<user>/.unigrid-testnet-1
 
 # Query the keystore for your public address
-paxd keys show <key-name> -a
+paxd keys show <key-name> -a --home=/home/<user>/.unigrid-testnet-1
 ```
 
 ### Obtain testnet tokens
 
-After obtaining your address, head over to the [Unigrid Discord](https://discord.gg/JDAYCJ9tEb). Request access to the `#testnet-faucet` channel. Inside, you can interact with the bot using the following command.
-
-```
-/faucet <address>
-```
+If you are interested in running a validator on our testnet and require funds (10000.00000000 ugd), please submit your request through our dedicated [Validator Funding Request Form](https://forms.gle/Ubv2u6T1AWgWkTRS9). This form is specifically designed to facilitate the allocation of the necessary testnet tokens to support your validator operations.
 
 # Setting up Cosmos Daemon as a Service
 
@@ -234,9 +231,11 @@ Run the following command to get the validator keys:
 paxd tendermint show-validator --home=/home/$USER/.$CHAIN_ID
 ```
 
+> The required tokens to run a validator on our testnet is 1000000000000 (10,000 tokens) on mainnet it will be a much lower amount.
+
 ```bash
 paxd tx staking create-validator \
- --amount 100000000ugd \
+ --amount 1000000000000ugd \
  --commission-max-change-rate "0.1" \
  --commission-max-rate "0.20" \
  --commission-rate "0.1" \
@@ -269,12 +268,15 @@ paxd query tendermint-validator-set | grep -A 4 "<YOUR_VALIDATOR_CONSENSUS_ADDRE
 For example:
 
 ```bash
-paxd query tendermint-validator-set | grep -A 4 "unigridvalcons1r6yxnhqh4xl2ckdfxlc2d4lt9nlphkjzzzq08w"
-- address: unigridvalcons1r6yxnhqh4xl2ckdfxlc2d4lt9nlphkjzzzq08w
-  proposer_priority: "242500"
+paxd query tendermint-validator-set | grep -A 4 "unigridvalcons1qm7qj5t96yz8xehx6533hfm3m8nd67la29xxwr"
+```
+### Result
+```
+- address: unigridvalcons1qm7qj5t96yz8xehx6533hfm3m8nd67la29xxwr
+  proposer_priority: "0"
   pub_key:
     type: tendermint/PubKeyEd25519
-    value: ZB6Oyiz0AZ9JnyOhOPZEoJoXRKvZdwhInaJbSvzGBYs=
+    value: OX65CA4ca/FYrcwz1cRcoSJFeLW940n9FaC9HK25zXc=
 ```
 
 # Monitoring a Cosmos SDK Validator
