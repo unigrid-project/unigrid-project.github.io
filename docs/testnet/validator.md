@@ -245,6 +245,7 @@ paxd tx staking create-validator \
  --moniker $MONIKER_NAME \
  --chain-id $CHAIN_ID \
  --gas-prices 0.025ugd \
+ --home=.$CHAIN_ID \
  --from <key-name>
 ```
 
