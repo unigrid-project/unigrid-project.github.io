@@ -262,6 +262,7 @@ Backup the following files located in `~/.$CHAIN_ID/config/`:
 
 You can use this command to check if your validator is registered.
 
+> This will expect your unigridvalcons address, so if your address is `unigrid1qm7qj5t96yz8xehx6533hfm3m8nd67la29xxwr` you will pass in `unigridvalcons1qm7qj5t96yz8xehx6533hfm3m8nd67la29xxwr`
 ```bash
 paxd query tendermint-validator-set | grep -A 4 "<YOUR_VALIDATOR_CONSENSUS_ADDRESS>"
 ```
