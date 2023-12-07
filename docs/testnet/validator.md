@@ -157,7 +157,7 @@ If you are interested in running a validator on our testnet and require funds (1
 
    [Service]
    User=unigrid
-   ExecStart=/usr/local/bin/paxd start --home=/home/<username>/.unigrid-testnet-1 --hedgehog=https://82.208.23.218:39886 --p2p.seeds "8f278bf57932e1f808aefc7c82aaaf130470e2bd@194.233.95.48:26656,e339ab8163a2774fccbc78ff09ffbf0991adc310@38.242.156.2:26656"
+   ExecStart=/usr/local/bin/paxd start --home=/home/<username>/.unigrid-testnet-1 --hedgehog=https://149.102.147.45:39886 --p2p.seeds "8f278bf57932e1f808aefc7c82aaaf130470e2bd@194.233.95.48:26656,e339ab8163a2774fccbc78ff09ffbf0991adc310@38.242.156.2:26656"
    Restart=always
    Restart=always
    RestartSec=3
