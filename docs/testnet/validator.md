@@ -56,7 +56,7 @@ This script will:
 - Download and set up the `paxd` binary.
 - Set up and start the `paxd` service.
 
-**Note:** The script will tail the `paxd` log file at the end. You can exit the log view by pressing `Ctrl+C` and access it again anytime with the command `tail -f ~/.unigrid-testnet-4/paxd.log`.
+**Note:** The script will tail the `paxd` log file at the end. You can exit the log view by pressing `Ctrl+C` and access it again anytime with the command `tail -f ~/.pax/paxd.log`.
 
 # Manual Setup
 
