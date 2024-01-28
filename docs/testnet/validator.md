@@ -26,7 +26,7 @@ nav_order: 1
 
 For details of upgrades on the current testnet, as well as syncing, you can check out the testnets repo. If you get stuck, then please ask on Discord.
 
-- **chain-id**: `unigrid-testnet-1`
+- **chain-id**: `unigrid-testnet-4`
 - \*_Current Github release_: [paxd](https://github.com/unigrid-project/cosmos-daemon/releases)
 
 ### Minimum Hardware Requirements
@@ -45,7 +45,7 @@ For details of upgrades on the current testnet, as well as syncing, you can chec
 The fastest way to get started is to use our automated install and setup script (this can also be run again to reset a node if there are changes).
 
 ```bash
-wget -4qO- -o- https://raw.githubusercontent.com/unigrid-project/unigrid-cosmos-networks/master/unigrid-testnet-1/scripts/pax_reset.sh | bash
+wget -4qO- -o- https://raw.githubusercontent.com/unigrid-project/unigrid-cosmos-networks/master/unigrid-testnet-4/scripts/pax_reset.sh | bash
 ```
 
 This script will:
@@ -56,7 +56,7 @@ This script will:
 - Download and set up the `paxd` binary.
 - Set up and start the `paxd` service.
 
-**Note:** The script will tail the `paxd` log file at the end. You can exit the log view by pressing `Ctrl+C` and access it again anytime with the command `tail -f ~/.unigrid-testnet-1/paxd.log`.
+**Note:** The script will tail the `paxd` log file at the end. You can exit the log view by pressing `Ctrl+C` and access it again anytime with the command `tail -f ~/.unigrid-testnet-4/paxd.log`.
 
 # Manual Setup
 
@@ -99,7 +99,7 @@ For this guide, we will be using shell variables. Set them explicitly in your sh
 
 ```bash
 # Set the CHAIN_ID
-CHAIN_ID=unigrid-testnet-1
+CHAIN_ID=unigrid-testnet-4
 
 # Set your moniker name
 MONIKER_NAME="<moniker-name>"
@@ -119,20 +119,20 @@ paxd init $MONIKER_NAME --chain-id $CHAIN_ID
 ### Download the genesis file
 
 ```bash
-curl https://github.com/unigrid-project/unigrid-cosmos-networks/blob/master/unigrid-testnet-1/genesis/genesis.json > ~/.$CHAIN_ID/config/genesis.json
+curl https://github.com/unigrid-project/unigrid-cosmos-networks/blob/master/unigrid-testnet-4/genesis/genesis.json > ~/.pax/config/genesis.json
 ```
 
 #### Create a local key pair
 
 ```bash
 # Create new keypair
-paxd keys add <key-name> --home=/home/<user>/.unigrid-testnet-1
+paxd keys add <key-name>
 
 # Restore existing wallet with mnemonic seed phrase.
-paxd keys add <key-name> --recover --home=/home/<user>/.unigrid-testnet-1
+paxd keys add <key-name> --recover
 
 # Query the keystore for your public address
-paxd keys show <key-name> -a --home=/home/<user>/.unigrid-testnet-1
+paxd keys show <key-name> -a
 ```
 
 ### Obtain testnet tokens
@@ -156,19 +156,19 @@ If you are interested in running a validator on our testnet and require funds (1
    After=network.target
 
    [Service]
-   User=unigrid
-   ExecStart=/usr/local/bin/paxd start --home=/home/<username>/.unigrid-testnet-1 --hedgehog=https://149.102.147.45:39886 --p2p.seeds "8f278bf57932e1f808aefc7c82aaaf130470e2bd@194.233.95.48:26656,e339ab8163a2774fccbc78ff09ffbf0991adc310@38.242.156.2:26656"
+   User=<user>
+   ExecStart=/usr/local/bin/paxd start --home=/home/<user>/.pax --hedgehog=https://149.102.147.45:39886 --p2p.seeds "8f278bf57932e1f808aefc7c82aaaf130470e2bd@194.233.95.48:26656,e339ab8163a2774fccbc78ff09ffbf0991adc310@38.242.156.2:26656"
    Restart=always
    Restart=always
    RestartSec=3
-   StandardOutput=file:/home/<user>/.<CHAIN_ID>/paxd.log
-   StandardError=file:/home/<user>/.<CHAIN_ID>/paxd-error.log
+   StandardOutput=file:/home/<user>/.pax/paxd.log
+   StandardError=file:/home/<user>/.pax/paxd-error.log
 
    [Install]
    WantedBy=multi-user.target
    ```
 
-   Replace `<user>` and `<CHAIN_ID>` with appropriate values.
+   Replace `<user>` with appropriate values.
 
 2. **Manage the Service**:
 
@@ -218,7 +218,7 @@ Remember to monitor the logs and the service status regularly to ensure smooth o
 To monitor the syncing process you can tail the log file like this.
 
 ```bash
-tail -f /home/$USER/.CHAIN_ID/paxd.log
+tail -f /home/$USER/.pax/paxd.log
 ```
 
 ### Upgrade to a validator
@@ -228,30 +228,49 @@ tail -f /home/$USER/.CHAIN_ID/paxd.log
 Run the following command to get the validator keys:
 
 ```bash
-paxd tendermint show-validator --home=/home/$USER/.$CHAIN_ID
+paxd tendermint show-validator
 ```
 
 > The required tokens to run a validator on our testnet is 1000000000000 (10,000 tokens) on mainnet it will be a much lower amount.
 
+#### Create a json file for your validator
+
+Get your validator key: 
 ```bash
-paxd tx staking create-validator \
- --amount 1000000000000ugd \
- --commission-max-change-rate "0.1" \
- --commission-max-rate "0.20" \
- --commission-rate "0.1" \
- --min-self-delegation "1" \
- --details "Validators don't just validate; they also drop epic bios!" \
- --pubkey=$(paxd tendermint show-validator --home=/home/$USER/.$CHAIN_ID) \
- --moniker $MONIKER_NAME \
- --chain-id $CHAIN_ID \
- --gas-prices 0.025ugd \
- --home=.$CHAIN_ID \
- --from <key-name>
+paxd tendermint show-validator
+```
+Example result:
+```
+{"@type":"/cosmos.crypto.ed25519.PubKey","key":"JHlFY5CXJ/Sh8Be2JRSxxlMYH7Iie92iZX76rN5c75M="}
+
+```
+#### Add Avatar (not required)
+The `--identity` can be used as to verify identity with systems like Keybase or UPort. When using Keybase, `--identity` should be populated with a 16-digit string that is generated with a [keybase.io](https://keybase.io/) account. It's a cryptographically secure method of verifying your identity across multiple online networks. The Keybase API allows us to retrieve your Keybase avatar. This is how you can add a logo to your validator profile.
+
+Example my-validator.json:
+```bash
+{
+  "pubkey": {"@type":"/cosmos.crypto.ed25519.PubKey","key":"JHlFY5CXJ/Sh8Be2JRSxxlMYH7Iie92iZX76rN5c75M="},
+  "amount": "1000000000000ugd",
+  "moniker": "Hedgehogs Validator",
+  "identity": "<keybase 16-digit string",
+  "website": "https://unigrid.org",
+  "details": "Validators don't just validate; they also drop epic bios!",
+  "commission-rate": "0.1",
+  "commission-max-rate": "0.20",
+  "commission-max-change-rate": "0.1",
+  "min-self-delegation": "1000000000000"
+}
+```
+
+Start your validator:
+```bash
+paxd tx staking create-validator path/to/my-validator.json --from <keyname> --chain-id unigrid-testnet-4
 ```
 
 ### Backup critical files
 
-Backup the following files located in `~/.$CHAIN_ID/config/`:
+Backup the following files located in `~/.pax/config/`:
 
 - `priv_validator_key.json`
 - `node_key.json`
