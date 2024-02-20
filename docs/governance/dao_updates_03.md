@@ -16,23 +16,26 @@ published: true
 
 ## Authors and Credit 
 
-- Blockchain Governance Team: [Unigrid](https://www.unigrid.org/), [Discord](https://discord.gg/wTkQKHP8yP), [Twitter](http://www.twitter.com/unigrid_org)
+- Unigrid DAO Governance Committee: [The Unigrid Foundation](https://unigrid.org), [Discord](https://discord.gg/wTkQKHP8yP), [Twitter](http://www.twitter.com/unigrid_org)
 
 ## Status 
 
 DRAFT
 
-> Use DRAFT if the Governance Proposal is in a draft stage or PROPOSED if it's in review. You can read more about governance proposal stages [here](../best-practices.md).
-
 ## Proposal
 
-> This proposal aims to revise the tokenomics of our blockchain by reducing the total token supply from 150,000,000 to 100,000,000 and adjusting the vesting schedule. Additionally, it proposes to decrease the quorum required for votes to pass from 50% to 30%.
+> This proposal seeks to strategically adapt the tokenomics and governance model of our blockchain to better align with current market conditions and the evolving blockchain ecosystem. The primary objectives are to reduce the total token supply from 150,000,000 to 100,000,000, adjust the vesting schedule, and lower the quorum required for votes from 50% to 30% for operational adjustments and from 66% to 40% for strategic decisions.
 
 ## Context
 
-The current token supply and vesting schedule were established under different market conditions. Since then, our ecosystem has evolved, necessitating a more agile and adaptive tokenomic structure. Reducing the total supply aims to enhance the project's appeal to investors and market participants, potentially increasing token value and decreasing the project's Fully Diluted Valuation (FDV). A streamlined vesting schedule aligns more closely with our accelerated development and market engagement timelines. The reduction in quorum threshold for votes is proposed in response to the challenges faced in reaching the current 50% requirement, which poses a risk of stagnation and inability to adapt swiftly to changing market conditions.
+In the rapidly evolving landscape of blockchain technology and markets, our project's initial token supply and vesting schedule, established under different conditions, now require a more dynamic and flexible approach. Reducing the total supply is anticipated to increase the attractiveness of the project to investors and participants by potentially enhancing token value and reducing the project's Fully Diluted Valuation (FDV). A revised vesting schedule is proposed to more closely match the project’s accelerated development phase and active market engagement.
 
-The blockchain ecosystem is dynamically evolving, and our DAO governance model needs to adapt accordingly. The current high quorum requirements have become a significant barrier to effective decision-making, especially as the number of nodes and potential voters increases. This can lead to stagnation in governance, as achieving a 50% quorum becomes increasingly challenging. The proposed reduction in quorum to 30% for minor changes and 40% for major changes is designed to enhance governance agility and responsiveness, ensuring that vital decisions can be made efficiently without being hindered by participation challenges.
+Additionally, the current quorum requirements for DAO governance have proven to be a significant challenge, particularly as the number of nodes and potential voters within our ecosystem expands. This growth, while positive, has inadvertently led to difficulties in reaching the required quorum for decision-making. As a result, important decisions are at risk of being delayed or becoming stagnant, hindering the project's ability to adapt and respond promptly to new opportunities or challenges.
+
+The proposed reduction in quorum requirements is a strategic response to these challenges. Lowering the threshold to 30% for operational adjustments allows for more efficient day-to-day decision-making, ensuring that essential but routine decisions are not impeded by a high quorum barrier. Similarly, setting a 40% threshold for strategic decisions strikes a balance between requiring substantial community involvement and acknowledging the practical difficulties in achieving a higher quorum as the number of stakeholders grows. This change is aimed at enhancing the DAO's governance agility and ensuring that critical decisions can be made in a timely manner, reflecting both the needs of the community and the realities of a larger and more diverse voter base.
+
+Through these adjustments, we are proposing a more resilient and responsive governance model that is better suited to the dynamic nature of the blockchain environment, supporting the project’s growth and success in the long term.
+
 
 ## Revised Token Distribution
 
@@ -54,10 +57,10 @@ The blockchain ecosystem is dynamically evolving, and our DAO governance model n
 
 | Category          | % on TGE | Ramp-Up | Vesting |
 |-------------------|----------|---------|---------|
-| Angel             | 5%       | 7       | 12      |
-| Seed/Private      | 10%      | 6       | 8       |
+| Angel             | 5%       | 6       | 12      |
+| Seed/Private      | 10%      | 4       | 8       |
 | Public (IDO)      | 20%      | 0       | 6       |
-| Node Runners      | 5%       | 7       | 12      |
+| Node Runners      | 5%       | 6       | 12      |
 | Foundation        | 0%       | 6       | 36      |
 | Ecosystem Fund    | 2%       | 6       | 24      |
 | Liquidity         | 13%      | 0       | 16      |
@@ -67,12 +70,16 @@ The blockchain ecosystem is dynamically evolving, and our DAO governance model n
 
 ## Revised Quorum Requirements
 
-In light of the increasing number of nodes and the observed challenges in achieving quorum, the proposal includes revising the quorum requirements as follows:
+Recognizing the need for more efficient and responsive decision-making in our evolving DAO, the following adjustments to quorum requirements are proposed:
 
-- For minor changes: Quorum requirement reduced from 50% to 30%.
-- For major changes: Quorum requirement reduced from 66% to 40%.
+- **Operational Adjustments**: For routine and non-critical changes, such as updates to internal communication methods, minor website updates, or small-scale community initiatives, the quorum requirement will be reduced from 50% to 30%. This change is intended to streamline decision-making for everyday operational matters, ensuring agility and efficiency.
 
-These adjustments aim to foster more active and efficient governance, ensuring that proposals can be addressed in a timely manner while still maintaining a significant level of community involvement.
+- **Strategic Decisions**: For significant changes that impact the project's direction, such as introducing or removing major ecosystem features, forming substantial partnerships, or reallocating token pools, the quorum requirement will be adjusted from 66% to 40%. This reduction balances the need for broad consensus with the practicalities of gathering a larger portion of stakeholder votes, facilitating more strategic and timely decisions.
+
+- **Emergency Measures**: In cases of urgent proposals that directly affect the DAO's existence or crucial operations, we propose maintaining a 40% quorum requirement. These situations demand prompt and decisive action, and the proposed quorum level ensures that such critical decisions can be made effectively while still requiring substantial community involvement.
+
+The proposed quorum adjustments aim to enhance the DAO's responsiveness and adaptability, ensuring that governance keeps pace with the project's growth and the broader blockchain ecosystem's dynamics.
+
 
 ## Governance Votes
 
@@ -85,5 +92,6 @@ This proposal represents a strategic adjustment to the project's tokenomics and 
 
 ## References
 
-- [Previous Tokenomics](./2023_09_PROP_1_DAO/Unigrid_DAO_v103.pdf)
+- [Download the full updated Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v104.pdf)
+- [Previous Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v103.pdf)
 
