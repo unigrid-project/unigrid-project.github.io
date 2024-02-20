@@ -16,7 +16,7 @@ published: true
 
 ## Authors and Credit 
 
-- Blockchain Governance Team: [Github](https://github.com/yourteam), [Discord](https://discord.gg/yourteam), [Twitter](https://twitter.com/yourteam)
+- Blockchain Governance Team: [Unigrid](https://www.unigrid.org/), [Discord](https://discord.gg/wTkQKHP8yP), [Twitter](http://www.twitter.com/unigrid_org)
 
 ## Status 
 
