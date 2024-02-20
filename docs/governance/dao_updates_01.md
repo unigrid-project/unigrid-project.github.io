@@ -1,3 +1,11 @@
+---
+layout: default
+title: Tokenomics Update and Quorum Adjustment
+parent: Governance
+nav_order: 3
+published: true
+---
+
 # [Proposal #3][Draft] Tokenomics Update and Quorum Adjustment
 
 ![](../../assets/images/prop_3.png)
