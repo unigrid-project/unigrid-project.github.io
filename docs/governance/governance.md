@@ -38,7 +38,7 @@ Effective governance is not just a procedural necessity; it's a statement about 
 
 All governance-related documents, including past proposals, are available for the community to view. Transparency is key, and we encourage all members to familiarize themselves with these documents.
 
-[Access Governance Documents on GitHub](<github_link_to_the_documents>)
+[Access Governance Documents on GitHub](https://github.com/unigrid-project/unigrid-project.github.io/tree/main/docs/governance/)
 
 ## Document History and Integrity
 
