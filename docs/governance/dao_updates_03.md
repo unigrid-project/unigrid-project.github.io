@@ -39,10 +39,14 @@ The proposed reduction in quorum requirements is a strategic response to these c
 Through these adjustments, we are proposing a more resilient and responsive governance model that is better suited to the dynamic nature of the blockchain environment, supporting the project’s growth and success in the long term.
 
 ## Comparison
-For a side by side comparison of the changes please see both DAO documents.
 
-- [Updated Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v104.pdf)
-- [Current Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v103.pdf)
+To provide a clear understanding of the changes proposed in this governance update, we have included links for a side-by-side comparison of the updated and current DAO documents. This will allow stakeholders to easily review the differences and understand the implications of the proposed adjustments.
+
+- [Updated Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v104.pdf) - This document outlines the proposed changes to the DAO's tokenomics, governance model, and quorum requirements as detailed in this proposal.
+- [Current Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v103.pdf) - This document represents the existing DAO constitution prior to the proposed changes.
+
+We encourage all members and stakeholders to review both documents to fully grasp the extent and impact of the proposed updates to our DAO governance structure.
+
 
 ## Revised Token Distribution
 
