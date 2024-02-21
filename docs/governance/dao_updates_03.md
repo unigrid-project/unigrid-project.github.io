@@ -38,6 +38,11 @@ The proposed reduction in quorum requirements is a strategic response to these c
 
 Through these adjustments, we are proposing a more resilient and responsive governance model that is better suited to the dynamic nature of the blockchain environment, supporting the project’s growth and success in the long term.
 
+## Comparison
+For a side by side comparison of the changes please see both DAO documents.
+
+- [Updated Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v104.pdf)
+- [Current Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v103.pdf)
 
 ## Revised Token Distribution
 
@@ -72,16 +77,15 @@ Through these adjustments, we are proposing a more resilient and responsive gove
 
 ## Revised Quorum Requirements
 
-Recognizing the need for more efficient and responsive decision-making in our evolving DAO, the following adjustments to quorum requirements are proposed:
+In an effort to enhance the efficiency and adaptability of the DAO's decision-making process, the following adjustments to the quorum requirements are proposed, while maintaining the existing requirement for a majority of votes (50% + 1) for all decision areas:
 
-- **Operational Adjustments**: For routine and non-critical changes, such as updates to internal communication methods, minor website updates, or small-scale community initiatives, the quorum requirement will be reduced from 50% to 30%. This change is intended to streamline decision-making for everyday operational matters, ensuring agility and efficiency.
+- **Governance Adjustments**: For changes related to the DAO's governance structure and internal policies, such as modifications to the DAO's token pool structure or amendments to the DAO's constitution, the quorum requirement will be reduced from 50% to 30%. This adjustment is intended to enable more agile governance decisions. Despite the lower quorum, the decision will still require a majority of votes (50% + 1) to pass, ensuring that decisions are made with substantial community agreement.
 
-- **Strategic Decisions**: For significant changes that impact the project's direction, such as introducing or removing major ecosystem features, forming substantial partnerships, or reallocating token pools, the quorum requirement will be adjusted from 66% to 40%. This reduction balances the need for broad consensus with the practicalities of gathering a larger portion of stakeholder votes, facilitating more strategic and timely decisions.
+- **Strategic Initiatives**: For decisions with a significant impact on the project's direction and ecosystem, like introducing or removing major ecosystem features, forming key partnerships, or managing major DAO assets, the quorum requirement will be adjusted from 66% to 40%. This change aims to balance the need for broad community consensus with the practical aspects of gathering votes as the DAO grows. The requirement for a decision to pass will remain at a majority of 50% + 1 of the votes.
 
-- **Emergency Measures**: In cases of urgent proposals that directly affect the DAO's existence or crucial operations, we propose maintaining a 40% quorum requirement. These situations demand prompt and decisive action, and the proposed quorum level ensures that such critical decisions can be made effectively while still requiring substantial community involvement.
+- **Critical Decisions and Emergency Measures**: For urgent and significant decisions, such as those addressing emergency measures vital to the DAO's existence or key operations, a 40% quorum requirement is proposed. This ensures that time-sensitive issues can be addressed efficiently, while the decision-making process still upholds the principle of majority approval (50% + 1 of the votes).
 
-The proposed quorum adjustments aim to enhance the DAO's responsiveness and adaptability, ensuring that governance keeps pace with the project's growth and the broader blockchain ecosystem's dynamics.
-
+These proposed changes to the quorum requirements are designed to streamline the DAO's decision-making processes, ensuring that it remains agile and effective in a dynamic blockchain ecosystem. By differentiating the quorum requirements based on the nature and urgency of decisions, and maintaining the majority vote requirement, the DAO can respond more aptly to governance adjustments, strategic initiatives, and emergency situations.
 
 ## Governance Votes
 
