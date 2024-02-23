@@ -101,6 +101,8 @@ These proposed changes to the quorum requirements are designed to streamline the
 - **YES**: Approve the proposal to revise tokenomics and decrease the quorum required for votes to pass.
 - **NO**: Disapprove of the proposal in its current form. Suggestions for improvements or adjustments should be indicated in the [Discord governance channel](https://discord.gg/wTkQKHP8yP).
 
+vote hash: 1218106865c091b4822d83811c23e784eb99d70f6ff5e38dbce590347f9a7614
+
 ## Conclusion
 
 This proposal represents a strategic adjustment to the project's tokenomics and governance processes, aligning them with the evolving needs of our blockchain ecosystem and the broader market environment. It is a step towards ensuring our project's sustainability and scalability in the face of dynamic market conditions.
