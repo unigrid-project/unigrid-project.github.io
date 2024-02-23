@@ -21,7 +21,7 @@ published: true
 
 ## Status 
 
-DRAFT
+VOTING
 
 ## Proposal
 
