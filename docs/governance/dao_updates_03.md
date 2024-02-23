@@ -39,6 +39,10 @@ The proposed reduction in quorum requirements is a strategic response to these c
 
 Through these adjustments, we are proposing a more resilient and responsive governance model that is better suited to the dynamic nature of the blockchain environment, supporting the project’s growth and success in the long term.
 
+## Vote and Snapshot Schedule
+
+The voting process is a critical step in the approval and implementation of these changes. We will be taking a snapshot of the vote results on Friday, March 1st, at 12 PM GMT. This snapshot will ensure that all votes are accurately recorded and accounted for, reflecting the collective decision of our community.
+
 ## Comparison
 
 To provide a clear understanding of the changes proposed in this governance update, we have included links for a side-by-side comparison of the updated and current DAO documents. This will allow stakeholders to easily review the differences and understand the implications of the proposed adjustments.
