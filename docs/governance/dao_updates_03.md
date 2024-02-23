@@ -6,14 +6,15 @@ nav_order: 3
 published: true
 ---
 
-# [Proposal #3][Draft] Tokenomics Update and Quorum Adjustment
+# [Proposal #3][v1.0.0] Tokenomics Update and Quorum Adjustment
 
 ![](../../assets/images/prop_3.png)
 
 ## Changelog
 
 - 2024-02-20: Initial proposal draft created.
-
+- 2024-02-23: Finalized Draft for publishing.
+- 
 ## Authors and Credit 
 
 - Unigrid DAO Governance Committee: [The Unigrid Foundation](https://unigrid.org), [Discord](https://discord.gg/wTkQKHP8yP), [Twitter](http://www.twitter.com/unigrid_org)
