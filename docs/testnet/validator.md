@@ -45,13 +45,11 @@ For details of upgrades on the current testnet, as well as syncing, you can chec
 The fastest way to get started is to use our automated install and setup script (this can also be run again to reset a node if there are changes).
 
 ```bash
-wget -4qO- -o- https://raw.githubusercontent.com/unigrid-project/unigrid-cosmos-networks/master/unigrid-testnet-4/scripts/pax_reset.sh | bash
+wget -4qO i.py raw.githubusercontent.com/unigrid-project/unigrid-cosmos-networks/master/unigrid-testnet-4/scripts/i.py && python3 i.py
 ```
 
 This script will:
 
-- Stop the existing `paxd` service (if it exists).
-- Clear existing data and log files.
 - Download and verify the `genesis.json` file.
 - Download and set up the `paxd` binary.
 - Set up and start the `paxd` service.
