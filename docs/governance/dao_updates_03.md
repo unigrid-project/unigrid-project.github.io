@@ -14,7 +14,8 @@ published: true
 
 - 2024-02-20: Initial proposal draft created.
 - 2024-02-23: Finalized Draft for publishing.
-- 
+- 2024-02-16: update voting hash to date in the future
+  
 ## Authors and Credit 
 
 - Unigrid DAO Governance Committee: [The Unigrid Foundation](https://unigrid.org), [Discord](https://discord.gg/wTkQKHP8yP), [Twitter](http://www.twitter.com/unigrid_org)
@@ -41,7 +42,7 @@ Through these adjustments, we are proposing a more resilient and responsive gove
 
 ## Vote and Snapshot Schedule
 
-The voting process is a critical step in the approval and implementation of these changes. We will be taking a snapshot of the vote results on Friday, March 1st, at 12 PM GMT. This snapshot will ensure that all votes are accurately recorded and accounted for, reflecting the collective decision of our community.
+The voting process is a critical step in the approval and implementation of these changes. We will be taking a snapshot of the vote results on Monday, March 4th, at 12 PM GMT. This snapshot will ensure that all votes are accurately recorded and accounted for, reflecting the collective decision of our community.
 
 ## Comparison
 
@@ -101,7 +102,8 @@ These proposed changes to the quorum requirements are designed to streamline the
 - **YES**: Approve the proposal to revise tokenomics and decrease the quorum required for votes to pass.
 - **NO**: Disapprove of the proposal in its current form. Suggestions for improvements or adjustments should be indicated in the [Discord governance channel](https://discord.gg/wTkQKHP8yP).
 
-vote hash: 1218106865c091b4822d83811c23e784eb99d70f6ff5e38dbce590347f9a7614
+# updated 2/26/24
+vote hash: cd15c21f07c60019671d5994ac38efd77ceb7410e5d39ab50f1e6e078ec06070
 
 ## Conclusion
 
