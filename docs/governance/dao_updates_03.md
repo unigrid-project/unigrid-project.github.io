@@ -14,13 +14,15 @@ published: true
 
 - 2024-02-20: Initial proposal draft created.
 - 2024-02-23: Finalized Draft for publishing.
-- 2024-02-16: update voting hash to date in the future
-  
+- 2024-02-26: update voting hash to date in the future
+- 2024-02-27: Add clarity to Article VI. Referendum & Voting in the DAO
+
+
 ## Authors and Credit 
 
 - Unigrid DAO Governance Committee: [The Unigrid Foundation](https://unigrid.org), [Discord](https://discord.gg/wTkQKHP8yP), [Twitter](http://www.twitter.com/unigrid_org)
 
-## Status 
+## Status
 
 VOTING
 
@@ -48,7 +50,7 @@ The voting process is a critical step in the approval and implementation of thes
 
 To provide a clear understanding of the changes proposed in this governance update, we have included links for a side-by-side comparison of the updated and current DAO documents. This will allow stakeholders to easily review the differences and understand the implications of the proposed adjustments.
 
-- [Updated Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v104.pdf) - This document outlines the proposed changes to the DAO's tokenomics, governance model, and quorum requirements as detailed in this proposal.
+- [Updated Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v105.pdf) - This document outlines the proposed changes to the DAO's tokenomics, governance model, and quorum requirements as detailed in this proposal.
 - [Current Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v103.pdf) - This document represents the existing DAO constitution prior to the proposed changes.
 
 We encourage all members and stakeholders to review both documents to fully grasp the extent and impact of the proposed updates to our DAO governance structure.
@@ -111,6 +113,6 @@ This proposal represents a strategic adjustment to the project's tokenomics and 
 
 ## References
 
-- [Download the full updated Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v104.pdf)
+- [Download the full updated Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v105.pdf)
 - [Previous Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v103.pdf)
 
