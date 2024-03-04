@@ -16,7 +16,7 @@ published: true
 - 2024-02-23: Finalized Draft for publishing.
 - 2024-02-26: update voting hash to date in the future
 - 2024-02-27: Add clarity to Article VI. Referendum & Voting in the DAO
-
+- 2024-03-04: Vote results added
 
 ## Authors and Credit 
 
@@ -24,13 +24,25 @@ published: true
 
 ## Status
 
-VOTING
+PASSED
 
 ## Proposal
 
 > This proposal seeks to strategically adapt the tokenomics and governance model of our blockchain to better align with current market conditions and the evolving blockchain ecosystem. The primary objectives are to reduce the total token supply from 150,000,000 to 100,000,000, adjust the vesting schedule, and lower the quorum required for votes from 50% to 30% for operational adjustments and from 66% to 40% for strategic decisions. 
 
 It is crucial to note that the proposed reduction in the total token supply will not directly impact current token holders. This reduction will be achieved by adjusting the token allocations in the foundation pool and upcoming sale rounds. The intent is to increase the value and scarcity of the tokens without diluting or affecting the holdings of existing token owners. This approach is designed to benefit the overall ecosystem, aligning with the interests of both current and future stakeholders, while ensuring that the token remains a valuable and integral part of our project’s growth and development.
+
+## Voting Results - September 23rd, 2023 12:00 GMT
+
+- **Yes**: 275
+- **No**: 0
+- **Abstain**: 268
+- **Gridnodes**: 540
+- **Quorum**: 270
+- **RESULT**: PASSED
+- [View results at block 2832827](./2024_PROP_3/prop_3.json)
+- [Gridnode Votes at block 2832827](./2024_PROP_3/gridnodelist.json)
+- [Block Info 2832827](./2024_PROP_3/getinfo.json)
 
 ## Context
 
