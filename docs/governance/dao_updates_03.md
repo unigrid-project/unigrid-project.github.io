@@ -32,7 +32,7 @@ PASSED
 
 It is crucial to note that the proposed reduction in the total token supply will not directly impact current token holders. This reduction will be achieved by adjusting the token allocations in the foundation pool and upcoming sale rounds. The intent is to increase the value and scarcity of the tokens without diluting or affecting the holdings of existing token owners. This approach is designed to benefit the overall ecosystem, aligning with the interests of both current and future stakeholders, while ensuring that the token remains a valuable and integral part of our project’s growth and development.
 
-## Voting Results - September 23rd, 2023 12:00 GMT
+## Voting Results - March 4th, 2024 12:00 GMT
 
 - **Yes**: 275
 - **No**: 0
