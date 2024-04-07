@@ -27,14 +27,15 @@ Welcome to the Unigrid Desktop app. This desktop application connects to our Uni
 
 ## Downloading and Installing the Unigrid App
 
-1. Download the installer for your operating system.
+* Download the installer for your operating system.
 
 <div align="center">
   <a href="https://github.com/unigrid-project/janus-java/releases/download/v1.0.13/Unigrid-1.0.13.dmg" class="btn btn-blue fs-5 mb-4 mb-md-0 mr-2">MAC</a>
   <a href="https://github.com/unigrid-project/janus-java/releases/download/v1.0.13/Unigrid-1.0.13.msi" class="btn btn-green fs-5 mb-4 mb-md-0 mr-2">WINDOWS</a>
   <a href="https://github.com/unigrid-project/janus-java/releases/download/v1.0.13/unigrid_1.0.13_amd64.deb" class="btn btn-purple fs-5 mb-4 mb-md-0 mr-2">LINUX</a>
 </div>
-2. Find the downloaded file and double-click to initiate installation.
+
+* Find the downloaded file and double-click to initiate installation.
 
 
 ***Mac users will need to drag the Unigrid app into their Applications folder. After this step in order to start the app you will need to give gatekeeper permissions to run it.***
