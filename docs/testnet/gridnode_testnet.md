@@ -41,7 +41,7 @@ Running a Gridnode on the new network is a streamlined process compared to the l
 ## Setting Up a Docker Container
 
 1. Ensure you have Python installed on your system. This script is designed for Debian-based Linux distributions.
-2. Run the following commands in your terminal:
+2. Run the following commands in your server/VPS terminal:
 
 ```bash
 curl -sSL -o install.py https://raw.githubusercontent.com/unigrid-project/hedgehog-docker/master/install.py
