@@ -51,10 +51,14 @@ python3 install.py
 
 3. During the setup, choose option `1` for testnet.
 4. When prompted for your Gridnode key, return to the desktop app, copy your key, and paste it into the setup script prompt.
+5. Select option `1` for use default Node Address.
+6. Select option `2` to not expose the REST service.
+
+  ![](../../assets/images/docker_details_gridnode.png)
 
 ## Starting Your Gridnode
 
-1. After the installation, it may take 5-10 minutes for your Gridnode to appear in the `Gridnode/List` tab. Note: We're working on an update to populate this list faster.
+1. After the installation, it may take 5-10 minutes for your Gridnode to appear in the `Gridnode/List` tab. ***Note: We're working on an update to populate this list faster.***
 2. Once your Gridnode appears, click `START` and enter your passphrase to activate the Gridnode.
 
   ![](../../assets/images/start_gn.png)
@@ -68,7 +72,7 @@ python3 install.py
 
 ## Removing the docker container
 
-To remove the docker containers you can use the below commands.
+To remove the docker containers you can use the below commands. ***Perform this if you would like to run the script again with a different key or just for testing.***
 
 ```bash
 docker stop watchtower hedgehog
