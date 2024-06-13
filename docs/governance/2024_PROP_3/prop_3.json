@@ -1,0 +1,24 @@
+[
+    {
+      "Name": "prop 3",
+      "URL": "https://docs.unigrid.org/docs/governance/dao_updates_03/",
+      "Hash": "cd15c21f07c60019671d5994ac38efd77ceb7410e5d39ab50f1e6e078ec06070",
+      "FeeHash": "38d6ae47b5e4f7f7b6490182b32e85c7e1cccab389763be464515b4d3f266d89",
+      "BlockStart": 2836800,
+      "BlockEnd": 2839682,
+      "TotalPaymentCount": 2,
+      "RemainingPaymentCount": 2,
+      "PaymentAddress": "HC4pzL8VTdUH2GByX3DBXBuUgfvGVWmqyh",
+      "Ratio": 1,
+      "Yeas": 275,
+      "Nays": 0,
+      "Abstains": 0,
+      "TotalPayment": 1000.00000000,
+      "DailyPayment": 500.00000000,
+      "IsEstablished": true,
+      "IsValid": true,
+      "IsValidReason": "",
+      "fValid": true
+    }
+]
+  

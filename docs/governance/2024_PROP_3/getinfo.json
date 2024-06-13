@@ -1,0 +1,30 @@
+{
+    "version": 2091700,
+    "protocolversion": 70939,
+    "walletversion": 61000,
+    "balance": 0.00000000,
+    "lockedbalance": 0.00000000,
+    "totalbalance": 0.00000000,
+    "bootstrapping": {
+      "status": "complete",
+      "walletstatus": "Done loading",
+      "progress": 0
+    },
+    "blocks": 2832827,
+    "timeoffset": 0,
+    "connections": 376,
+    "proxy": "",
+    "difficulty": 22329.27338518488,
+    "testnet": false,
+    "moneysupply": 15483884.51536043,
+    "blacklisted": 517683.00321156,
+    "governance": 238364.80287315,
+    "circulatingsupply": 14727836.70927572,
+    "keypoololdest": 1561714948,
+    "keypoolsize": 1001,
+    "paytxfee": 0.00000000,
+    "relayfee": 0.00010000,
+    "staking status": "Staking Not Active",
+    "errors": ""
+}
+  

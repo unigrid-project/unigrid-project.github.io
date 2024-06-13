@@ -63,4 +63,4 @@ The Unigrid DAO Constitution is a pivotal document that will guide the DAO's ope
 
 ## References
 
-- [Download the full Unigrid DAO Constitution (PDF)](./2023_09_PROP_1_DAO/Unigrid_DAO_v103.pdf)
+- [Download the full Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v103.pdf)

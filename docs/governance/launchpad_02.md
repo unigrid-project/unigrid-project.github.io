@@ -18,7 +18,14 @@ Unigrid Team: [Web](https://www.unigrid.org/), [GitHub](https://github.com/unigr
 
 ## Status 
 
-VOTING
+PASSED
+
+Results registerd at 12pm GMT 
+Yes: 171 
+No: 0
+Node Count: 332
+- [View results at block 2613877](./2023_PROP_2_LAUNCHPAD/launchpadvotes.json)
+- [Gridnodes at block 2613877](./2023_PROP_2_LAUNCHPAD/nfpad_nodecount.json)
 
 ## Proposal
 

@@ -26,6 +26,8 @@ Effective governance is essential to:
 
 Any member of the Unigrid community can submit a proposal for consideration. Proposals can range from technical changes to the protocol, funding requests, partnerships, or any other topic relevant to the project's growth and direction.
 
+A draft proposal can be found  [here](./TEMPLATES/proposal_template.md.tmp)
+
 ## Importance of Governance for the Unigrid Project
 
 Effective governance is not just a procedural necessity; it's a statement about the project's values:
@@ -38,7 +40,7 @@ Effective governance is not just a procedural necessity; it's a statement about 
 
 All governance-related documents, including past proposals, are available for the community to view. Transparency is key, and we encourage all members to familiarize themselves with these documents.
 
-[Access Governance Documents on GitHub](<github_link_to_the_documents>)
+[Access Governance Documents on GitHub](https://github.com/unigrid-project/unigrid-project.github.io/tree/main/docs/governance/)
 
 ## Document History and Integrity
 
@@ -49,6 +51,17 @@ To ensure transparency and trust:
 - **Accessible History:** View the entire commit history, along with their respective hashes, at our [GitHub repository](https://github.com/unigrid-project/unigrid-project.github.io).
 
 By leveraging GitHub's version control, we ensure that our governance documents evolve with the community's needs while maintaining a clear and verifiable history.
+
+## Command for Submitting a Proposal Vote:
+```bash
+unigrid-cli preparebudget "<proposal name>" "<URL to proposal>" <number of payments> <superblock 9 days in the future> "<address>" <payment amount>
+```
+For instance:
+```bash
+unigrid-cli preparebudget "prop 3" "https://docs.unigrid.org/docs/governance/dao_updates_03/" 2 2836800 "HC4pzL8VTdUH2GByX3DBXBuUgfvGVWmqyh" 500
+```
+
+***Note: this process will change once mainnet is launched***
 
 ## Conclusion
 

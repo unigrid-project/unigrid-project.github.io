@@ -1,0 +1,2096 @@
+[
+    {
+      "gnId": "f69e9e02d92d67c0353443acd446c946f90711d3fef9c3ae473610c9e782c3c3",
+      "nHash": "002a902473e42335a5ebac672bec36215aac9d400de118e08fca010ddf4b9fa3",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "02ef1dcee33546ab496d7ed95fa5c868d10ec72cdbcde60150249dc82d68ef4c",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "2d299f9ba1dab5cef71f6fac609ac23ede4c6f377666d2914590556d7b8947b8",
+      "nHash": "0386f454639710b5cd9c8782088dcca82af6c95e6a4852c0ade65fcca6c1aca7",
+      "Vote": "YES",
+      "nTime": 1708958339,
+      "fValid": true
+    },
+    {
+      "gnId": "fa89eafe256ed5a7e8cfeddf2cae477ab83aec98bfb36cd67fe65cea29559946",
+      "nHash": "040e6f5aee92af90e162584c3dc701d1fbb60318650271ef12f9d4d608d53823",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "043e3fc9add0834974836caff0c4b4580ff031dcff109486f36d3c605cc20bab",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "04b938fdef51c74168d9268818f47ea08c6f5472048d2eb52ad64c6f13adbe94",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "e82ae4c5ae0bcc8d5a66fe225ec195abd90d17ff7c593df99faf369544a4a70d",
+      "nHash": "0602748c5b3fe3f964e11f9f4fd105e6da70fb0a9ed37ce95682d735c5272014",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "f1432714c30ef63208337b6e5649abad8fdc4e8080a57064cdca246074524aff",
+      "nHash": "063899f6e7312aa535e3600307ea525259ae7ac3304467f169776f3d513c9f2f",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "07e00e6f6c317d797a8fcd23d771a520e2e747e4dd9134f025d08480029933e0",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "22e190b0d8ec4875a11d90cec251c4338040e8b1b3b33a25a3cb1390c0d586ab",
+      "nHash": "0861fe0afaee53ceb0c8b840719e44bc8245376b407730fa9b5826e3a285f25a",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "9fd675fd55d17ad5d8c73b6559d51e53924df07f1b0c95962a3e3bb93ccb49ac",
+      "nHash": "08d8753eb6e88ed33acfdd57638f658d03dc98a2b8e738e76eefdebc48259da9",
+      "Vote": "YES",
+      "nTime": 1709549860,
+      "fValid": true
+    },
+    {
+      "gnId": "b7d29d51c9146d82645a5712f0305ac4877792509d8b5033fcf459c41579625e",
+      "nHash": "0a134f7058bf258fce0bdf1f9e8667757bd5b658fb19ef0d42df95193131e23b",
+      "Vote": "YES",
+      "nTime": 1709128728,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "0d5ed987de6b18db0832b73cd1a8506a244b6b38dfaf7a14dfcc60c18b5bd4af",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "0f852ebdd8cd11ba6b4962b5c7e814d41e3ced6124fd53489289835c4193e27b",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "431c5ed0cdba6d188052861e06de186d5c87f5ddfb449a7d3a7a74e96af0ea44",
+      "nHash": "1001dbd91458349bfdf5cd897eeae3d9ddb2ab3edfbc97d515966907df6e1350",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "8e8d92b1540cb6ac0cebd633f9a3dd9c380c34a3416dabc9dedf0a0bb3d43a5c",
+      "nHash": "10d305621552e12f71bfeb2951fd45f1eb003eb18336f49b499e8a7b406e72ec",
+      "Vote": "YES",
+      "nTime": 1709266468,
+      "fValid": true
+    },
+    {
+      "gnId": "4ff5785816017b6d26c290c2f0799e79d98846bcd5d9a149e0e7181752eea4eb",
+      "nHash": "128cbc0b82d31252b4d599b3d4b9648739e846ba6d31b188e8ec852a166e164c",
+      "Vote": "YES",
+      "nTime": 1709549860,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "12c3e44de9cc1867a379c88c33392ef4ea0210f4820819371740ef147da0bec7",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "1354c8cf945dbe144e2868b3c1c329fa523b07d7a6e8046618495f6d32ff6413",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "13cecdd2d6e323ed5437780430c5f165ee028b75003d876b30dfd6571fc57952",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "8880d8b905a6152c1563cdd400ebaf9acaa6f61d54405c533a0bc16a4236c7a8",
+      "nHash": "1410327321268a3aa38aaf4b05537d3176101bc39f9f4a3c1e9040b683f77dd3",
+      "Vote": "YES",
+      "nTime": 1709198629,
+      "fValid": false
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "1488b68d1772b84b83afec58d1a5e5e28a453210b2e64cf03ccc6f962647ccd3",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6ffc7a9afb6172ad70987edf1b97ccccd0970f8c83543c3a24418c78cc0df607",
+      "nHash": "1612e2917501dec667e5b97f78c4ee474611bdc115ae18d6ba2fc15579cc38e4",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "172bd10b6d850c584f4b0bf5417f00aecd0545268afd556ef0e7441380fd7d71",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "f69e9e02d92d67c0353443acd446c946f90711d3fef9c3ae473610c9e782c3c3",
+      "nHash": "1922f244a298bd75f10c76faf593ac55d48f42c9865522586f77f3693d893284",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "f69e9e02d92d67c0353443acd446c946f90711d3fef9c3ae473610c9e782c3c3",
+      "nHash": "19dbbf0a878abf817c261ba710b80dac295f99bb815a4622cebbea9f0db3528f",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "7e3a5cfbde784b90f79e2223e64ea44e52551ad25b156abc0bfeb9b026ffb599",
+      "nHash": "1b483e29d319cdb2ae2ea81675033499129fa1dc539baf516a6a64992b549369",
+      "Vote": "YES",
+      "nTime": 1709505457,
+      "fValid": true
+    },
+    {
+      "gnId": "b226262483812ac1591f12c02e93c41f3aba3b377c05b1d98104970e21996343",
+      "nHash": "1dcb7f690205e4d843da3241116fd2f3d852b6a523dfffe11c66fd0d397da4ec",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "f69e9e02d92d67c0353443acd446c946f90711d3fef9c3ae473610c9e782c3c3",
+      "nHash": "1f63f08e6d35778680a0d7bb653209390057a036bcb9c5da229d18eb25ae7bf1",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "9e90ef9bffb209645b1beed267bcfddd435b8aaf6445570d0f454f81af0e719e",
+      "nHash": "1fc6e9dd50aaa2e98a52d0ea497532c1665f00d67e8661360df9594552480873",
+      "Vote": "YES",
+      "nTime": 1709132191,
+      "fValid": false
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "202b50cf5a93f946185627eea7adf1e65d8885a0fb69747f53c13bdc9d5d6df2",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "c0e850c29f9d74576cb6a1828cc6eb4ad5581bd4f51a4e333e9d3349598b4dbe",
+      "nHash": "204e7614b8504753033829c2ceab0bb9da0c314a030c01e97d9747e87a6ef63b",
+      "Vote": "YES",
+      "nTime": 1709549860,
+      "fValid": true
+    },
+    {
+      "gnId": "d8b7e020a982437c24f4ce184e519079b5d0a02642db0d76187833a43bea2bce",
+      "nHash": "208628fdcd18b80d58b4078c533d11cb43f8ec5a83a99f60e4d599d308938520",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "b867339dbd3af66db84c983288698c9c27e72361cab3486527902574fe2783f4",
+      "nHash": "22c40a55f31e4e1731753d43772ecb994ef8c60f0818d2b0314ccae3f253cd43",
+      "Vote": "YES",
+      "nTime": 1709549860,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "22c5e5863eaaf07cd1c49317ee0ed85c6b2874570d7754b35571b75949e501cb",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "a644dddf6d546e931318e886427144df502d9699378fb215d146f63d6afffb4f",
+      "nHash": "22fa335343afdd48933669e23a114306bedc5aa2a691b5cbb5f95bc62bec1a2e",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "63a73591f759e1517aedd29beed8656821321627df1ac807ce9ee9099f921bcb",
+      "nHash": "22fecce61168f96f5e4261fd30b44eb66afdad768b5cf9f56f57a08ebe822ff7",
+      "Vote": "YES",
+      "nTime": 1709159550,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "23b6b782d3a23548354db32b86ea1f79843cf313e964e1ff72d0d5345ee8aee3",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "24d8866d36ef5128f534c78efa90878a41a45453efa622e4973e217521f1ddd9",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "b42eb136a03c81bbf58802c9bf171f33e81b928dc503a04b385610f5a86a8798",
+      "nHash": "24df5ea869d9618f09a7df885a5fcec27631c914e99ba976c286b14bb39149de",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "25904bce96138440623d40ecbd8a8f415506fcabdc270729302f237a3070ccff",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "25f7bd981d76f0dfe29457839ff243e11863ade5269b278f3b861891d09b0139",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "d0edf0c7b3ba14e9af54d55b689ca5d4bd7b1df8e4c436ba0154ae79ce399575",
+      "nHash": "274fffefae257bdd6cd90d541c35716f2f1902cd733805b1f27f0b9c246885b5",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "258fd2b317460a318492fe44aae3274200700aa8d269102652f9b31df3b2dd0e",
+      "nHash": "2aa430adbb23e9c5f106fab724e2ac4692908dcb6076c47cfe2f17002e3b9a1c",
+      "Vote": "YES",
+      "nTime": 1709463185,
+      "fValid": true
+    },
+    {
+      "gnId": "c0a4b8986e0766a3fb97c92627e26f9ba0dffe5b21e7e0b6812706867b20db7c",
+      "nHash": "2aaa62081bd07385acf9dbb8a251cdaea375114c61e48eb2d4ac960eb160acb2",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "2dd802456a2574bdbd708451008c08d68485fb43aca411deec81c23baaa9936b",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "30e47468d71f89c75d2d679b5831ef430f1ed9e0bbd5f3c5d074cbf7bfdcbbec",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "319ab667641fed28ed4154176f21e5042069844ffae07eee2c221ed32b3b9918",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "31ad1063ce4c3b3cd3d462697378833b00e3c2bd981f817459e641670f6b133e",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "322598cfff5aa18642f6f0709554b323e9ccc999501a944d6378c982762502a3",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "0d972eb9335f986ae9bd31cd50412214013267e86e574f826b1a869c01012c23",
+      "nHash": "323c5cd48296a2d99c950fcc4c5c9ddc905774ce9a99cdfb2f35cf191496ad05",
+      "Vote": "YES",
+      "nTime": 1709505457,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "32886ad127b587f2368eea8509ad51114deeb1fb9f92417173dd28a104e1a234",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "32ebcb6545620712d81ca9b0e6617ea0cf163caebcefb68d4bf1393fdc57a4a4",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "ee148470e65d13ce3649c75cee5d47829d5ec47836de898abbf380147cd816a0",
+      "nHash": "33e0aef3e944762441be890ee8ea597b6ee5163fff309d0f23b6140e80a310f8",
+      "Vote": "YES",
+      "nTime": 1709463185,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "33fb593f142cbd7b2473e4e0169d42a3b6efee3a0d35d38ff84f39b50a0a4f8e",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "1bfe556436137752b4c31b88e35db58f867cf6689420a8f97798aa8a8af4a08d",
+      "nHash": "3781d5c69fe690fda0be9f004c01aac3011a303deccc69f5a881d6b55483cba4",
+      "Vote": "YES",
+      "nTime": 1709505457,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "37e678316284732762020bfd690592c5a832d20c800144d5fc797abf886106c8",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "38f606feeda3219d8039b2c91ff43d4433aeb0670411e95995f3d2e91f08b0b7",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "3973e7b66d623ba02ae2015a7927670cad4753f29a0c5e5d72c7dd026d166145",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "39e88c7da1b6a640e97838eb72ae411a45330e3df3ebcd8f8c443fee8f473fb0",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "3b58ff4a2a3d28957a4917405d45130707696972323ad071bc89aeb7572602e2",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "3c189cb942c46ff2abb12304caa28bff2deb002171a98c592a0029da9322526a",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "7bc59045c6e191194f73bce6c480596bb1a176d8b26af5006d5189d1b94ff02e",
+      "nHash": "3c4c185542334e1d49a804aa82893b2e516fde67b84e222ba5bfe7a8fe5e40a2",
+      "Vote": "YES",
+      "nTime": 1709267462,
+      "fValid": true
+    },
+    {
+      "gnId": "e410d14d5ac08b0179a08d3718eb6edf9a1d965eb7c1db7cdccadc95246fc01d",
+      "nHash": "3dd0e9e604cadb25e98c4e04467789e6e656876b90fd12720179bb4665301f85",
+      "Vote": "YES",
+      "nTime": 1709463185,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "3e03e0c07af384d039614d8d0afac00d94b1818a930ffeddc1a055a3693fff1e",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "055d0681c3279c3985897266c6e12a7a67948ea1053af9dcd7b6cacac01c548f",
+      "nHash": "3f859ecb699c5deb9171d5f9934b484811602acb4d9404eb74a8297978983bbe",
+      "Vote": "YES",
+      "nTime": 1709359737,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "410cdfc5716f101f3cf72c3d6d83893507138119679fe673d6dce65d91c6ccea",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "dab25a84a342171d7a0e1755a902cc12ec8d31f909817a98f65d36f09d17546f",
+      "nHash": "427697cc355e464551ce2bcc652a3c10076236defd5801bbcb709476981a4f2a",
+      "Vote": "YES",
+      "nTime": 1709144369,
+      "fValid": false
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "4611c8fb9d502f94f1a738c4febb95515daf836b6796a8e9b02042dbac2a1ced",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "469e29d85e56b777768021024e8b6a5976d1674f006f0e60b1124752417b25cd",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "407d811e2d5e4b0d07365a8f23e5a89f5ea4f896ebfec59d1b0e3f58de04efea",
+      "nHash": "47bfd33ecda61638d4442bb60c4f11381fd4eba56593d1392152274370c12181",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "4912d29d4e59a737da935fa15a44a44192891272e20ef57fed3c28bd7d00d67f",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "3c286f68f213a639c6460210083c52357b0b3fae9f81be1fad8753226db30b7c",
+      "nHash": "49c4a97b269033255695a2c97dd65693a2899267a270ec4c9b2e03da361946a5",
+      "Vote": "YES",
+      "nTime": 1709463185,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "4a2b18768bdb6e5e9bad008e60fb3ba4e40b93397b1c3dd86ed436e46a6bea34",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "84ddc3211acfbcdd4165b310cdedf72623744b66871445b7f8df0932ae9ac807",
+      "nHash": "4a935cd46a257e7f2c2c301d2e226fbe7bfb4de7629369e09f9d810096b32002",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "4ba7e5f5689521f42cd9ae282dd94cdb74a1e3cb967b36add0a50568f2e73900",
+      "Vote": "YES",
+      "nTime": 1709550496,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "4baf1795a402e5f54ed3d9eafa2282cf34215985b651b4e0c78de8f283460eb7",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "f69e9e02d92d67c0353443acd446c946f90711d3fef9c3ae473610c9e782c3c3",
+      "nHash": "4e0a44440de9ec16deb46c2f5f67866ed101685ce90618703dd09e84bd12774e",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "4e3e85a5e6c3c4426bd4d7e51f02a72d847021d3f75a364ce3dc973991f94773",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "53c08650e57a51389e38179d3117076b95877f537167477188bee993bcd95140",
+      "nHash": "4f4282fbb10b6f788e9d71b82485458c96150da9988efd424998c0cba5cbbcfe",
+      "Vote": "YES",
+      "nTime": 1709549860,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "52e22bc960beb2d5223b7b80eb4e09657e5fefc7853645c03bfbc6eee55ab6a1",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "532fc88824fcee54d09a0eba3cc16ca78e1c4720c33878fa7eadec3b5a3cb303",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "f7bd051010257571347ea3f61488b15de01a0e15b4efe8ce892805bd2b131d33",
+      "nHash": "546abc58e86348c5a6518b109f5d2538da2c8c6ff99f960c8de2a3c23b5ff74c",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "55f4728a35b27004bb7bd4b1af835e27aa9cb8c05ab5894c90408d8bd5df72b8",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "badb445bb3d5a9447a6a8175115282921407606aa39ddf97eef75757e5487a3f",
+      "nHash": "5688db54d53f21d07e02e94305c184d25feec2911681350959ac9d4f6329f50a",
+      "Vote": "YES",
+      "nTime": 1709359737,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "56ff1efdea53c9ea90d51512403ada297e80ab5f8a8551ffee079e7664b346f8",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "57026303dd5bc759962eaf2d13547668e6c42810288fb2b50d0ab18e537b4199",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "2655b857d38537334381a008cf167db3c4430bdefb46e92568de3ddd55bc5f2d",
+      "nHash": "57968d4acd4b3cfb0750b23fcfef2045f28ad1d813ddd73cfa073543c65cc3e5",
+      "Vote": "YES",
+      "nTime": 1709198732,
+      "fValid": true
+    },
+    {
+      "gnId": "13d66a5de44171ce8a52d4f9bc1fd1d05160ed23a55e88999eb6775d8fe261e4",
+      "nHash": "57e06f87054583e86b316025bafe3c72f004908e15759e0272d707b60a61f499",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "d18ba6d70d51c7ea90f332e26d26d83481e93d9aaf714e0b096d775d7459a3db",
+      "nHash": "57f1b585a173d700c184a10d199f2bb7b55869fb02bcc88367aed76a8a0c97eb",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "12fc966e42b6908ca0ee70c83b71081dce2c3e544e7e35eebbf4355b3d144784",
+      "nHash": "581ff25e0bc52211bc23d0879e4edd27058cc3726e8d98dcaf4170242afd525b",
+      "Vote": "YES",
+      "nTime": 1709153948,
+      "fValid": true
+    },
+    {
+      "gnId": "b9e5387da35588cb942aa1962a570ac3b375755eef867eaac07f1c1ecccb0983",
+      "nHash": "5878424383cb2d8990a818f1cdb956e6c861574ca0c4f930a107a61d26d94362",
+      "Vote": "YES",
+      "nTime": 1709359737,
+      "fValid": true
+    },
+    {
+      "gnId": "bfbd4a05ebdade66c2e78dbdacdf1ac0acdea9f38d01c3b11bdc37685fd58efc",
+      "nHash": "592841dd7e9b38714675da1165877aec56dd30581d984c2de793c71211b5b3ab",
+      "Vote": "YES",
+      "nTime": 1709549860,
+      "fValid": true
+    },
+    {
+      "gnId": "b46384f75ed54d8b3123edbedafd3c1de2d36331dd92744f9b878294f977fa01",
+      "nHash": "594e1db83ae59f9d7ae5b4ecd00131c10892430488ec10d73b2272335c2ab64b",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "59e9027f9b460ecc6e7f9a7d114cb0ce896205c92ed600fc313d235f08bfaebe",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "5a27d6836aa30b74395c5ec4c8444ac9ef7d645b44630be5eb0d21522795d332",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "5aa655cc4a3da861d75771d0d33ee271f0bcce49266fe4450a3f441f0401ecce",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "51777670373ad2472226d02c4cfdd841290375bd292e579e522b636a2f29bcca",
+      "nHash": "5c4ba1e19429d89154ca68ebaa908258dc43ee57d90ae86553960c8a264dfb74",
+      "Vote": "YES",
+      "nTime": 1709476336,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "5da093ebaad73bb97de05e3faf671cfbaa6d2b03b8b1c4cfcae7c6f479f36033",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "5e0eef45e0787f535c335ece64fd34e7bac5c067c3b843b748f376f41830da67",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "5e2a6fd87ae875d55d414902fc31eec39cd20c440806d9fbf9dc4bb77e042403",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "5766fa9ab21f8da1007f3758a3790d6f3116a78736795e7da377bfc715b0f17e",
+      "nHash": "5f861e27223f1ccefb1f032c4a25bce16909b97661f57ebd204e01bcc4ba19eb",
+      "Vote": "YES",
+      "nTime": 1709463185,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "609544844af95c6402def22c5c43828b0f9e27b4e79b9de1c38fab8e22e57f05",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "60d66616a26f639f9d5235fdc0b747a8e952c7223059536bf36aea9ac3ab95d7",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "2e0ce64d1c3ad1d975252e80175cfe771ceba6cb64ab88dcb14dc324b3fe56b6",
+      "nHash": "62ac8977b779190125e7c5f7f6bedaf3cb85449fd3ffa2c6e9f3fe859abb02c9",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "63cb4b92ec26f12733ca67f2747cefede7c78f18f1d895f1edfeb0c0a7b40f5f",
+      "Vote": "YES",
+      "nTime": 1709132191,
+      "fValid": false
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "63d1359b8a06aca348270fd839e4b1954aa85964b77cf82c2e8cd5565804b2a3",
+      "Vote": "YES",
+      "nTime": 1709132191,
+      "fValid": false
+    },
+    {
+      "gnId": "086f209ed41e7a6d9c231c4a54a1f5a73077d88d59078d2410c6e6e3b4eee3d1",
+      "nHash": "63e44850fef2ae100108f5a4bd53fca4eb2dcd26a1da5006ee5307edeccd1765",
+      "Vote": "YES",
+      "nTime": 1709153948,
+      "fValid": true
+    },
+    {
+      "gnId": "cb82499b15f308a31d32e39d81279ef1c50018eaef93e48475ce100757ec5499",
+      "nHash": "64c92dddd10f01deffd1b76886e45463c2ff138dfce664384cd14fd4ac75181c",
+      "Vote": "YES",
+      "nTime": 1709505457,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "65033b7b89d9ba718ade9169a46b74cfa51ef98d252f90741d61b60648f1e08b",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "8f39f8f991e83e6aaf8bcd9445e5b7340fc06fbec8464278f68bb93b3a57df3a",
+      "nHash": "652bda0e74a30503ffa8dc920d0c80b47dfc87030e100e75aef38efac2bbabaa",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "431c5ed0cdba6d188052861e06de186d5c87f5ddfb449a7d3a7a74e96af0ea44",
+      "nHash": "65de1a1dab4cc1189314b3086596cc5fad7506391a01e28199c922803fc46026",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "67d52115194e918b9a47e5366963307426b9e8a90f184ea483a2369217d5768d",
+      "nHash": "65e8e431eaf91ab6ea44382fb1a45087c5c00469891c0159717491b3eef5d620",
+      "Vote": "YES",
+      "nTime": 1709203836,
+      "fValid": true
+    },
+    {
+      "gnId": "f69e9e02d92d67c0353443acd446c946f90711d3fef9c3ae473610c9e782c3c3",
+      "nHash": "67724da6cd727a0bdbb333809c5ed3a8ea69795b6e449a61f2438be1a1ddf9d1",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "68675c467a2f2b4215529b4e88355fd91f09f4aaad22e831d98d55d274ca7100",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "8e00809e1b1873af008f83485cbc76904c7d4722779d7217556f364a0d09dd80",
+      "nHash": "68b4fa9c1256d054e131f0b11bb22ef7d02314104ee84efb138da540f9c17ed1",
+      "Vote": "YES",
+      "nTime": 1709159550,
+      "fValid": true
+    },
+    {
+      "gnId": "9e90ef9bffb209645b1beed267bcfddd435b8aaf6445570d0f454f81af0e719e",
+      "nHash": "691e627254af62e85a97e7acb3ec7e8cc9ec15876893367d3ab6ee4ee5f74fa6",
+      "Vote": "YES",
+      "nTime": 1709132191,
+      "fValid": false
+    },
+    {
+      "gnId": "d6f43c8bb7f2d542933295072e0b16dcaa7ec1a44be60a35fe1be11f4d939440",
+      "nHash": "6bc646233d31a7537fb7678dc29e19984579bf7ef4bd6c35eb25d8080094f620",
+      "Vote": "YES",
+      "nTime": 1709463185,
+      "fValid": true
+    },
+    {
+      "gnId": "9b2d4039dcdddffee72f4eb718c2e18cfc3928385c521cd4c8496c65ab3c4c64",
+      "nHash": "6c974ccf794308f930968b767cbd16de206a918bd2d337eb8a4cf4f14c145de0",
+      "Vote": "YES",
+      "nTime": 1709132191,
+      "fValid": false
+    },
+    {
+      "gnId": "4191f057842ab2754db7865607dfcdcdee79e842704019248dd68a7ec0e1fffb",
+      "nHash": "6cb60bb4730e420be696409770e80a2185b190f86db50561486a11f592159e5a",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "9ad75a32c5adda155010f9c8d3438d4010a356bf76ff901561dc97c1d7025c07",
+      "nHash": "6d8221aa59bc045a8f5c87bd5e722d96eb02127a0f0cd31713bc5028b74de321",
+      "Vote": "YES",
+      "nTime": 1709153948,
+      "fValid": true
+    },
+    {
+      "gnId": "f69e9e02d92d67c0353443acd446c946f90711d3fef9c3ae473610c9e782c3c3",
+      "nHash": "6d9d1116bc44eb740ba32719e431dfc46f26830da1aa8ca651d6eefbd9e7c361",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "6e9bd352f7619a91730b7fbf69cbbce25403e5314788ccad87d7463e886ce1af",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "2b942b8ab6d7d1339fed9ddeb91763346c0298996ffdb9e84959275861f40d33",
+      "nHash": "6f5140d93cc37310fbe957e4687ad9df06097491de30e3a1eede43b428a89cd3",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "706278fd13cd02ec9578800f4d082bd29c476b7e243a35793dbd07af0402bc15",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "f69e9e02d92d67c0353443acd446c946f90711d3fef9c3ae473610c9e782c3c3",
+      "nHash": "72effc5e17d5f09084eabfdecc546695674cb7a943c2ee8733ceef1e77ca962d",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "0cda305861dc52135d594558690499c0982012f8698b51b84ddb414fdd911828",
+      "nHash": "7313c86d88acc23156941b6231e6e9a94c5b019f12b6be672aa616324f8689a4",
+      "Vote": "YES",
+      "nTime": 1709505457,
+      "fValid": true
+    },
+    {
+      "gnId": "3534de5e7a675688a2e5d6b3a74399d290b7c463d9534d1658693b7625db06df",
+      "nHash": "73587a130758282c1492a786117f8cd9249a1f5c0c9e7bbd7a4b313acaad7453",
+      "Vote": "YES",
+      "nTime": 1709359737,
+      "fValid": true
+    },
+    {
+      "gnId": "6e91da59f01434f2737a22065169e4cb17cfa64cd82c0c410499b542ec534c2e",
+      "nHash": "737ec66e5dbcf27e78cb0e57f763505314e99e4a3f1cdb529c76580d0691f0e1",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "a66491bbc755163f78b605c9ae78a164035e9d4428e5f0c599b753170d2d61b0",
+      "nHash": "7412d65f692c1943630a0c00cfa2679c1e2b27a5a337b7ddbb613d2ef1a8b4e3",
+      "Vote": "YES",
+      "nTime": 1709359737,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "745efda724849029ff7a451526d9a612c3ae8ec8db1817ac927b288150bbd70d",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "74b3fe1395358a40c389fd0aaaabbd97217b16b164c3325c3cedcf8c3b1e6aed",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "74bb64ee29bef727febf3d9b547590b8c88dceb60bd16a475764965e60fd2daa",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "e67912068b4deb21692c3d384861d58ed17262e41031e2f194a82636cb577634",
+      "nHash": "74fef5d6f831cc366759708f4ef062441ac2b8bfa25b20c1989139575d0ebd94",
+      "Vote": "YES",
+      "nTime": 1709505457,
+      "fValid": true
+    },
+    {
+      "gnId": "115c81346baa27e748a3409bae9c1fdafe20707b48af3d9c5164f754d2fb7a4e",
+      "nHash": "752dea20a583029c1e90e4b241ede370693127537cbff864b7c5cf1ebfb1299b",
+      "Vote": "YES",
+      "nTime": 1709549860,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "76f782b2df8a2791127cc2aae40c54959663fae0eeaed085712a2e6d6926c4de",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "f69e9e02d92d67c0353443acd446c946f90711d3fef9c3ae473610c9e782c3c3",
+      "nHash": "78a0096537bf3009192669edfde9f728f7f0b0f360e8705e803507cf1aace35b",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "7a378f514925b59d49a5296f3f4566917c570866372a1c48b59d9ac15ecee3b0",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "60e656c85039ccb3268f0f6aa2cfa9e5024eb024bdf2547d21fc663c5ea3c5d3",
+      "nHash": "7aefbfa22c63752fc24855f567737187928d8dbb9059ff8868446a7981623909",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "7b56c6aef4717f94c0a29aba6627a1c70e55c5ce6eded28e4c2945ba808dcdd5",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4ee43b183471f4f50fde059ff8a31953e66324288f75a12549f01588d9181d89",
+      "nHash": "7c383a32fce41212d7e6b2231e154929b3f897f8f3ec45518aea565c73a0d7ec",
+      "Vote": "YES",
+      "nTime": 1709203836,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "7c6e59674f27f80ff5c410f12faf00673bc6e13ab609e13626d642121c26898c",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "9e90ef9bffb209645b1beed267bcfddd435b8aaf6445570d0f454f81af0e719e",
+      "nHash": "7c8892de6024edadc9a598e13135e712e4b1d00d989a5f9adc5283ae90271b7b",
+      "Vote": "YES",
+      "nTime": 1709132191,
+      "fValid": false
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "7de2d8f698536b899327d0a4626a98ca26d7e8d2a144186b5e569c6c814b821f",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "7e9e1b59e9f1e3647f6546c3044eb77a371d066db318d497c1cc0a2596359a13",
+      "Vote": "YES",
+      "nTime": 1709245748,
+      "fValid": false
+    },
+    {
+      "gnId": "f1fceeaf38f88dd8f279d73346f0f211ec371b8833a58d71c591787d4b5e35d0",
+      "nHash": "7ece49952edf7a00bd9c0083d1536ef69ad1e10712cbdc71932704d20dba5073",
+      "Vote": "YES",
+      "nTime": 1709505457,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "7ef94880503f0f0f4631bcd7316895e2bc82429b7c24329ba695c0c4e14a2eeb",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "23cb72ebd406f85c03c1408eb0c5a5529d32b382e5a43b9459fd6824ed0f8a82",
+      "nHash": "7fec180a33164d50804ae5370e7c8e1651e1b677fbde05d43bc9e03da39dd89c",
+      "Vote": "YES",
+      "nTime": 1709359737,
+      "fValid": true
+    },
+    {
+      "gnId": "5498d1beaa54fed772dd3dc1f0ce298a2023bc36766b514ec948d299eed7f8f7",
+      "nHash": "8008cfb5cb7940a82ed0a37281fec44b7e9871ab1bfec08c4aa068b15aa52840",
+      "Vote": "YES",
+      "nTime": 1709346523,
+      "fValid": true
+    },
+    {
+      "gnId": "b5d8fb9b00c687af735f1b717ddbeed75e00dd5b5a78b99f667fb9434194eca2",
+      "nHash": "80af1afff875f65eb94e73c0e2301bbc0a9b0364ebdb8701fadeb19a85eae7cc",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4996e741389f2e806fb7379d7b7f6b440a49b991144bfdab2627c29ae40afac4",
+      "nHash": "8203fc4994c51435e5125aa016af6f87952d9f5bf7c1bbdc00ec157f3440c6d7",
+      "Vote": "YES",
+      "nTime": 1709203836,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "820f05c68ceff415ae40dd1b3a4bc929038ddffbf6eac55ef2a1bd63caa70d94",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "93969fa8e9f3770373b72e0282c362252a59b24d7cd0bcaa73f35648f5b86c8d",
+      "nHash": "8248ec766dbe037325e4e2cafac14230b7fe39871760b86b0a0f8bbad846d454",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "3ceb3d41b5c139efd0d091fef2b25941c2d9118a324d2f6f90d155250c3536b5",
+      "nHash": "825acceeeda34c1e9fdb1afab80c8bc3e1d7f607fa4113a580c221f4b9956fb2",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "ea5d54e2572a076a3d330edf2445d37c079396e273213a2ebc0c4910ab73d0a5",
+      "nHash": "82d62456052d36df75302526b113e2c2a143d6fd4540cc6f8ff8e11c836565a0",
+      "Vote": "YES",
+      "nTime": 1709476336,
+      "fValid": true
+    },
+    {
+      "gnId": "9e90ef9bffb209645b1beed267bcfddd435b8aaf6445570d0f454f81af0e719e",
+      "nHash": "84c091628f8c66ef8c37d5b735ae81eaf6a49d5d5028b567b0a4e8a704020623",
+      "Vote": "YES",
+      "nTime": 1709132191,
+      "fValid": false
+    },
+    {
+      "gnId": "b53682aec5e43592590d08187fab5317f82c377de19af5ec5c6bdc4c3d5e0c62",
+      "nHash": "856fcd7aef8f1948b2a2fdac233dca8e615bcfcdeee78c8969dcb7491036f5ac",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "d0edf0c7b3ba14e9af54d55b689ca5d4bd7b1df8e4c436ba0154ae79ce399575",
+      "nHash": "86fb2fcf0600150675ecac7bf4899c0ff6ad01f6555dc066479b976bdfebec25",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "256c647e7ee47b9067d843a13f215f19cb8c5c8cd99249f33a0fe9f203c0b98d",
+      "nHash": "876f22ab97bee59c0d9df8d570b80790b7d4aad3c03c0fd804e9054bf55ac51f",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "506bd1519a4ffdae274f95cd86de94e3f6ea96716191c311fc2c3aed55df8aa8",
+      "nHash": "87c6b9c48cf0b2133e754a8bf910d4f80a2041bf9dbaea546692a6b672b7a96a",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "8a53a1d3289cd1bc6fcfd1003b4ac9eef06fc96a366a7569c33db4413964ef2b",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "8b21e031cc0b69bf83f6987dfedaef27ae41a6d90fcf02233e291fb08812f57f",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "8bbcdeccad07903999006e09142190ad944d4512388813bdd59d39c82d2d6df4",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "8bd49b30c286be86caeaf6a4323f297a7fa410de2b66e9d01fa71f5ca853ad51",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "8feffcf30ab3191835b0e5d480166508b738613232d3449d8335d7b1dea945b9",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4f9e233e388dce0cd40844a4936f27680dd7e32574ffa08d541967fa2cba159e",
+      "nHash": "904191179e6090b697d3990a021037c323a96b57ab96015ea79b6f0c05489d7d",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4605cb4e1a367735fe56ca4d5bd1977d9d994089d205bddd3eb55450946330cb",
+      "nHash": "912ae1d175cbe0a4b6da96a11ea377f4f039d97d7b934194cf195c90813a4658",
+      "Vote": "YES",
+      "nTime": 1709505457,
+      "fValid": true
+    },
+    {
+      "gnId": "9e90ef9bffb209645b1beed267bcfddd435b8aaf6445570d0f454f81af0e719e",
+      "nHash": "94849706797a6fe0c820d3ae5654a571fe01581008c062394590539a91b7356c",
+      "Vote": "YES",
+      "nTime": 1709132191,
+      "fValid": false
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "95407d507f96921337b70d7b010f4239a1152d929789ac2a15e2ec4b387f6187",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "95a2cd56ced00dac9c7f09aa612667dd93cdd17201fcc2a5d09a0d8a0e17985a",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "95bd4b6cdebe36e18d1ad470f319050122c403b8889bac9959ffe6db403cb135",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "95f4cac3be96a6cae6868cce0fb5d6645c2cb7a818f6ffb3de5a5fea3f2cb36b",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "974d6a9a88bf33d915cd6e74bd50f35d2e0c7cda903d0f0ecea8a7d806090fe8",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "97ded50759c8d1bc00b54f3a5e7ab19e82195b1e7f23e032708d7509df3e4fed",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "e1ec7e1e0190bd5038e8d4dc1cd9e185f80f2f5f5172521d6b410290fa1b9a83",
+      "nHash": "986202d63fa7433a886526529d8a5971e69be57908d3a3c47c98b692d4aa8a98",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "dd450aafa3d4a3c8ec9e5a10c4e572f041f026b4a53497951a1eff9bbd1a7416",
+      "nHash": "9b21eb8f886ff8ed324a8817efb9e83f6c29f32687f0f8f615a7123b05cff0ef",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "9b401fc4eb69113adf2f2fad4438a8f6d8e1de017ae0debdd0766810da67fce0",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "9e3646d69f0d884e4948a431e4ee6ebf42c8cedad9f7aed63d7c84517990a48f",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "d0edf0c7b3ba14e9af54d55b689ca5d4bd7b1df8e4c436ba0154ae79ce399575",
+      "nHash": "9e51bd435516eed7929dcc46e741e8357820ee753bbcd3b41ebf9e57500e5e9a",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "a0e392d999f9b3d439863c4798fdc9aefc105f7a59c75b7bfd22ab549a74cb00",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "a153703e4d7a48611a5f2dfc1104cab8e5de89070d9245fbcf99c93b05840603",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "de28bdb086e374f2046c2798fb7df4635440168d10ec711752fad7be8fa4000b",
+      "nHash": "a1bb9d82991ec9ba948f22600d20eab7722879904e1f5e02f62e5681bd549b9e",
+      "Vote": "YES",
+      "nTime": 1709505457,
+      "fValid": true
+    },
+    {
+      "gnId": "c7bcfd28943eba83ff8143326615639da9006cc45843a364342c811a26b0e556",
+      "nHash": "a1fb43d10dd009219a5ccd9a1101125d60fd3bff760b0e298ef59bb5a8fff35d",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "a30657669c8bd6a75b1c6c1ac8e980e53f856fee9b615eb733eb16c5e7946f84",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "a364b33064166617ea062fb592fe0765652e0a75645a1fbb1f770709bcc811ce",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "a39b8e87ef9ab2c3c5d238f49ff122463792f293292abec40d9712a9ebf6be38",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "a3fb42f45f8bf3ce8317a5f071ec73ea4b2fb666b5752e9b9aa1a3741e51e646",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "a4230092539c50e58fc7acfdc1a8c99052cc6d9320aec979ab117f41b6e796d6",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "5b798751386d77c5bfa71bc32daa521b38a1794e43fada3b0f6ab7ee2e6210d4",
+      "nHash": "a57ac6b76ed57e1441bfb0e03a555d6fdae3cff9cb2f007788d2e6e17d5db6dc",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "a65b8534a86581177b40a5c2d60d19a0db2825a015dfafc157fac3a6851b54a3",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "a546cac8895af3e1b82a096d4f1eca0aa9ccc5ae8eb005f953acaea381f60d90",
+      "nHash": "a7121ddc8e237674c4077a8fd4adc8d27eac733d59621f7a9be974ec17950b8a",
+      "Vote": "YES",
+      "nTime": 1709505457,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "a77e541d92a5f52f165718b5248dbd6063eb753a37e31ea108fb989207505269",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "f69e9e02d92d67c0353443acd446c946f90711d3fef9c3ae473610c9e782c3c3",
+      "nHash": "a826495dfdb1fa483dfe9ae0f30aed9c0ebc5c1891ab4e7c32e4865d82190f0c",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "96dde2d753d1b5f4c470c09a8dbbd8dfb9543f5126fff840c45096796aec2d28",
+      "nHash": "a8defcbc96d380656cb79e87048e659f0cf9b077c331442d8ea10416c2ab3fbc",
+      "Vote": "YES",
+      "nTime": 1709132191,
+      "fValid": false
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "a91e115537097ae2391968f0d9f7ff2d462026667348352e0f4fa71ae81a8759",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "aa111d8fb5df215cab16ede4aa4612b5f7a06c05449c76344b9b3ba501394570",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "acf9f6ba164d35315679a9bc8db46bd32f1ec56d06c106c59ac9f0926372ef77",
+      "Vote": "YES",
+      "nTime": 1709132191,
+      "fValid": false
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "ad5e2108b854db406d23b38756cf80153b8940f54b09f4ea7f224420001ed240",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "7ead299da6d517bd1692443f24d7d92200084f2bc9416c456a0fb582f08fa1e4",
+      "nHash": "ada0858b1a07db1abb19e38bcab2ba8cfe3a77c35d21d3cb144ad692c8f2157d",
+      "Vote": "YES",
+      "nTime": 1709549860,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "ae4555604e17649b2c67857c572341f16e81c8c760de59fe44e43cedf35c4c2e",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "21b398b980ee219140750336654f04ed46b9c2699c12a82a878bde385e84eb3c",
+      "nHash": "aea793c3eb3248fbce336eed463ac98e834a66dfbb5bbeae6f56a6df4ff46e8d",
+      "Vote": "YES",
+      "nTime": 1709463185,
+      "fValid": true
+    },
+    {
+      "gnId": "67f0bc698bd17239610ac5bb5cd5f75f0fa44f7e119ca65447a0ea4e3c588a2b",
+      "nHash": "af2c7a38d2fb37ce244b037492f51ae3fec24295828236f3a4eeaa5b1591d0de",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "b0e507d74c1bafeb64f9ddfe861ad8845ab55a14559635471cb401e5987c0dfc",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "26ed2862eb24f65787a9ec4b25ca2f4affd1523bda66286546136f85a559a2e7",
+      "nHash": "b36d0c31f8868a4f93bdec8abf89377fd794d56cf8510df0e45c44c7817ad3eb",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "f69e9e02d92d67c0353443acd446c946f90711d3fef9c3ae473610c9e782c3c3",
+      "nHash": "b3ab05a07673f44949e0ebe6dc03f4150c441461eb6b8cee636c37af327eb0d4",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "fbf6f3499ee93b88a735e7e91543217df16b3e67e6916c7e20accb22bb201928",
+      "nHash": "b416929905f9d51e16b6e5fa8ba9f201bfbdc16835e7cf7bda423e004059c102",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "b493011b805f84eed8e7a615453c10c25aa7196c2c9fda2f7469f0cb23cec7eb",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "b534a60e69a0e9a65d04f67d9c57dfbcdc2ad3003bbe30de81c1fda3caec01a7",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "51a3b1345f85106e42daa981e3e7c98ab6c8fa5c2f339bf3964dddff4e717d53",
+      "nHash": "b544ec645dbea2697941b45b63adbe4393b466dc28f2ee987bb857c6b9585552",
+      "Vote": "YES",
+      "nTime": 1709549860,
+      "fValid": true
+    },
+    {
+      "gnId": "955f786f0591b476a755015211875ecccb998556329658f3fff640dc30a55d57",
+      "nHash": "b547132052f1b284f46c19d431da1fe6a4ef2f47e5e7516c291d9e2dfee9c577",
+      "Vote": "YES",
+      "nTime": 1709359737,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "b782e842ad17fdafbc2bca26747f0c76c59cb6c3bfed91f3bd2a589ac7368026",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "b79589a29874523eec16c8c15d498614f752e14574c18263f68dda5ac96046a1",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "b85a89139601da815f8f6fd896722b7b1d7e687735f78487caf43524dbbbeb25",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "f71e9591bdf4b59bda5773ff1fcdac3ad14316d22dd766d453c28985006a7287",
+      "nHash": "b8773d38bd4edaa3eb4f00f540484c1861466965c4fb7f05aac40739bbf3f5eb",
+      "Vote": "YES",
+      "nTime": 1709330349,
+      "fValid": false
+    },
+    {
+      "gnId": "26ed2862eb24f65787a9ec4b25ca2f4affd1523bda66286546136f85a559a2e7",
+      "nHash": "b95971fc9e4620833c61ad557b81bd1dd920cdad627be8538042f03d4da3e078",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "f69e9e02d92d67c0353443acd446c946f90711d3fef9c3ae473610c9e782c3c3",
+      "nHash": "b983501d7708622f9512929142e6990b58c45011daac919367c4e324bc443704",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "8448e0f978b35752d81b0211d5c7d71d4d8a47846ab73897a7440bdada2d4475",
+      "nHash": "b9a5626ac07ce9cf0880978b9bcaac6996f5466fcf19853f3917c2099100aca8",
+      "Vote": "YES",
+      "nTime": 1709549860,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "b9f908568e4fe0273ad2c50c20cd241a85e6ee1d82008b1c440024c829a859ef",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "d0edf0c7b3ba14e9af54d55b689ca5d4bd7b1df8e4c436ba0154ae79ce399575",
+      "nHash": "ba5c453f32907ca6780b004b1c8ecd5e0353559d8db1d8421f8330ea6d180af4",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "b0eb7fcb782cb65b3b4a12ae061036ec8c70765c871c7cacbc6f19b119e2e123",
+      "nHash": "baaee84ac25ab63450ef9c7beb688651e0e7d15df8217f88e026899815c0bd93",
+      "Vote": "YES",
+      "nTime": 1709535410,
+      "fValid": false
+    },
+    {
+      "gnId": "d198a5a9d900208653f5d2d19b06386688a4432d79dfd00abe68489fb3d5a71f",
+      "nHash": "bd7237cb6ef187bead156edc5b0e4819af66ddcc95c45e1629a3cfc3f1915048",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "bf6d1a76953465f2f870c7f63c49f708e5d341b344f469c8f4b69a56e1edbc1a",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "a77e48dbfdc42ba0023f37789e37231f5130b4bbc0c8a923400dfedd2f15b8e3",
+      "nHash": "bf9931e41fc98574448fda8a7915f32f12d7feba48c806c49378c467b7a33698",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "7f9921270d18e2d7953a49a5781cda6f64e98310015ea4762184940453945915",
+      "nHash": "bfda4106186ac5d9536f68ce9a4bc2a2761c861ddb052554d69aa545dbd013ad",
+      "Vote": "YES",
+      "nTime": 1709330349,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "c06bb120ba9d08845b23e7ed3cd48d64625de05273d69e2001a4217d0cd8b9c6",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "b02c72ef8900ac1e1ed98b90ef7634401c3a58ca0bf3853ce92da0bd8a8e7d31",
+      "nHash": "c090f107a28a0c2035beaf4279281a89bec8a8b8e1dc30f84b86bd20e68c3877",
+      "Vote": "YES",
+      "nTime": 1709463185,
+      "fValid": true
+    },
+    {
+      "gnId": "7bc08a27acec1ef2e42ee73fd16bee6437f1ed180c7029669e6a2c3392376742",
+      "nHash": "c0c2daca927f6a9707f56a050abed44706979a4df2060db0aff91bd97eba54eb",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "c0e61ed2bc6e14b2d3f651cc7676c444f0bcddb56a57fc1fb03e192d25989029",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "9b05eaf55581485dcd6410732c0937a5910fc13aba1076c663a31f2beed1be96",
+      "nHash": "c0f728a41f28f13b9872c1653d1084c2389e6c36799f2dbaaa06d6d25837eefe",
+      "Vote": "YES",
+      "nTime": 1709359737,
+      "fValid": true
+    },
+    {
+      "gnId": "2e02ce5229b8c311723ef20679e2154971e1467458f769f72efc1c392bf84190",
+      "nHash": "c25edced081bf78767a0b7d2a88939c27e4be096a832a7885b5ed98319b629bf",
+      "Vote": "YES",
+      "nTime": 1709549860,
+      "fValid": true
+    },
+    {
+      "gnId": "549aed85ac5991154448be87a1d7ae68a333382099372dc6b052c8d0be0716fb",
+      "nHash": "c260015d92b9894efc6f69b14534b33745701e10831c94d0eb8e1a96ff631e0b",
+      "Vote": "YES",
+      "nTime": 1709198732,
+      "fValid": false
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "c26223399792037c4b4374f277d8d8638f9adfe3019cba54c939e429396b72d3",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "e1876bab081b84ef1852cf1fdf739fbf373fdea3c78270dcdb56028a843a8743",
+      "nHash": "c4e7bddaeb0eb19a46896785f40e872436f0a39463fa0d68a9271c8b830cad86",
+      "Vote": "YES",
+      "nTime": 1709505457,
+      "fValid": true
+    },
+    {
+      "gnId": "bfe5f3cc6ead2540d1a21b23a7700e608b46f12a70b277b7a4855adc007736e2",
+      "nHash": "c739c60602853cc8efc82228cda543b61bb79f0f7faf8f08fa054fd8a95eab92",
+      "Vote": "YES",
+      "nTime": 1709549860,
+      "fValid": true
+    },
+    {
+      "gnId": "88ba86743b4c43e47b693fa2429e84f5c421df62ce8b8b6ba7b1b2c0a99ac228",
+      "nHash": "c8e603e4e9d1f714d21fc1a3d6d16310f93ec8bd53b88b3bdd76b9953c33f85c",
+      "Vote": "YES",
+      "nTime": 1709198629,
+      "fValid": false
+    },
+    {
+      "gnId": "47bdcf75eb0b5663de0da88eaa620125663bd09331103bd72d2de51f40ec0275",
+      "nHash": "c9257b1f1476e805670c6ae34231bbb4959ac933132efc8b12f422eee884989e",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "ca09d258704f7a941700a1a8cae3754208c205df36e483ebfd21467cd9445d9a",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "ca8be9ec576f5ff446dccc6bba7ea538e92187b7f95cfbe0a817946408e1cc66",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "f4612955c3555ff7d2197de24a027208c8eb2f37301dae1f2df3970640b9e219",
+      "nHash": "cc39644fb4fae7d0cde672de68508396541abe097793873c366ec72fa46f92f0",
+      "Vote": "YES",
+      "nTime": 1709549860,
+      "fValid": true
+    },
+    {
+      "gnId": "fc4c3f6f834969e6499c975386380eec995336aaf6f410b728e417036bfd9d3b",
+      "nHash": "cede672ae96cb385188940c7815c9829711e9edfb80d93ed31bfc0a19e3ca841",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "c649d106a609ea4f754d116fc23802220cd3c0e13633590a295b5f18e5626cd1",
+      "nHash": "cf390056858d9ea4e22869ec6c5288dc29ac4e4a7e7ab6ed25a993bda4876f1b",
+      "Vote": "YES",
+      "nTime": 1709463185,
+      "fValid": true
+    },
+    {
+      "gnId": "f69e9e02d92d67c0353443acd446c946f90711d3fef9c3ae473610c9e782c3c3",
+      "nHash": "cf71f3677a0266290fc65ec471d69a83e924c0f852c1f2bda8224f93e81ea7dc",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "d1342bb04f97cf8e23a48ae5920e53403ed9eabd6ef865b59e65f3e0f84fd846",
+      "Vote": "YES",
+      "nTime": 1709288900,
+      "fValid": false
+    },
+    {
+      "gnId": "fb58c4faf86c48f2e619060d6a039bc72527cea574a777c9e759fe627b89937e",
+      "nHash": "d14c2bc7097275f5b5f35b6e85bc4295296d2581e500f3dda336778e9a61fa0b",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "d1c7f3103c94dbdfbf75e26a00b4ea5db9df484124e63b0b8eceb7415fc2872d",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "f69e9e02d92d67c0353443acd446c946f90711d3fef9c3ae473610c9e782c3c3",
+      "nHash": "d28ca373a45f0afd2882319658edc51904cbfd606afcb2320ab1e21a5f4c78cf",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "2b4900cddaf58353f04737376fb4796f586ef85f6e2c944d5960fbc2b29b9556",
+      "nHash": "d291c272a2f09f27ab80b7ba51d7fe059930968748c112294fcafbefb49f48ea",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "d2d1a9117e5327e079698bb6ffcb449b390a33d90b1e2187f5a3b934d5e24d91",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "956a7b10d0d606d2ed256dc300349610193bda50b33ad4af42064d45a1faba63",
+      "nHash": "d2deac798d2bec7227de8f40af565cdd8c5fcd40cad83b6b696d2dadba1d2cf2",
+      "Vote": "YES",
+      "nTime": 1709132191,
+      "fValid": false
+    },
+    {
+      "gnId": "6b42f0d78e6d35d63ca2cc511a3c628171dfc3f212738a3a03503020eac57603",
+      "nHash": "d306e5f025cf45b84507b928bd308e5811c1586d3ed7305612b413ab599e5f74",
+      "Vote": "YES",
+      "nTime": 1709549860,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "d39bb6224c8eae2ad89962e206c91d4d478456c74a79e7c129bf39ec1a75d919",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "ac045641114a57e263b351b6092a6e1df85b9f672504876bd4400097ff1e2ddb",
+      "nHash": "d4bff38222d492798f5bbabbfd58c475abbcf2d6b5486a6ffb9bac291530688c",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "d640f56e22d595c3cbb830fef0861a8767ca4be6cc45b166622025f636ab2561",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "d660518e1523570e7a9a3ad0b7089a90e6b75a1a0c498704514adc2e20c7dec4",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "d6c164f5b9f5953504f4880741ed81ce4aa19444479b75f78248e876441cddce",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "d6eae6d8a57db59e9e942d563557d2b9517eb71b9e9637f63810baed8bb9eada",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "f69e9e02d92d67c0353443acd446c946f90711d3fef9c3ae473610c9e782c3c3",
+      "nHash": "d8018a46d31e53970bb50d082dc022d1216bc32306c4957a623a803663c9d77b",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "5aedd41031b8820154529d65ef4a0045042dbf2806a119ea3a8fade2f4be7061",
+      "nHash": "d87a4628e88a470eb8834351f4a13a604cb3a2934932917d144a734025cbca57",
+      "Vote": "YES",
+      "nTime": 1709359737,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "d8e3dd62572209ed5446d5962a480063b809848069fef5436dc64a3c5504be87",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "daa6b75d4bc5de3f5c49b7059966515201bdb0a44db52a0b65a2e32748e66b7f",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "bafd184b4fe7a4980418351364877947ea37743a0c016ddfaf77bc6234fdc305",
+      "nHash": "dbb15528104953c35c2350f5b9f0923ff590da6c11a4ef671b289e46460d8587",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "dc080ca34729cb9085bbe65236385fe6ebcd72c436281090e86d9467db5b6f8a",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "0c8e512018892c370bebac57cc50e8fc64c303ed0062bed5d427d6a9314117a3",
+      "nHash": "dc60958a3d6274595fb6ff7306d7e99428dcf88f55e4158c8537e469b1b2439b",
+      "Vote": "YES",
+      "nTime": 1709505457,
+      "fValid": true
+    },
+    {
+      "gnId": "e81f20e0b79648b51a1bb4fd7450f97b87bf646209021535a3ee3869d987afc5",
+      "nHash": "dcfecfa9adba204e5afeacdf3487fae626b996a3a1ae9c6bea77a45599ff0acf",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "751e6e5394844d6f1f60a5de98304c8bde995a6696ae16143ee85e6816f8dfc3",
+      "nHash": "ddcc391fea537743f97ea15d48c37dc33982049950b6fd6e2f06f677b37d6205",
+      "Vote": "YES",
+      "nTime": 1709359737,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "dec4c663952b9a30fe37fb616edfa704314d048d70eec6a114c6fbf28c820f25",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "b98b6abe014914f014f7bbf2b64c504217e9000016967b0d84b8d17f44ac46d3",
+      "nHash": "dffebc116865a2700f2c6466128561479433797df8e5e904f634b44af697567a",
+      "Vote": "YES",
+      "nTime": 1708958339,
+      "fValid": false
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "e1ba21deb377b5a39904e7a0418d7a748723e505e3975dcd2941eed69a063cb6",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "c2c6361c3e62a1e5b692978e8e77e71b9b5f384730ebc1dca2b8b468480241d9",
+      "nHash": "e21a62719c2b43c2c30c2504f8e3ed8c832bffd504d2303a6577e1b10cc2dc0c",
+      "Vote": "YES",
+      "nTime": 1709359737,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "e32a68c2579fd25eda8871ceb0090c2b44e905e02175589ee983172201f06b9b",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "d0edf0c7b3ba14e9af54d55b689ca5d4bd7b1df8e4c436ba0154ae79ce399575",
+      "nHash": "e4ec2155bd022036a2199c415537dd4c7db5c4e0a8f392b7c1cd4c7a96d53dd3",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "e9930b42a8606ebbfa55b4c1d2fe6350e6da506ebd265ba3afbe69e87bd4ec09",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "ea1837494b0d91383a93a04711d1f8933ce9597ab92c12cd9f71e7473aa08e7b",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "ea18d0a77ac77c63223401ad566a9a6119c685b4e7214abc4fd9a1b55ac80c19",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "764227055e1605977751adfead8f917f2f8f4beaf729a40d58657c60d6e6dc95",
+      "nHash": "ea8b9bcc7955e34dfc55a8e6d03a0ac4251dc3d0760bc88feb7238c4de89b04c",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "eadab7f87b06e380fde7d4df17affb7a2409ab8b6028dbacc30f56c61d753b55",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "372c871ae6352f77f5c4e9334dc650f077bd2fbcb8e9c84a78dbfa5a432c807f",
+      "nHash": "eb9a1f438c73c0b851da3fc60539103cbbe31067939a737a1610beb0cb9b285c",
+      "Vote": "YES",
+      "nTime": 1709330349,
+      "fValid": false
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "ebe31e07b9359e5ea8e85a8c1eee58364387e6ef3f65ce234e2b4f2b2e993185",
+      "Vote": "YES",
+      "nTime": 1709329696,
+      "fValid": false
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "eeede4abdd89437ebfb7866e0f039be9de56dda88c6fda9dc5efbe21b1b61d38",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "ef34f837eb9b97f997354775ad8b60d4fabedeae6343a649c5087890de61a9ba",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "63c5b81d4f81b3d96ba3edd06d1a35036bb4d29bd8edc6118b344caee1c956c6",
+      "nHash": "efa431c6bc53e90b315c81a71c03369d8f0cb8e48a3c904c70b3f140ccaa2aa2",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "f0430a68f88abd693f9b2e7b36817aee5ee4cc8c06f9c759caf9c8bb6ada033f",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "7a5cac2a23a3a42e48e6c8a0f3e45706d26742d3ba2296159f043adcf2d5aed0",
+      "nHash": "f2f825740b62a8d4565bd5818d11ad5e9b5e90362196dd1f2832b2c42afb5cc6",
+      "Vote": "YES",
+      "nTime": 1709398319,
+      "fValid": false
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "f38e6c24b67a7f25be22b03485946eeae857b9dd57969839f9f52f65aa749c55",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "5d1a75d7d8b9fc00b89ef8b7ce2b8925e750a62a6a4c812b6f8c5516ce53171a",
+      "nHash": "f459b9d2b2d14ad51beaf21c1c3b1f84077138189ec7b7139cf76674d7fce1c1",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "390287d0632e6e337faad9bd3f1dc2d32a541461ec335c2d342766e1f0125c61",
+      "nHash": "f632fe7a24cb4d903d360686d0c4d90d78870dd39b3a7fe771cc7ebbba47242a",
+      "Vote": "YES",
+      "nTime": 1709549860,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "f64c18d7859ea2eb83c4bf77bee9820cfa467382e7070272cd473d9886022a7d",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "0eced904a99e33a1c36ae950e2c77f216e8ad287ae99cc9f784d12a9a89eb5ee",
+      "nHash": "f68b505f981127fe396a9b21b5e7fa2cc12c12baf2bcd7cd1526ae7d2f792544",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "2b96c7470bbc3f6773804e2c8b93cce13f281552de16b83a53f780935030a2e5",
+      "nHash": "f6d1d6d70d5ddfa71f0ca08071e9877c0bc588b93afc2fda0995afde80f14669",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "dab25a84a342171d7a0e1755a902cc12ec8d31f909817a98f65d36f09d17546f",
+      "nHash": "f754d71da2a14be8ca323b0da97893986c446cac3f7e3c4c59b567653593a303",
+      "Vote": "YES",
+      "nTime": 1709144369,
+      "fValid": false
+    },
+    {
+      "gnId": "6bdd4e1529a0c63c024d72f5f200b26533adb65de9f34ea3a0b16d952addd714",
+      "nHash": "f76934d12278bd6159bcb1d8c9da6731b7162e35ae7ce866e15ff2c387e5d371",
+      "Vote": "YES",
+      "nTime": 1709359737,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "f76dd34fc0d4b13a1c57ad7b5a817c64cafd15f51395a0bef1b31163e5c19da5",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "4a3ea6e05954c9dc8b127cc0149bf67db144a21cde323a1461e55d5973ec5455",
+      "nHash": "f83e8c6bc9eefea0097d955352afb52709dbe66d98dffc718d06f323ef29bfad",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "df88f9766c22eaf4334efb0fbb1fd4c44f79dcbfb55a79239e669f23af3e7199",
+      "nHash": "fab552f667cc9462fa4467a3acbf9c2793c2b3fb8743407baf56fb5aab8bc4f0",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "431c5ed0cdba6d188052861e06de186d5c87f5ddfb449a7d3a7a74e96af0ea44",
+      "nHash": "fae8569803539dfc2e9b004b194cea22f3d15509333b4f19e24c3cf6cb4129d2",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "bcfd2b1b3f4910b3361c31dfa78029bd5f3453d29c73a2da430267d10d87c4e8",
+      "nHash": "fc3e6778c55c553da75b485918077b3d33209ec4d067398cc4137365ef22b6f3",
+      "Vote": "YES",
+      "nTime": 1709505457,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "fe2d66b1ad44c6312aeed018d70754001ac266c61abe5ebd5fe942cf66587607",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    },
+    {
+      "gnId": "d2d85cbc1b0616c6481b7b9879fe07108eb06296b5b9217e2a146f0b0a405123",
+      "nHash": "ff4679c164fbb035a8c33b981dc5a513c30e0ba2429dc2623605e7f1b5317a70",
+      "Vote": "YES",
+      "nTime": 1709549860,
+      "fValid": true
+    },
+    {
+      "gnId": "6e8d8eb306ee53a40e975651427702151989d85f3293819415950f7646183800",
+      "nHash": "ff7a16bd193ff15891560734a8fe5d8d9a05a03734b9c277850e59e34fef0a28",
+      "Vote": "YES",
+      "nTime": 1709551586,
+      "fValid": true
+    }
+  ]
+  

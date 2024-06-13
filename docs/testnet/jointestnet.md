@@ -2,6 +2,7 @@
 layout: default
 title: How to get testnet tokens
 parent: Testnet
+nav_order: 2
 ---
 
 # How to get testnet tokens
@@ -32,39 +33,44 @@ parent: Testnet
 
 ### 2. Add the Unigrid Chain to Keplr
 
-- Go to the [Unigrid Testnet Explorer](https://explorer-testnet.unigrid.org/).
-- Click "Connect Wallet" in the top right corner.
-  
-![](../../assets/images/connect_wallet.png)
-
-- Select the gear icon on the left.
-
-![](../../assets/images/gear_icon.png)
-
-- Click "Add UNIGRID-TESTNET". 
-  - *Note: This step is temporary for the testnet phase. The Unigrid chain will be integrated into Keplr upon official release.*
-
-![](../../assets/images/click_add.png)
-
+> Add `unigrid-testnet-4` to keplr: <https://docs.unigrid.org/unigrid-cosmos-networks/>
 - The connection interface should resemble:
 
 ![](../../assets/images/connection.png)
+
 ### 3. Obtain Your Unigrid Testnet Address
 
 - After connecting, access the dashboard to view your Unigrid testnet address.
 
-### 4. Acquire Testnet Tokens
+### 4. Acquire Testnet Tokens 🚰
 
 - Join the Unigrid [Discord channel](https://discord.gg/JDAYCJ9tEb).
 - Request access to the #testnet-faucet channel.
 - Use the bot in this channel to mint testnet tokens by typing: `/faucet <your-address>`
 
+
+> If you are a validator and in need of more funds, you can request them via this [form](https://forms.gle/Ubv2u6T1AWgWkTRS9).
+
 ### 5. Delegate Tokens for Staking
 
-- With your testnet tokens, return to the [Unigrid Testnet Explorer](https://explorer-testnet.unigrid.org/).
+- With your testnet tokens, go to the [Unigrid Testnet Explorer](https://explorer-testnet.unigrid.org/).
+- Connect the explorer to your Keplr wallet.
+  ![](../../assets/images/connect_keplr.png)
 - Delegate tokens to one of the available validators for staking.
 
 ![](../../assets/images/dashboard.png)
+
+***When using this explorer and delegating tokens there are 8 decimals you need to add. For example if we want to delegate 1 token, the amount to enter would be 100000000.***
+
+![](../../assets/images/delegate.png)
+
+
+### 6. Sending tokens
+In keplr you can add or create multiple wallets. If you would like to test sending tokens this is a good way to do so. With an address selected that contains UGD tokens you can clik on it which will bring you to a send window.
+  ![](../../assets/images/send_ugd.png)
+
+
+
 ---
 
 Remember to periodically check for updates and announcements regarding the testnet's status and developments.

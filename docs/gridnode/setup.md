@@ -43,6 +43,57 @@ On this screen, you'll also need to generate a key for the gridnode. Click the `
 ![](../../assets/images/gh-generate-key.png)
 
 
+## Making Sure Your Gridnodes Work Right
+
+<div style="padding: 10px; border: 2px solid red; margin: 10px 0;">
+    <strong>Important:</strong> You need to send tokens to a specific place in the blockchain to get your gridnodes working right. If not done correctly, it can cause problems.
+</div>
+
+### Common Mistake: Sending Tokens Again and Again
+
+A mistake many people make is sending the same amount of tokens over and over. This messes things up because the tokens shift to different spots (outputs). When that happens, the old spot becomes useless, causing your gridnode to stop working.
+
+### How to Avoid This Mistake: Locking the Spot
+
+To prevent this issue, follow these steps every time you send tokens:
+
+1. Send the tokens to your address.
+2. Find the spot (output) where the tokens went. You either wait for it appear in the list or use the explorer like this transaction as an example [tx](https://explorer.unigrid.org/tx/57c66a669c17f82bea1765830a88e6cc3db5239b2c837f7da6d12275cfa62ab8) where the amount that is capable of running a gridnode is spot `0`
+3. Save this in your `gridnode.conf` file temporarily.
+4. Restart Janus to lock the spot.
+5. Now, the spot is locked, and you can send tokens again safely following these steps.
+
+This way, you lock each spot before sending more tokens, keeping your gridnodes working smoothly.
+
+### Example for `gridnode.conf` File
+
+Here's how to save the spot in the `gridnode.conf` file:
+
+If `ab1a2e3d60ea00085766ad1428a761aadc656749662816e77b650da071763bf2 0` is your token transaction and spot, remember:
+
+- You can reuse the `gridnodeprivkey` value many times; for example, `93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg`.
+- The name, IP, and port can be anything for now. We're just locking the spot before getting the right details from the setup script on the server.
+
+For one node, you might use `gridnode_1 127.0.0.2:51992`. For another node, you could use `gridnode_2 127.0.0.2:51992`.
+
+```plaintext
+# Format: name IP:port gridnodeprivkey token_transaction spot
+gridnode_1 127.0.0.2:51992 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg ab1a2e3d60ea00085766ad1428a761aadc656749662816e77b650da071763bf2 0
+```
+If you have multiple spots, it would look like this:
+```plaintext
+# Format: name IP:port gridnodeprivkey token_transaction spot
+gridnode_1 127.0.0.2:51992 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg ab1a2e3d60ea00085766ad1428a761aadc656749662816e77b650da071763bf2 0
+gridnode_2 127.0.0.2:51992 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg ab1a2e3d60ea00085766ad1428a761aadc656749662816e77b650da071763bf2 1
+# ... and so on for other transactions with their spots
+```
+
+After restarting Janus, the spot `ab1a2e3d60ea00085766ad1428a761aadc656749662816e77b650da071763bf2` at `0` will be locked and can't be used until you remove it from the gridnode.conf file.
+
+<div style="padding: 10px; border: 2px solid red; margin: 10px 0;">
+    <strong>Reminder:</strong> The values you add here are just to lock the spots temporarily. To finish setting up, follow the rest of the guide to complete the node setup correctly.
+</div>
+
 ## Server setup
 
 To follow this guide, you'll need a server running Ubuntu 18+, a Debian-based distro, or access to a VPS (Virtual Private Server). Several VPS servers are available for rent. We recommend a few that we've used for years:
@@ -50,7 +101,7 @@ To follow this guide, you'll need a server running Ubuntu 18+, a Debian-based di
 [Contabo](https://contabo.com/){: .btn .btn-blue }
 [OVH](https://www.ovhcloud.com/){: .btn .btn-blue }
 
-We suggest a minimum of 3GB per gridnode you plan to run ***(resource requirements may change in future updates)***. In the future, gridnodes will benefit from dedicated servers, maximizing server resources and earning corresponding rewards.
+We suggest a minimum of 4.5GB (these amounts can and will fluctuate) per gridnode you plan to run ***(resource requirements may change in future updates)***. In the future, gridnodes will benefit from dedicated servers, maximizing server resources and earning corresponding rewards.
 
 
 ## Connect to server
