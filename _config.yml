@@ -15,12 +15,21 @@
 # in the templates via {{ site.myvariable }}.
 title: Unigrid Docs
 description: The home for documentation of the Unigrid network
-remote_theme: just-the-docs/just-the-docs@v0.6.0
+theme: just-the-docs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://unigrid-project.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
-exclude: ["README.md"]
+exclude: ["README.md", "vendor"]
+
+# Wiki checkouts published as sections of the site (see _plugins/wiki.rb)
+wikis:
+  docs/janus:
+    title: Janus
+    nav_order: 2
+  docs/hedgehog:
+    title: Hedgehog
+    nav_order: 3
 
 # Regression tests
 # By default, the pages in /docs/tests are excluded when the ste is built.
@@ -97,6 +106,8 @@ plugins:
   - jekyll-seo-tag
 
 kramdown:
+  input: GFM
+  hard_wrap: false
   syntax_highlighter_opts:
     block:
       line_numbers: false
