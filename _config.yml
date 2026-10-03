@@ -67,6 +67,10 @@ search:
   # Supports true or false (default)
   button: false
 
+# Renders ```mermaid code blocks, such as the diagrams in the wikis
+mermaid:
+  version: "11.17.2"
+
 # Enable or disable heading anchors
 heading_anchors: true
 
