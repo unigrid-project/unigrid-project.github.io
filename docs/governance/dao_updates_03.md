@@ -8,7 +8,7 @@ published: true
 
 # [Proposal #3][v1.0.0] Tokenomics Update and Quorum Adjustment
 
-![](../../assets/images/prop_3.png)
+![](/assets/images/prop_3.png)
 
 ## Changelog
 
@@ -40,9 +40,9 @@ It is crucial to note that the proposed reduction in the total token supply will
 - **Gridnodes**: 540
 - **Quorum**: 270
 - **RESULT**: PASSED
-- [View results at block 2832827](./2024_PROP_3/prop_3.json)
+- [View results at block 2832827](/docs/governance/2024_PROP_3/prop_3.json)
 - [Gridnode Votes at block 2832827](/docs/governance/2024_PROP_3/grid_votes.json)
-- [Block Info 2832827](./2024_PROP_3/getinfo.json)
+- [Block Info 2832827](/docs/governance/2024_PROP_3/getinfo.json)
 
 ## Context
 
@@ -62,8 +62,8 @@ The voting process is a critical step in the approval and implementation of thes
 
 To provide a clear understanding of the changes proposed in this governance update, we have included links for a side-by-side comparison of the updated and current DAO documents. This will allow stakeholders to easily review the differences and understand the implications of the proposed adjustments.
 
-- [Updated Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v105.pdf) - This document outlines the proposed changes to the DAO's tokenomics, governance model, and quorum requirements as detailed in this proposal.
-- [Current Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v103.pdf) - This document represents the existing DAO constitution prior to the proposed changes.
+- [Updated Unigrid DAO Constitution (PDF)](/docs/governance/docs/Unigrid_DAO_v105.pdf) - This document outlines the proposed changes to the DAO's tokenomics, governance model, and quorum requirements as detailed in this proposal.
+- [Current Unigrid DAO Constitution (PDF)](/docs/governance/docs/Unigrid_DAO_v103.pdf) - This document represents the existing DAO constitution prior to the proposed changes.
 
 We encourage all members and stakeholders to review both documents to fully grasp the extent and impact of the proposed updates to our DAO governance structure.
 
@@ -125,6 +125,6 @@ This proposal represents a strategic adjustment to the project's tokenomics and 
 
 ## References
 
-- [Download the full updated Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v105.pdf)
-- [Previous Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v103.pdf)
+- [Download the full updated Unigrid DAO Constitution (PDF)](/docs/governance/docs/Unigrid_DAO_v105.pdf)
+- [Previous Unigrid DAO Constitution (PDF)](/docs/governance/docs/Unigrid_DAO_v103.pdf)
 

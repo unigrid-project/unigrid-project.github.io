@@ -8,7 +8,7 @@ permalink: /docs/governance
 
 # Unigrid DAO Governance
 
-![](../../assets/images/ugd_dao.png)
+![](/assets/images/ugd_dao.png)
 
 ## Introduction
 
@@ -26,7 +26,7 @@ Effective governance is essential to:
 
 Any member of the Unigrid community can submit a proposal for consideration. Proposals can range from technical changes to the protocol, funding requests, partnerships, or any other topic relevant to the project's growth and direction.
 
-A draft proposal can be found  [here](./TEMPLATES/proposal_template.md.tmp)
+A draft proposal can be found  [here](/docs/governance/TEMPLATES/proposal_template.md.tmp)
 
 ## Importance of Governance for the Unigrid Project
 

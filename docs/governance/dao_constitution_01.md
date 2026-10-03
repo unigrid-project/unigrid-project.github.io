@@ -31,8 +31,8 @@ This proposal introduces the Unigrid DAO Constitution, a comprehensive document 
 - **Gridnodes**: 129
 - **Quorum**: 65
 - **RESULT**: PASSED
-- [View results at block 2601072](./2023_09_PROP_1_DAO/dao_votes.json)
-- [Gridnodes at block 2601072](./2023_09_PROP_1_DAO/gridnodelist.json)
+- [View results at block 2601072](/docs/governance/2023_09_PROP_1_DAO/dao_votes.json)
+- [Gridnodes at block 2601072](/docs/governance/2023_09_PROP_1_DAO/gridnodelist.json)
 
 ## Context
 
@@ -63,4 +63,4 @@ The Unigrid DAO Constitution is a pivotal document that will guide the DAO's ope
 
 ## References
 
-- [Download the full Unigrid DAO Constitution (PDF)](./docs/Unigrid_DAO_v103.pdf)
+- [Download the full Unigrid DAO Constitution (PDF)](/docs/governance/docs/Unigrid_DAO_v103.pdf)
