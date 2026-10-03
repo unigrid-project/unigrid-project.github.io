@@ -41,7 +41,7 @@ It is crucial to note that the proposed reduction in the total token supply will
 - **Quorum**: 270
 - **RESULT**: PASSED
 - [View results at block 2832827](./2024_PROP_3/prop_3.json)
-- [Gridnode Votes at block 2832827](./2024_PROP_3/gridnodelist.json)
+- [Gridnode Votes at block 2832827](/docs/governance/2024_PROP_3/grid_votes.json)
 - [Block Info 2832827](./2024_PROP_3/getinfo.json)
 
 ## Context

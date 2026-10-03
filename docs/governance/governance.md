@@ -58,7 +58,7 @@ unigrid-cli preparebudget "<proposal name>" "<URL to proposal>" <number of payme
 ```
 For instance:
 ```bash
-unigrid-cli preparebudget "prop 3" "https://docs.unigrid.org/docs/governance/dao_updates_03/" 2 2836800 "HC4pzL8VTdUH2GByX3DBXBuUgfvGVWmqyh" 500
+unigrid-cli preparebudget "prop 3" "https://unigrid-project.github.io/docs/governance/dao_updates_03/" 2 2836800 "HC4pzL8VTdUH2GByX3DBXBuUgfvGVWmqyh" 500
 ```
 
 ***Note: this process will change once mainnet is launched***

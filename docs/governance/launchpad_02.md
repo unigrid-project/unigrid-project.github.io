@@ -14,7 +14,7 @@ published: true
 
 ## Authors and Credit 
 
-Unigrid Team: [Web](https://www.unigrid.org/), [GitHub](https://github.com/unigrid-project/), [Twitter](https://twitter.com/unigridproject)
+Unigrid Team: [Web](https://www.unigrid.org/), [GitHub](https://github.com/unigrid-project/), [Twitter](https://twitter.com/unigrid_org)
 
 ## Status 
 
@@ -29,17 +29,17 @@ Node Count: 332
 
 ## Proposal
 
-A governance proposal to conduct a token sale on the [NFPAD](https://nfpad.io/) launchpad, allocate the raised funds to UGD Software AB for software development, and reserve a portion of the tokens for community needs IE listing fees.
+A governance proposal to conduct a token sale on the NFPAD launchpad, allocate the raised funds to UGD Software AB for software development, and reserve a portion of the tokens for community needs IE listing fees.
 
 ### Context
 
-With the evolution of the Unigrid project, there's a pressing need to secure funds for the continuation and expansion of software development. This proposal suggests leveraging the [NFPAD](https://nfpad.io/) launchpad for a token sale. The majority of the funds raised will be directed to UGD Software AB, ensuring that the project's milestones and objectives are achieved in a timely manner. 
+With the evolution of the Unigrid project, there's a pressing need to secure funds for the continuation and expansion of software development. This proposal suggests leveraging the NFPAD launchpad for a token sale. The majority of the funds raised will be directed to UGD Software AB, ensuring that the project's milestones and objectives are achieved in a timely manner. 
 
 Furthermore, a designated portion of the tokens from this sale will be set aside to address community needs. This includes covering any listing fees and other community-driven initiatives, ensuring a balanced and holistic growth approach for the entire ecosystem.
 
 ## Governance Votes
 
-- **YES**: You approve the proposal to conduct a token sale on [NFPAD](https://nfpad.io/), allocate the raised funds to UGD Software AB, and reserve a portion of the tokens for community needs.
+- **YES**: You approve the proposal to conduct a token sale on NFPAD, allocate the raised funds to UGD Software AB, and reserve a portion of the tokens for community needs.
 - **NO**: You disapprove of the proposal in its current form. The NO vote can be a request for improvements or adjustments. You agree that this proposal's motivation is valuable and that the team should create a follow-up proposal once the amendments are included.
 - 
 ## Voting Schedule
@@ -63,4 +63,3 @@ Members can use this hash to verify the authenticity and integrity of the propos
 ## References
 
 - [Unigrid Project GitHub](https://github.com/unigrid-project/)
-- [NFPAD Official Website](https://nfpad.io/)
