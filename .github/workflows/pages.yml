@@ -30,6 +30,7 @@ jobs:
           path: docs/janus
       - uses: ruby/setup-ruby@14594264cd68ce8a2345dd349bc3d138a4ef85c8 # v1.327.0
         with:
+          ruby-version: "3.3"
           bundler-cache: true
       - id: pages
         uses: actions/configure-pages@v6
