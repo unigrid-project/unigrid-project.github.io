@@ -76,6 +76,10 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
+  "White paper":
+    - "https://github.com/unigrid-project/documentation-white-paper/releases/latest/download/unigrid-whitepaper.pdf"
+  "Orange paper":
+    - "https://github.com/unigrid-project/documentation-orange-paper/releases/latest/download/unigrid-orangepaper.pdf"
   "Unigrid Homepage":
     - "https://www.unigrid.org/"
 

@@ -26,3 +26,9 @@ Downloads are on the [Janus releases page](https://github.com/unigrid-project/ja
 Downloads are on the [Hedgehog releases page](https://github.com/unigrid-project/hedgehog/releases).
 
 **Governance** holds the Unigrid DAO constitution and the proposals voted on so far.
+
+**The white paper** sets out the foundation for a decentralized, consensus-driven, segmented, blockchain-based Internet.
+Read the [latest white paper](https://github.com/unigrid-project/documentation-white-paper/releases/latest/download/unigrid-whitepaper.pdf), or earlier versions on the [white paper releases page](https://github.com/unigrid-project/documentation-white-paper/releases).
+
+**The orange paper** describes the next Internet revolution: a decentralized, encrypted network for storage, bandwidth and, in time, compute.
+Read the [latest orange paper](https://github.com/unigrid-project/documentation-orange-paper/releases/latest/download/unigrid-orangepaper.pdf), or earlier versions on the [orange paper releases page](https://github.com/unigrid-project/documentation-orange-paper/releases).
