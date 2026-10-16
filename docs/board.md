@@ -7,6 +7,13 @@ permalink: /docs/board
 
 # Joining the board
 
+![Gothenburg seen from Skansen Kronan](/assets/images/gothenburg.jpg)
+
+Gothenburg seen from Skansen Kronan. Photo by
+[Florent Pécassou](https://commons.wikimedia.org/wiki/File:View_over_Gothenburg_skyline_from_Skansen_Kronan.jpg),
+cropped, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+{: .fs-2 .text-grey-dk-000 }
+
 **Stiftelsen The Unigrid Foundation** ([802482-2408](https://stiftelsemedel.se/stiftelsen-the-unigrid-foundation/))
 is the Swedish foundation in Gothenburg that stewards the Unigrid network and publishes Hedgehog as open source.
 
